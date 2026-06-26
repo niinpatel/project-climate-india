@@ -1,0 +1,10 @@
+[project]
+name = "project-climate-india"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "earthengine-api>=1.7.32",
+    "google-auth>=2.55.1",
+]
