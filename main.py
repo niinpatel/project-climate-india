@@ -32,12 +32,15 @@ def load_wards(city: str) -> ee.FeatureCollection:
 def build_rural_mask(city_polygon: ee.Geometry, year: int):
     rural_ring = city_polygon.buffer(RURAL_BUFFER_METERS).difference(city_polygon)
 
-    lulc = (
-        ee.ImageCollection('MODIS/061/MCD12Q1')
-        .filterDate(f'{year}-01-01', f'{year + 1}-01-01')
-        .first()
-        .select('LC_Type1')
-    )
+    collection = ee.ImageCollection('MODIS/061/MCD12Q1')
+    year_collection = collection.filterDate(f'{year}-01-01', f'{year + 1}-01-01')
+    lulc = ee.Image(
+        ee.Algorithms.If(
+            year_collection.size().gt(0),
+            year_collection.first(),
+            collection.sort('system:time_start', False).first(),
+        )
+    ).select('LC_Type1')
     lulc_mask = lulc.remap(RURAL_LC_CLASSES, [1] * len(RURAL_LC_CLASSES), 0).eq(1)
 
     elevation = ee.Image('USGS/SRTMGL1_003').select('elevation')
@@ -82,37 +85,30 @@ def monthly_composite(bounds: ee.Geometry, year: int, month: int) -> ee.Image:
     return collection.median()
 
 
-def rural_baseline(composite: ee.Image, rural_mask: ee.Image, rural_ring: ee.Geometry):
+def _baseline_ee(composite: ee.Image, rural_mask: ee.Image, rural_ring: ee.Geometry) -> ee.Number:
     result = composite.updateMask(rural_mask).reduceRegion(
         reducer=ee.Reducer.median(),
         geometry=rural_ring,
         scale=REDUCE_SCALE,
         maxPixels=1e9,
     )
-    return result.get('LST').getInfo()
+    return ee.Number(result.get('LST'))
 
 
-def ward_metrics(wards_fc: ee.FeatureCollection, composite: ee.Image, baseline: float) -> list:
-    def set_median_lst(feature):
-        stats = composite.reduceRegion(
-            reducer=ee.Reducer.median(),
-            geometry=feature.geometry(),
-            scale=REDUCE_SCALE,
-            maxPixels=1e9,
-        )
-        return feature.set('median_lst', stats.get('LST'))
+def _ward_fc_ee(
+    composite: ee.Image,
+    wards_fc: ee.FeatureCollection,
+    baseline: ee.Number,
+    month: int,
+) -> ee.FeatureCollection:
+    def tag(f):
+        return f.set('month_num', month, 'rural_baseline', baseline)
 
-    result = wards_fc.map(set_median_lst).getInfo()
-    wards = []
-    for f in result['features']:
-        median_lst = f['properties'].get('median_lst')
-        suhi_score = (median_lst - baseline) if (median_lst is not None and baseline is not None) else None
-        wards.append({
-            'ward_name': f['properties'].get('ward_name', ''),
-            'median_lst': median_lst,
-            'suhi_score': suhi_score,
-        })
-    return wards
+    return composite.reduceRegions(
+        collection=wards_fc,
+        reducer=ee.Reducer.median(),
+        scale=REDUCE_SCALE,
+    ).map(tag)
 
 
 def _shift_month(year: int, month: int, delta: int):
@@ -179,10 +175,34 @@ def main():
     rural_mask, rural_ring = build_rural_mask(bounds, args.year)
 
     dataset = load_dataset()
+
+    # Build the full EE computation graph for all 12 months without any getInfo calls.
+    combined_fc = None
     for month in range(1, 13):
         composite = monthly_composite(bounds, args.year, month)
-        baseline = rural_baseline(composite, rural_mask, rural_ring)
-        wards = ward_metrics(wards_fc, composite, baseline)
+        baseline = _baseline_ee(composite, rural_mask, rural_ring)
+        month_fc = _ward_fc_ee(composite, wards_fc, baseline, month)
+        combined_fc = month_fc if combined_fc is None else combined_fc.merge(month_fc)
+
+    # Single bulk getInfo — replaces 24 sequential blocking calls.
+    wards_by_month: dict[int, list] = {m: [] for m in range(1, 13)}
+    baselines_by_month: dict[int, float | None] = {}
+    for feature in combined_fc.getInfo()['features']:
+        props = feature['properties']
+        month = int(props['month_num'])
+        median_lst = props.get('LST')
+        baseline = props.get('rural_baseline')
+        baselines_by_month[month] = baseline
+        suhi = (median_lst - baseline) if (median_lst is not None and baseline is not None) else None
+        wards_by_month[month].append({
+            'ward_name': props.get('ward_name', ''),
+            'median_lst': median_lst,
+            'suhi_score': suhi,
+        })
+
+    for month in range(1, 13):
+        baseline = baselines_by_month.get(month)
+        wards = wards_by_month[month]
         dataset = merge_into_dataset(dataset, args.city, args.year, month, baseline, wards)
         baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
         print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, {len(wards)} wards')

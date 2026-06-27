@@ -16,6 +16,7 @@ OVERPASS_URL = 'https://overpass-api.de/api/interpreter'
 MUMBAI_BBOX = (18.86, 72.75, 19.30, 72.99)
 
 OUT_PATH = Path(__file__).parent / 'boundaries' / 'mumbai_wards.geojson'
+EXPECTED_WARD_COUNT = 24
 
 
 def query_overpass(admin_level: int) -> dict:
@@ -125,7 +126,13 @@ def main():
         osm_data = query_overpass(admin_level=9)
         fc = build_feature_collection(osm_data)
 
-    print(f'Fetched {len(fc["features"])} ward boundaries')
+    ward_count = len(fc['features'])
+    print(f'Fetched {ward_count} ward boundaries')
+    if ward_count < EXPECTED_WARD_COUNT:
+        raise SystemExit(
+            f'ERROR: Only {ward_count} of expected {EXPECTED_WARD_COUNT} wards assembled. '
+            f'Check OSM boundary relations for gaps. Pipeline halted.'
+        )
 
     os.makedirs(OUT_PATH.parent, exist_ok=True)
     with open(OUT_PATH, 'w') as f:
