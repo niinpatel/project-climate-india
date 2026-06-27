@@ -20,8 +20,7 @@ CITIES = {
     # Default fallback sequence is [10, 9] when not specified.
     'mumbai':    {'bbox': (18.86, 72.75, 19.30, 72.99), 'expected_wards': 24},
     'delhi':     {'bbox': (28.40, 76.84, 28.88, 77.35), 'expected_wards': 272},
-    'kolkata':   {'bbox': (22.45, 88.20, 22.65, 88.50), 'expected_wards': 144},
-    # Bengaluru BBMP wards (~198) sit at admin_level=9; level 10 has ~370 sub-ward zones
+# Bengaluru BBMP wards (~198) sit at admin_level=9; level 10 has ~370 sub-ward zones
     'bengaluru': {'bbox': (12.84, 77.46, 13.14, 77.78), 'expected_wards': 198, 'admin_levels': [9]},
     'chennai':   {'bbox': (12.85, 80.15, 13.20, 80.32), 'expected_wards': 200},
     'hyderabad': {'bbox': (17.28, 78.35, 17.60, 78.60), 'expected_wards': 150},
