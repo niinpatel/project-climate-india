@@ -219,12 +219,28 @@ def main():
             'suhi_score': suhi,
         })
 
+    anomalies = []
     for month in range(1, 13):
         baseline = baselines_by_month.get(month)
         wards = wards_by_month[month]
         dataset = merge_into_dataset(dataset, args.city, args.year, month, baseline, wards)
+        with_lst = sum(1 for w in wards if w['median_lst'] is not None)
         baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
-        print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, {len(wards)} wards')
+        print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, '
+              f'{with_lst}/{len(wards)} wards with LST')
+        # A non-null baseline means the composite had usable pixels, so every ward
+        # being null signals a processing bug (e.g. wrong reduceRegions output name),
+        # not cloud cover — which would also leave the baseline null.
+        if baseline is not None and wards and with_lst == 0:
+            anomalies.append(f'{args.year}-{month:02d}')
+
+    if anomalies:
+        raise SystemExit(
+            f'ERROR: {args.city} has months with a valid rural baseline but zero wards '
+            f'with LST ({", ".join(anomalies)}). This indicates a processing bug, not '
+            f'cloud cover. Refusing to overwrite data.json with empty results.'
+        )
+
     save_dataset(dataset)
 
 
