@@ -120,7 +120,9 @@ def _ward_fc_ee(
             has_bands,
             composite.reduceRegions(
                 collection=wards_fc,
-                reducer=ee.Reducer.median(),
+                # setOutputs names the column 'LST'; reduceRegions otherwise names
+                # a single-band output after the reducer ('median'), unlike reduceRegion.
+                reducer=ee.Reducer.median().setOutputs(['LST']),
                 scale=REDUCE_SCALE,
             ).map(tag),
             wards_fc.map(tag_null),
