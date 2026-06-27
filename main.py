@@ -86,11 +86,18 @@ def monthly_composite(bounds: ee.Geometry, year: int, month: int) -> ee.Image:
 
 
 def _baseline_ee(composite: ee.Image, rural_mask: ee.Image, rural_ring: ee.Geometry) -> ee.Number:
-    result = composite.updateMask(rural_mask).reduceRegion(
-        reducer=ee.Reducer.median(),
-        geometry=rural_ring,
-        scale=REDUCE_SCALE,
-        maxPixels=1e9,
+    has_bands = composite.bandNames().size().gt(0)
+    result = ee.Dictionary(
+        ee.Algorithms.If(
+            has_bands,
+            composite.updateMask(rural_mask).reduceRegion(
+                reducer=ee.Reducer.median(),
+                geometry=rural_ring,
+                scale=REDUCE_SCALE,
+                maxPixels=1e9,
+            ),
+            ee.Dictionary({'LST': None}),
+        )
     )
     return ee.Number(result.get('LST'))
 
@@ -104,11 +111,21 @@ def _ward_fc_ee(
     def tag(f):
         return f.set('month_num', month, 'rural_baseline', baseline)
 
-    return composite.reduceRegions(
-        collection=wards_fc,
-        reducer=ee.Reducer.median(),
-        scale=REDUCE_SCALE,
-    ).map(tag)
+    def tag_null(f):
+        return f.set('month_num', month, 'rural_baseline', baseline, 'LST', None)
+
+    has_bands = composite.bandNames().size().gt(0)
+    return ee.FeatureCollection(
+        ee.Algorithms.If(
+            has_bands,
+            composite.reduceRegions(
+                collection=wards_fc,
+                reducer=ee.Reducer.median(),
+                scale=REDUCE_SCALE,
+            ).map(tag),
+            wards_fc.map(tag_null),
+        )
+    )
 
 
 def _shift_month(year: int, month: int, delta: int):

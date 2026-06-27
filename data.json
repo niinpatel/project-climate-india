@@ -2098,5 +2098,2105 @@
         "yoy_change": null
       }
     ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-01",
+    "rural_baseline_celsius": 32.93652809702863,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-02",
+    "rural_baseline_celsius": 36.43660397268335,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-03",
+    "rural_baseline_celsius": 41.06202709211636,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-04",
+    "rural_baseline_celsius": 41.374878525660876,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-05",
+    "rural_baseline_celsius": 40.628499417772105,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-06",
+    "rural_baseline_celsius": null,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-07",
+    "rural_baseline_celsius": null,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-08",
+    "rural_baseline_celsius": null,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-09",
+    "rural_baseline_celsius": null,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-10",
+    "rural_baseline_celsius": 33.81187090193162,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-11",
+    "rural_baseline_celsius": 30.938562232466793,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2025-12",
+    "rural_baseline_celsius": 30.937485460616184,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": null,
+        "suhi_score": null,
+        "mom_change": null,
+        "yoy_change": null
+      }
+    ]
   }
 ]
