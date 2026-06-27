@@ -4,6 +4,8 @@ Run manually and re-run only if boundaries need correcting:
     python fetch_boundaries.py
 """
 import json
+import os
+from collections import deque
 
 import requests
 
@@ -38,7 +40,7 @@ def assemble_rings(way_geometries: list) -> list:
     segments = [list(seg) for seg in way_geometries if len(seg) >= 2]
     rings = []
     while segments:
-        ring = segments.pop(0)
+        ring = deque(segments.pop())  # O(1) pop from end
         merged = True
         while merged and ring[0] != ring[-1]:
             merged = False
@@ -49,22 +51,26 @@ def assemble_rings(way_geometries: list) -> list:
                     merged = True
                     break
                 if seg[-1] == ring[-1]:
-                    ring.extend(list(reversed(seg))[1:])
+                    ring.extend(seg[-2::-1])
                     segments.pop(i)
                     merged = True
                     break
                 if seg[-1] == ring[0]:
-                    ring[0:0] = seg[:-1]
+                    ring.extendleft(reversed(seg[:-1]))  # O(1) prepend, preserves order
                     segments.pop(i)
                     merged = True
                     break
                 if seg[0] == ring[0]:
-                    ring[0:0] = list(reversed(seg))[:-1]
+                    ring.extendleft(seg[1:])  # O(1) prepend, reverses seg[1:]
                     segments.pop(i)
                     merged = True
                     break
-        rings.append(ring)
-    return [r for r in rings if len(r) >= 4 and r[0] == r[-1]]
+        rings.append(list(ring))
+    closed = [r for r in rings if len(r) >= 4 and r[0] == r[-1]]
+    open_count = len(rings) - len(closed)
+    if open_count:
+        print(f'Warning: {open_count} open ring(s) discarded — OSM relation may have gaps')
+    return closed
 
 
 def relation_to_feature(relation: dict, ways_by_id: dict) -> dict:
@@ -120,6 +126,7 @@ def main():
 
     print(f'Fetched {len(fc["features"])} ward boundaries')
 
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, 'w') as f:
         json.dump(fc, f)
 

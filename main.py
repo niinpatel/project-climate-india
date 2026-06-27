@@ -1,12 +1,12 @@
 import argparse
-import calendar
 import json
 import os
+from pathlib import Path
 
 import ee
 from google.oauth2 import service_account
 
-KEY_PATH = 'service-account-key.json'
+KEY_PATH = Path(__file__).parent / 'service-account-key.json'
 PROJECT_ID = 'experiments-487610'
 DATA_PATH = 'data.json'
 
@@ -71,8 +71,8 @@ def lst_celsius(image: ee.Image) -> ee.Image:
 
 def monthly_composite(bounds: ee.Geometry, year: int, month: int) -> ee.Image:
     start = f'{year}-{month:02d}-01'
-    last_day = calendar.monthrange(year, month)[1]
-    end = f'{year}-{month:02d}-{last_day:02d}'
+    next_year, next_month = (year, month + 1) if month < 12 else (year + 1, 1)
+    end = f'{next_year}-{next_month:02d}-01'
     collection = (
         ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
         .filterBounds(bounds)
@@ -107,7 +107,7 @@ def ward_metrics(wards_fc: ee.FeatureCollection, composite: ee.Image, baseline: 
     wards = []
     for f in result['features']:
         median_lst = f['properties'].get('median_lst')
-        suhi_score = (median_lst - baseline) if median_lst is not None else None
+        suhi_score = (median_lst - baseline) if (median_lst is not None and baseline is not None) else None
         wards.append({
             'ward_name': f['properties']['ward_name'],
             'median_lst': median_lst,
@@ -154,15 +154,18 @@ def merge_into_dataset(existing: list, city: str, year: int, month: int, baselin
 
 
 def load_dataset() -> list:
-    if not os.path.exists(DATA_PATH):
+    try:
+        with open(DATA_PATH) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
         return []
-    with open(DATA_PATH) as f:
-        return json.load(f)
 
 
 def save_dataset(dataset: list):
-    with open(DATA_PATH, 'w') as f:
+    tmp_path = DATA_PATH + '.tmp'
+    with open(tmp_path, 'w') as f:
         json.dump(dataset, f, indent=2)
+    os.replace(tmp_path, DATA_PATH)
 
 
 def main():
@@ -176,15 +179,15 @@ def main():
     bounds = wards_fc.geometry().dissolve()
     rural_mask, rural_ring = build_rural_mask(wards_fc, args.year)
 
+    dataset = load_dataset()
     for month in range(1, 13):
         composite = monthly_composite(bounds, args.year, month)
         baseline = rural_baseline(composite, rural_mask, rural_ring)
         wards = ward_metrics(wards_fc, composite, baseline)
-
-        dataset = load_dataset()
         dataset = merge_into_dataset(dataset, args.city, args.year, month, baseline, wards)
-        save_dataset(dataset)
-        print(f'{args.city} {args.year}-{month:02d}: baseline={baseline:.2f}C, {len(wards)} wards')
+        baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
+        print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, {len(wards)} wards')
+    save_dataset(dataset)
 
 
 if __name__ == '__main__':
