@@ -6,6 +6,7 @@ Run manually and re-run only if boundaries need correcting:
 import json
 import os
 from collections import deque
+from pathlib import Path
 
 import requests
 
@@ -14,7 +15,7 @@ OVERPASS_URL = 'https://overpass-api.de/api/interpreter'
 # Bounding box around Greater Mumbai (south, west, north, east).
 MUMBAI_BBOX = (18.86, 72.75, 19.30, 72.99)
 
-OUT_PATH = 'boundaries/mumbai_wards.geojson'
+OUT_PATH = Path(__file__).parent / 'boundaries' / 'mumbai_wards.geojson'
 
 
 def query_overpass(admin_level: int) -> dict:
@@ -77,7 +78,7 @@ def relation_to_feature(relation: dict, ways_by_id: dict) -> dict:
     outer_ways = [
         ways_by_id[m['ref']]
         for m in relation.get('members', [])
-        if m['type'] == 'way' and m.get('role', 'outer') == 'outer' and m['ref'] in ways_by_id
+        if m['type'] == 'way' and m.get('role', 'outer') in ('outer', '') and m['ref'] in ways_by_id
     ]
     way_geometries = [
         [(pt['lon'], pt['lat']) for pt in way['geometry']]
@@ -126,7 +127,7 @@ def main():
 
     print(f'Fetched {len(fc["features"])} ward boundaries')
 
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    os.makedirs(OUT_PATH.parent, exist_ok=True)
     with open(OUT_PATH, 'w') as f:
         json.dump(fc, f)
 

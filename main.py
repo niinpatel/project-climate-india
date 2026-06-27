@@ -8,7 +8,7 @@ from google.oauth2 import service_account
 
 KEY_PATH = Path(__file__).parent / 'service-account-key.json'
 PROJECT_ID = 'experiments-487610'
-DATA_PATH = 'data.json'
+DATA_PATH = Path(__file__).parent / 'data.json'
 
 RURAL_BUFFER_METERS = 10000
 REDUCE_SCALE = 30
@@ -24,18 +24,17 @@ def authenticate():
 
 
 def load_wards(city: str) -> ee.FeatureCollection:
-    with open(f'boundaries/{city}_wards.geojson') as f:
+    with open(Path(__file__).parent / 'boundaries' / f'{city}_wards.geojson') as f:
         geojson = json.load(f)
     return ee.FeatureCollection(geojson)
 
 
-def build_rural_mask(wards_fc: ee.FeatureCollection, year: int):
-    city_polygon = wards_fc.geometry().dissolve()
+def build_rural_mask(city_polygon: ee.Geometry, year: int):
     rural_ring = city_polygon.buffer(RURAL_BUFFER_METERS).difference(city_polygon)
 
     lulc = (
         ee.ImageCollection('MODIS/061/MCD12Q1')
-        .filterDate(f'{year}-01-01', f'{year}-12-31')
+        .filterDate(f'{year}-01-01', f'{year + 1}-01-01')
         .first()
         .select('LC_Type1')
     )
@@ -59,9 +58,9 @@ def build_rural_mask(wards_fc: ee.FeatureCollection, year: int):
 
 def apply_cloud_mask(image: ee.Image) -> ee.Image:
     qa = image.select('QA_PIXEL')
-    cloud_shadow = qa.bitwiseAnd(1 << 3).eq(0)
-    cloud = qa.bitwiseAnd(1 << 4).eq(0)
-    return image.updateMask(cloud_shadow.And(cloud))
+    cloud = qa.bitwiseAnd(1 << 3).eq(0)
+    cloud_shadow = qa.bitwiseAnd(1 << 4).eq(0)
+    return image.updateMask(cloud.And(cloud_shadow))
 
 
 def lst_celsius(image: ee.Image) -> ee.Image:
@@ -71,7 +70,7 @@ def lst_celsius(image: ee.Image) -> ee.Image:
 
 def monthly_composite(bounds: ee.Geometry, year: int, month: int) -> ee.Image:
     start = f'{year}-{month:02d}-01'
-    next_year, next_month = (year, month + 1) if month < 12 else (year + 1, 1)
+    next_year, next_month = _shift_month(year, month, 1)
     end = f'{next_year}-{next_month:02d}-01'
     collection = (
         ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
@@ -109,7 +108,7 @@ def ward_metrics(wards_fc: ee.FeatureCollection, composite: ee.Image, baseline: 
         median_lst = f['properties'].get('median_lst')
         suhi_score = (median_lst - baseline) if (median_lst is not None and baseline is not None) else None
         wards.append({
-            'ward_name': f['properties']['ward_name'],
+            'ward_name': f['properties'].get('ward_name', ''),
             'median_lst': median_lst,
             'suhi_score': suhi_score,
         })
@@ -162,7 +161,7 @@ def load_dataset() -> list:
 
 
 def save_dataset(dataset: list):
-    tmp_path = DATA_PATH + '.tmp'
+    tmp_path = DATA_PATH.with_name(DATA_PATH.name + '.tmp')
     with open(tmp_path, 'w') as f:
         json.dump(dataset, f, indent=2)
     os.replace(tmp_path, DATA_PATH)
@@ -177,7 +176,7 @@ def main():
     authenticate()
     wards_fc = load_wards(args.city)
     bounds = wards_fc.geometry().dissolve()
-    rural_mask, rural_ring = build_rural_mask(wards_fc, args.year)
+    rural_mask, rural_ring = build_rural_mask(bounds, args.year)
 
     dataset = load_dataset()
     for month in range(1, 13):
