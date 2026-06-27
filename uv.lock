@@ -305,12 +305,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "earthengine-api" },
     { name = "google-auth" },
+    { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "earthengine-api", specifier = ">=1.7.32" },
     { name = "google-auth", specifier = ">=2.55.1" },
+    { name = "requests", specifier = ">=2.32.0" },
 ]
 
 [[package]]
