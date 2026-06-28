@@ -1,14 +1,14 @@
 import argparse
 import json
-import os
 from pathlib import Path
 
 import ee
 from google.oauth2 import service_account
 
+import data_store
+
 KEY_PATH = Path(__file__).parent / 'service-account-key.json'
 PROJECT_ID = 'experiments-487610'
-DATA_PATH = Path(__file__).parent / 'data.json'
 
 RURAL_BUFFER_METERS = 10000
 REDUCE_SCALE = 30
@@ -135,18 +135,16 @@ def _shift_month(year: int, month: int, delta: int):
     return total // 12, total % 12 + 1
 
 
-def merge_into_dataset(existing: list, city: str, year: int, month: int, baseline: float, wards: list) -> list:
-    month_key = f'{year}-{month:02d}'
-    existing = [e for e in existing if not (e['city'] == city and e['month'] == month_key)]
+def enrich_month(city: str, year: int, month: int, baseline: float, wards: list,
+                 prev_record: dict | None, yoy_record: dict | None) -> dict:
+    """Build a month record, computing each ward's MoM and YoY SUHI change.
 
-    prev_year, prev_month = _shift_month(year, month, -1)
-    prev_month_key = f'{prev_year}-{prev_month:02d}'
-    yoy_key = f'{year - 1}-{month:02d}'
-
-    prev_entry = next((e for e in existing if e['city'] == city and e['month'] == prev_month_key), None)
-    yoy_entry = next((e for e in existing if e['city'] == city and e['month'] == yoy_key), None)
-    prev_by_ward = {w['ward_name']: w['suhi_score'] for w in prev_entry['wards']} if prev_entry else {}
-    yoy_by_ward = {w['ward_name']: w['suhi_score'] for w in yoy_entry['wards']} if yoy_entry else {}
+    ``prev_record`` is the previous calendar month and ``yoy_record`` the same
+    month a year earlier (either may be None when that neighbour has no data).
+    Pure and Earth Engine-free, so it can be exercised offline.
+    """
+    prev_by_ward = {w['ward_name']: w['suhi_score'] for w in prev_record['wards']} if prev_record else {}
+    yoy_by_ward = {w['ward_name']: w['suhi_score'] for w in yoy_record['wards']} if yoy_record else {}
 
     enriched_wards = []
     for w in wards:
@@ -158,28 +156,12 @@ def merge_into_dataset(existing: list, city: str, year: int, month: int, baselin
             'yoy_change': w['suhi_score'] - yoy_score if (w['suhi_score'] is not None and yoy_score is not None) else None,
         })
 
-    existing.append({
+    return {
         'city': city,
-        'month': month_key,
+        'month': f'{year}-{month:02d}',
         'rural_baseline_celsius': baseline,
         'wards': enriched_wards,
-    })
-    return existing
-
-
-def load_dataset() -> list:
-    try:
-        with open(DATA_PATH) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return []
-
-
-def save_dataset(dataset: list):
-    tmp_path = DATA_PATH.with_name(DATA_PATH.name + '.tmp')
-    with open(tmp_path, 'w') as f:
-        json.dump(dataset, f, indent=2)
-    os.replace(tmp_path, DATA_PATH)
+    }
 
 
 def main():
@@ -193,7 +175,11 @@ def main():
     bounds = wards_fc.geometry().dissolve()
     rural_mask, rural_ring = build_rural_mask(bounds, args.year)
 
-    dataset = load_dataset()
+    # The only cross-file dependency for MoM/YoY is the previous year: it holds
+    # last December (January's previous month) and every year-ago month.
+    # Regenerating year Y does not retroactively refresh year Y+1's yoy_change.
+    prev_year_records = data_store.load_city_year(args.city, args.year - 1)
+    prev_year_by_month = {r['month']: r for r in prev_year_records}
 
     # Build the full EE computation graph for all 12 months without any getInfo calls.
     combined_fc = None
@@ -219,11 +205,16 @@ def main():
             'suhi_score': suhi,
         })
 
+    records = []
     anomalies = []
     for month in range(1, 13):
         baseline = baselines_by_month.get(month)
         wards = wards_by_month[month]
-        dataset = merge_into_dataset(dataset, args.city, args.year, month, baseline, wards)
+        # Previous month is January's last-December (from the prior year) or the
+        # record just built earlier in this same run.
+        prev_record = prev_year_by_month.get(f'{args.year - 1}-12') if month == 1 else records[-1]
+        yoy_record = prev_year_by_month.get(f'{args.year - 1}-{month:02d}')
+        records.append(enrich_month(args.city, args.year, month, baseline, wards, prev_record, yoy_record))
         with_lst = sum(1 for w in wards if w['median_lst'] is not None)
         baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
         print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, '
@@ -238,10 +229,11 @@ def main():
         raise SystemExit(
             f'ERROR: {args.city} has months with a valid rural baseline but zero wards '
             f'with LST ({", ".join(anomalies)}). This indicates a processing bug, not '
-            f'cloud cover. Refusing to overwrite data.json with empty results.'
+            f'cloud cover. Refusing to overwrite {args.city}/{args.year} with empty results.'
         )
 
-    save_dataset(dataset)
+    data_store.save_city_year(args.city, args.year, records)
+    data_store.rebuild_manifest()
 
 
 if __name__ == '__main__':
