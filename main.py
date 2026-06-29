@@ -47,11 +47,15 @@ COVERAGE_THRESHOLD = 0.10
 # fraction of the city was cloud-free, the entire month is nulled rather than trusted.
 CITY_COVERAGE_THRESHOLD = 0.30
 
-# Physically plausible daytime land-surface-temperature range (Celsius). Pixels
-# outside it are cloud/fill values that slip past the QA_PIXEL mask; masking them
-# both removes garbage and lets COVERAGE_THRESHOLD null out the affected months.
-LST_MIN_C = 0
-LST_MAX_C = 65
+# Physically plausible daytime land-surface-temperature range (Celsius), sized to
+# bracket every realistic Indian surface nationwide so it never clips legitimate
+# data: from sub-zero Himalayan/Ladakh winter snow (Leh, Dras, ~-35C) up to bare
+# Thar desert in summer (~60-65C). Its only job is to reject Landsat C2 L2 fill
+# (ST_B10 fill maps to -124C) and the ~100C digital-max garbage that slips past
+# the QA_PIXEL mask. Kept deliberately wide; cloud-edge contamination inside this
+# band is the coverage gates' job, not this filter's.
+LST_MIN_C = -40
+LST_MAX_C = 70
 
 # ESA WorldCover classes kept as "rural" reference: tree cover, shrubland, grassland.
 RURAL_LC_CLASSES = [10, 20, 30]
