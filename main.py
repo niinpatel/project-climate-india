@@ -15,6 +15,9 @@ import data_store
 KEY_PATH = Path(__file__).parent / 'service-account-key.json'
 PROJECT_ID = 'experiments-487610'
 
+# Default Cloud Storage bucket (in PROJECT_ID) for the batch export. Override with --bucket.
+DEFAULT_BUCKET = 'suhi-bucket'
+
 RURAL_BUFFER_METERS = 10000
 REDUCE_SCALE = 30
 
@@ -96,7 +99,10 @@ def apply_cloud_mask(image: ee.Image) -> ee.Image:
     qa = image.select('QA_PIXEL')
     cloud = qa.bitwiseAnd(1 << 3).eq(0)
     cloud_shadow = qa.bitwiseAnd(1 << 4).eq(0)
-    return image.updateMask(cloud.And(cloud_shadow))
+    # SUHI is a land-surface metric; mask water (bit 7) so sea/lake pixels in
+    # coastal ward polygons don't bias the LST aggregates.
+    water = qa.bitwiseAnd(1 << 7).eq(0)
+    return image.updateMask(cloud.And(cloud_shadow).And(water))
 
 
 def lst_celsius(image: ee.Image) -> ee.Image:
@@ -312,8 +318,9 @@ def main():
     parser = argparse.ArgumentParser(description='Compute monthly SUHI intensity per ward.')
     parser.add_argument('--city', required=True)
     parser.add_argument('--year', required=True, type=int)
-    parser.add_argument('--bucket', required=True,
-                        help='Cloud Storage bucket (in project %s) for the batch export.' % PROJECT_ID)
+    parser.add_argument('--bucket', default=DEFAULT_BUCKET,
+                        help='Cloud Storage bucket (in project %s) for the batch export '
+                             '(default: %s).' % (PROJECT_ID, DEFAULT_BUCKET))
     parser.add_argument('--keep-export', action='store_true',
                         help='Keep the exported CSV in the bucket (default: delete it after a successful local save).')
     args = parser.parse_args()
