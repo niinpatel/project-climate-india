@@ -2006,2004 +2006,2004 @@
   {
     "city": "bengaluru",
     "month": "2024-03",
-    "rural_baseline_celsius": 40.4673925751803,
+    "rural_baseline_celsius": 40.46739257518031,
     "wards": [
       {
         "ward_name": "Kodigehalli",
         "median_lst": 42.24046430861124,
-        "suhi_score": 1.773071733430939
+        "suhi_score": 1.7730717334309247
       },
       {
         "ward_name": "Kannahalli",
         "median_lst": 42.64629614377612,
-        "suhi_score": 2.178903568595821
+        "suhi_score": 2.178903568595807
       },
       {
         "ward_name": "Manganahalli",
         "median_lst": 41.47662741160429,
-        "suhi_score": 1.0092348364239925
+        "suhi_score": 1.0092348364239783
       },
       {
         "ward_name": "Ramasandra",
         "median_lst": 40.94189545224706,
-        "suhi_score": 0.47450287706676164
+        "suhi_score": 0.47450287706674743
       },
       {
         "ward_name": "Kenchanapura",
         "median_lst": 42.41614571121728,
-        "suhi_score": 1.9487531360369843
+        "suhi_score": 1.94875313603697
       },
       {
         "ward_name": "Challagatta",
         "median_lst": 44.104667609193704,
-        "suhi_score": 3.637275034013406
+        "suhi_score": 3.637275034013392
       },
       {
         "ward_name": "Kommagatta",
         "median_lst": 42.6953311934127,
-        "suhi_score": 2.2279386182324004
+        "suhi_score": 2.227938618232386
       },
       {
         "ward_name": "Doddabele",
         "median_lst": 40.7076926613627,
-        "suhi_score": 0.24030008618240117
+        "suhi_score": 0.24030008618238696
       },
       {
         "ward_name": "Venkatapura",
         "median_lst": 39.90133298494323,
-        "suhi_score": -0.5660595902370673
+        "suhi_score": -0.5660595902370815
       },
       {
         "ward_name": "Kambipura",
         "median_lst": 41.50319453794343,
-        "suhi_score": 1.0358019627631307
+        "suhi_score": 1.0358019627631165
       },
       {
         "ward_name": "Kengeri Gollarahalli",
         "median_lst": 40.804003187951544,
-        "suhi_score": 0.3366106127712456
+        "suhi_score": 0.3366106127712314
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 40.38811762926231,
-        "suhi_score": -0.07927494591798734
+        "suhi_score": -0.07927494591800155
       },
       {
         "ward_name": "Agara",
         "median_lst": 41.00444371953199,
-        "suhi_score": 0.5370511443516932
+        "suhi_score": 0.537051144351679
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 40.772537082619,
-        "suhi_score": 0.3051445074387047
+        "suhi_score": 0.3051445074386905
       },
       {
         "ward_name": "Rachanamadu",
         "median_lst": 43.31972383542252,
-        "suhi_score": 2.8523312602422237
+        "suhi_score": 2.8523312602422095
       },
       {
         "ward_name": "Gangasandra",
         "median_lst": 41.15101556834148,
-        "suhi_score": 0.6836229931611797
+        "suhi_score": 0.6836229931611655
       },
       {
         "ward_name": "Vasanthanahalli",
         "median_lst": 43.607385504518774,
-        "suhi_score": 3.139992929338476
+        "suhi_score": 3.1399929293384616
       },
       {
         "ward_name": "Devagere",
         "median_lst": 41.98984724076206,
-        "suhi_score": 1.522454665581762
+        "suhi_score": 1.5224546655817477
       },
       {
         "ward_name": "Gudimavu",
         "median_lst": 43.02338628489063,
-        "suhi_score": 2.5559937097103287
+        "suhi_score": 2.5559937097103145
       },
       {
         "ward_name": "Kumbalagodu Gollahalli",
         "median_lst": 42.07089484427218,
-        "suhi_score": 1.6035022690918836
+        "suhi_score": 1.6035022690918694
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 38.83325485559834,
-        "suhi_score": -1.6341377195819575
+        "suhi_score": -1.6341377195819717
       },
       {
         "ward_name": "Bilijaji",
         "median_lst": 41.79315090797067,
-        "suhi_score": 1.3257583327903717
+        "suhi_score": 1.3257583327903575
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 37.282390785702205,
-        "suhi_score": -3.1850017894780933
+        "suhi_score": -3.1850017894781075
       },
       {
         "ward_name": "Guddadhahalli",
         "median_lst": 41.31882015685397,
-        "suhi_score": 0.8514275816736685
+        "suhi_score": 0.8514275816736543
       },
       {
         "ward_name": "Mutthukadhahalli",
         "median_lst": 42.275926373210964,
-        "suhi_score": 1.8085337980306662
+        "suhi_score": 1.808533798030652
       },
       {
         "ward_name": "Shivakote",
         "median_lst": 41.3438047233044,
-        "suhi_score": 0.8764121481241034
+        "suhi_score": 0.8764121481240892
       },
       {
         "ward_name": "Madhagirihalli",
         "median_lst": 39.73106890200315,
-        "suhi_score": -0.7363236731771465
+        "suhi_score": -0.7363236731771607
       },
       {
         "ward_name": "Ivarakondapura",
         "median_lst": 39.21484287561574,
-        "suhi_score": -1.252549699564561
+        "suhi_score": -1.2525496995645753
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 39.35728382378569,
-        "suhi_score": -1.1101087513946055
+        "suhi_score": -1.1101087513946197
       },
       {
         "ward_name": "Kammarasanahalli",
         "median_lst": 39.33914581117423,
-        "suhi_score": -1.1282467640060716
+        "suhi_score": -1.1282467640060858
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 40.389357950402044,
-        "suhi_score": -0.07803462477825462
+        "suhi_score": -0.07803462477826884
       },
       {
         "ward_name": "Huralichikkanahalli",
         "median_lst": 40.92309783480613,
-        "suhi_score": 0.4557052596258302
+        "suhi_score": 0.455705259625816
       },
       {
         "ward_name": "Kasaghattapura",
         "median_lst": 41.356969084859976,
-        "suhi_score": 0.8895765096796779
+        "suhi_score": 0.8895765096796637
       },
       {
         "ward_name": "Kondashettihalli",
         "median_lst": 40.73125688047937,
-        "suhi_score": 0.263864305299073
+        "suhi_score": 0.2638643052990588
       },
       {
         "ward_name": "Lingarajasagara",
         "median_lst": 40.72619607807172,
-        "suhi_score": 0.25880350289142484
+        "suhi_score": 0.25880350289141063
       },
       {
         "ward_name": "Byalakere",
         "median_lst": 42.50420112021782,
-        "suhi_score": 2.0368085450375233
+        "suhi_score": 2.036808545037509
       },
       {
         "ward_name": "Mavallipura",
         "median_lst": 41.61220215379934,
-        "suhi_score": 1.1448095786190393
+        "suhi_score": 1.144809578619025
       },
       {
         "ward_name": "Lingarajapura",
         "median_lst": 40.994027957570275,
-        "suhi_score": 0.5266353823899763
+        "suhi_score": 0.5266353823899621
       },
       {
         "ward_name": "Mylappanahalli",
         "median_lst": 41.55196850882132,
-        "suhi_score": 1.0845759336410197
+        "suhi_score": 1.0845759336410055
       },
       {
         "ward_name": "Krishnarajapura",
         "median_lst": 40.4677046989322,
-        "suhi_score": 0.0003121237519039255
+        "suhi_score": 0.00031212375188971464
       },
       {
         "ward_name": "Jarakabandekaval",
         "median_lst": 40.155306233066256,
-        "suhi_score": -0.31208634211404274
+        "suhi_score": -0.31208634211405695
       },
       {
         "ward_name": "Ramagondanahalli",
         "median_lst": 40.94610029362577,
-        "suhi_score": 0.4787077184454702
+        "suhi_score": 0.478707718445456
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 40.34804604371696,
-        "suhi_score": -0.11934653146333574
+        "suhi_score": -0.11934653146334995
       },
       {
         "ward_name": "Krishnasagara",
         "median_lst": 43.1387355139934,
-        "suhi_score": 2.6713429388131047
+        "suhi_score": 2.6713429388130905
       },
       {
         "ward_name": "Shinganayakanahalli",
         "median_lst": 39.820568645170134,
-        "suhi_score": -0.6468239300101644
+        "suhi_score": -0.6468239300101786
       },
       {
         "ward_name": "Gantiganahalli",
         "median_lst": 40.30378360610395,
-        "suhi_score": -0.1636089690763498
+        "suhi_score": -0.16360896907636402
       },
       {
         "ward_name": "Nellukunte",
         "median_lst": 41.234842901462706,
-        "suhi_score": 0.7674503262824075
+        "suhi_score": 0.7674503262823933
       },
       {
         "ward_name": "Hunasamaranahalli",
         "median_lst": 39.44754321932429,
-        "suhi_score": -1.0198493558560102
+        "suhi_score": -1.0198493558560244
       },
       {
         "ward_name": "Sughatta",
         "median_lst": 41.92409879582029,
-        "suhi_score": 1.4567062206399939
+        "suhi_score": 1.4567062206399797
       },
       {
         "ward_name": "Kempanahalli",
         "median_lst": 41.362840178302044,
-        "suhi_score": 0.8954476031217453
+        "suhi_score": 0.8954476031217311
       },
       {
         "ward_name": "Lakshmipura",
         "median_lst": 41.063219218730325,
-        "suhi_score": 0.5958266435500263
+        "suhi_score": 0.5958266435500121
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 40.16465892376845,
-        "suhi_score": -0.3027336514118488
+        "suhi_score": -0.30273365141186304
       },
       {
         "ward_name": "Shyamarajapura",
         "median_lst": 42.089081341786176,
-        "suhi_score": 1.6216887666058781
+        "suhi_score": 1.621688766605864
       },
       {
         "ward_name": "Veerasagara",
         "median_lst": 40.913113466798684,
-        "suhi_score": 0.4457208916183859
+        "suhi_score": 0.4457208916183717
       },
       {
         "ward_name": "Modi Agrahara",
         "median_lst": 41.744656629637696,
-        "suhi_score": 1.2772640544573974
+        "suhi_score": 1.2772640544573832
       },
       {
         "ward_name": "Gune Agrahara",
         "median_lst": 41.953044944427724,
-        "suhi_score": 1.4856523692474255
+        "suhi_score": 1.4856523692474113
       },
       {
         "ward_name": "Kalathammanahalli",
         "median_lst": 44.43842041474391,
-        "suhi_score": 3.971027839563611
+        "suhi_score": 3.9710278395635967
       },
       {
         "ward_name": "Soladevanahalli",
         "median_lst": 40.73779188949047,
-        "suhi_score": 0.2703993143101684
+        "suhi_score": 0.2703993143101542
       },
       {
         "ward_name": "Kumbarahalli",
         "median_lst": 40.94053211322475,
-        "suhi_score": 0.47313953804444964
+        "suhi_score": 0.4731395380444354
       },
       {
         "ward_name": "Kempapura",
         "median_lst": 42.31032461201822,
-        "suhi_score": 1.8429320368379223
+        "suhi_score": 1.842932036837908
       },
       {
         "ward_name": "Thorenagasandra",
         "median_lst": 39.392997057337396,
-        "suhi_score": -1.0743955178429019
+        "suhi_score": -1.074395517842916
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 38.22125681776577,
-        "suhi_score": -2.246135757414528
+        "suhi_score": -2.2461357574145424
       },
       {
         "ward_name": "Tharabanahalli",
         "median_lst": 40.17075590477757,
-        "suhi_score": -0.29663667040272657
+        "suhi_score": -0.2966366704027408
       },
       {
         "ward_name": "Sasiveghatta",
         "median_lst": 41.76909669157721,
-        "suhi_score": 1.3017041163969125
+        "suhi_score": 1.3017041163968983
       },
       {
         "ward_name": "Marasandra",
         "median_lst": 39.41022725828488,
-        "suhi_score": -1.0571653168954214
+        "suhi_score": -1.0571653168954356
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 41.6810508428398,
-        "suhi_score": 1.213658267659504
+        "suhi_score": 1.2136582676594898
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 39.43562184447312,
-        "suhi_score": -1.03177073070718
+        "suhi_score": -1.0317707307071942
       },
       {
         "ward_name": "Sathanuru",
         "median_lst": 39.07402721532967,
-        "suhi_score": -1.3933653598506268
+        "suhi_score": -1.393365359850641
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 40.57203174447639,
-        "suhi_score": 0.1046391692960924
+        "suhi_score": 0.1046391692960782
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 40.92872537323895,
-        "suhi_score": 0.461332798058649
+        "suhi_score": 0.4613327980586348
       },
       {
         "ward_name": "Chagalatti",
         "median_lst": 41.54659712110479,
-        "suhi_score": 1.0792045459244903
+        "suhi_score": 1.0792045459244761
       },
       {
         "ward_name": "Marenahalli",
         "median_lst": 40.64069177112546,
-        "suhi_score": 0.1732991959451624
+        "suhi_score": 0.1732991959451482
       },
       {
         "ward_name": "Dasanayakanahalli",
         "median_lst": 41.915363130876656,
-        "suhi_score": 1.447970555696358
+        "suhi_score": 1.4479705556963438
       },
       {
         "ward_name": "Maralakunte",
         "median_lst": 41.12744559160703,
-        "suhi_score": 0.6600530164267298
+        "suhi_score": 0.6600530164267155
       },
       {
         "ward_name": "Mahadevakodagehalli",
         "median_lst": 40.66176014415873,
-        "suhi_score": 0.19436756897842855
+        "suhi_score": 0.19436756897841434
       },
       {
         "ward_name": "Manchappanahosahalli",
         "median_lst": 41.87623917059954,
-        "suhi_score": 1.4088465954192415
+        "suhi_score": 1.4088465954192273
       },
       {
         "ward_name": "Chalamkunte",
         "median_lst": 40.24834215565979,
-        "suhi_score": -0.21905041952050652
+        "suhi_score": -0.21905041952052073
       },
       {
         "ward_name": "Chikkanayakanahalli",
         "median_lst": 40.319043716017234,
-        "suhi_score": -0.14834885916306462
+        "suhi_score": -0.14834885916307883
       },
       {
         "ward_name": "Halanayakanahalli",
         "median_lst": 38.77398193203098,
-        "suhi_score": -1.6934106431493205
+        "suhi_score": -1.6934106431493348
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 37.61132552064952,
-        "suhi_score": -2.856067054530776
+        "suhi_score": -2.85606705453079
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 37.9542146734694,
-        "suhi_score": -2.513177901710897
+        "suhi_score": -2.513177901710911
       },
       {
         "ward_name": "Kachamaranahalli",
         "median_lst": 42.26510237834825,
-        "suhi_score": 1.7977098031679546
+        "suhi_score": 1.7977098031679404
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 38.727474772838065,
-        "suhi_score": -1.7399178023422337
+        "suhi_score": -1.739917802342248
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 39.274622773728126,
-        "suhi_score": -1.1927698014521724
+        "suhi_score": -1.1927698014521866
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 37.74401663228169,
-        "suhi_score": -2.723375942898606
+        "suhi_score": -2.7233759428986204
       },
       {
         "ward_name": "Kodathi",
         "median_lst": 40.29995764231413,
-        "suhi_score": -0.16743493286616484
+        "suhi_score": -0.16743493286617905
       },
       {
         "ward_name": "Hadosiddapura",
         "median_lst": 39.4352176974142,
-        "suhi_score": -1.0321748777660957
+        "suhi_score": -1.03217487776611
       },
       {
         "ward_name": "Sulakunte",
         "median_lst": 40.785543737450816,
-        "suhi_score": 0.3181511622705173
+        "suhi_score": 0.3181511622705031
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 36.51905416322786,
-        "suhi_score": -3.9483384119524416
+        "suhi_score": -3.948338411952456
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 40.487964064345036,
-        "suhi_score": 0.0205714891647375
+        "suhi_score": 0.02057148916472329
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 40.51019789262103,
-        "suhi_score": 0.04280531744073102
+        "suhi_score": 0.042805317440716806
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 39.199913306434006,
-        "suhi_score": -1.2674792687462926
+        "suhi_score": -1.2674792687463068
       },
       {
         "ward_name": "Kannamangala",
         "median_lst": 38.786942995182166,
-        "suhi_score": -1.6804495799981325
+        "suhi_score": -1.6804495799981467
       },
       {
         "ward_name": "Kajisonnenahalli",
         "median_lst": 40.477020018310014,
-        "suhi_score": 0.009627443129716085
+        "suhi_score": 0.009627443129701874
       },
       {
         "ward_name": "Goravigere",
         "median_lst": 39.874515017403816,
-        "suhi_score": -0.5928775577764824
+        "suhi_score": -0.5928775577764966
       },
       {
         "ward_name": "Raghuvanahalli",
         "median_lst": 35.17127522050235,
-        "suhi_score": -5.296117354677946
+        "suhi_score": -5.2961173546779605
       },
       {
         "ward_name": "Kodagihalli",
         "median_lst": 41.21269467350359,
-        "suhi_score": 0.7453020983232932
+        "suhi_score": 0.745302098323279
       },
       {
         "ward_name": "Hancharahalli",
         "median_lst": 39.17772158725797,
-        "suhi_score": -1.289670987922328
+        "suhi_score": -1.2896709879223422
       },
       {
         "ward_name": "Kattugollahalli",
         "median_lst": 39.66659750634155,
-        "suhi_score": -0.8007950688387453
+        "suhi_score": -0.8007950688387595
       },
       {
         "ward_name": "Shringaripura",
         "median_lst": 38.26053482242123,
-        "suhi_score": -2.2068577527590705
+        "suhi_score": -2.2068577527590847
       },
       {
         "ward_name": "Jyothipura",
         "median_lst": 39.104782793649804,
-        "suhi_score": -1.3626097815304945
+        "suhi_score": -1.3626097815305087
       },
       {
         "ward_name": "Chikkasandra",
         "median_lst": 40.65089508205649,
-        "suhi_score": 0.18350250687619507
+        "suhi_score": 0.18350250687618086
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 40.42475162506351,
-        "suhi_score": -0.04264095011679103
+        "suhi_score": -0.04264095011680524
       },
       {
         "ward_name": "Gunduru",
         "median_lst": 40.016715091856234,
-        "suhi_score": -0.4506774833240641
+        "suhi_score": -0.4506774833240783
       },
       {
         "ward_name": "Vanachenahalli",
         "median_lst": 41.13070527865918,
-        "suhi_score": 0.6633127034788799
+        "suhi_score": 0.6633127034788657
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 39.68915331139004,
-        "suhi_score": -0.7782392637902618
+        "suhi_score": -0.778239263790276
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 41.22602671334752,
-        "suhi_score": 0.7586341381672241
+        "suhi_score": 0.7586341381672099
       },
       {
         "ward_name": "Adhuru",
         "median_lst": 39.94863433821172,
-        "suhi_score": -0.5187582369685799
+        "suhi_score": -0.5187582369685941
       },
       {
         "ward_name": "Bidarahalli",
         "median_lst": 39.79638446192409,
-        "suhi_score": -0.6710081132562067
+        "suhi_score": -0.6710081132562209
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 39.78797956003378,
-        "suhi_score": -0.6794130151465154
+        "suhi_score": -0.6794130151465296
       },
       {
         "ward_name": "Cheemasandra",
         "median_lst": 39.52234206646328,
-        "suhi_score": -0.9450505087170171
+        "suhi_score": -0.9450505087170313
       },
       {
         "ward_name": "Manduru",
         "median_lst": 40.12534835333644,
-        "suhi_score": -0.34204422184385663
+        "suhi_score": -0.34204422184387084
       },
       {
         "ward_name": "Manduru",
         "median_lst": 40.99252030932476,
-        "suhi_score": 0.525127734144462
+        "suhi_score": 0.5251277341444478
       },
       {
         "ward_name": "Bommenehalli",
         "median_lst": 39.78313632395116,
-        "suhi_score": -0.6842562512291366
+        "suhi_score": -0.6842562512291508
       },
       {
         "ward_name": "Lagumenahalli",
         "median_lst": 38.612306055404495,
-        "suhi_score": -1.8550865197758029
+        "suhi_score": -1.855086519775817
       },
       {
         "ward_name": "Bendiganahalli",
         "median_lst": 40.355074633749645,
-        "suhi_score": -0.11231794143065343
+        "suhi_score": -0.11231794143066764
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 39.396687218527,
-        "suhi_score": -1.0707053566532991
+        "suhi_score": -1.0707053566533133
       },
       {
         "ward_name": "Nimbekayipura",
         "median_lst": 41.33350492875429,
-        "suhi_score": 0.866112353573989
+        "suhi_score": 0.8661123535739748
       },
       {
         "ward_name": "Katamnaluru",
         "median_lst": 40.35517726468353,
-        "suhi_score": -0.11221531049676514
+        "suhi_score": -0.11221531049677935
       },
       {
         "ward_name": "Konadasanapura",
         "median_lst": 41.53823951165571,
-        "suhi_score": 1.0708469364754123
+        "suhi_score": 1.070846936475398
       },
       {
         "ward_name": "Bhandarpura",
         "median_lst": 40.08135913592116,
-        "suhi_score": -0.3860334392591369
+        "suhi_score": -0.3860334392591511
       },
       {
         "ward_name": "Bidare Agrahara",
         "median_lst": 40.35484799228196,
-        "suhi_score": -0.11254458289833735
+        "suhi_score": -0.11254458289835156
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 39.31100287951461,
-        "suhi_score": -1.1563896956656876
+        "suhi_score": -1.1563896956657018
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 39.62732846799098,
-        "suhi_score": -0.8400641071893205
+        "suhi_score": -0.8400641071893347
       },
       {
         "ward_name": "Veerenahalli",
         "median_lst": 34.76866022044673,
-        "suhi_score": -5.698732354733565
+        "suhi_score": -5.698732354733579
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 37.507419942703734,
-        "suhi_score": -2.959972632476564
+        "suhi_score": -2.9599726324765783
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 38.45150160373409,
-        "suhi_score": -2.015890971446211
+        "suhi_score": -2.0158909714462254
       },
       {
         "ward_name": "Chikkabanahalli",
         "median_lst": 39.1863307654779,
-        "suhi_score": -1.2810618097024005
+        "suhi_score": -1.2810618097024147
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 36.04661362031944,
-        "suhi_score": -4.420778954860857
+        "suhi_score": -4.420778954860872
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 39.19065882453988,
-        "suhi_score": -1.2767337506404175
+        "suhi_score": -1.2767337506404317
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 39.02405354981559,
-        "suhi_score": -1.4433390253647076
+        "suhi_score": -1.4433390253647218
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 40.38336082873631,
-        "suhi_score": -0.08403174644399058
+        "suhi_score": -0.0840317464440048
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 37.584601265422236,
-        "suhi_score": -2.882791309758062
+        "suhi_score": -2.882791309758076
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 39.67577141917407,
-        "suhi_score": -0.7916211560062294
+        "suhi_score": -0.7916211560062436
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 38.098558499059315,
-        "suhi_score": -2.368834076120983
+        "suhi_score": -2.368834076120997
       },
       {
         "ward_name": "Kurudusonnenahalli",
         "median_lst": 38.00342579087013,
-        "suhi_score": -2.4639667843101662
+        "suhi_score": -2.4639667843101805
       },
       {
         "ward_name": "Alehalli",
         "median_lst": 39.22023771389651,
-        "suhi_score": -1.2471548612837893
+        "suhi_score": -1.2471548612838035
       },
       {
         "ward_name": "Hirandahalli",
         "median_lst": 38.26303800550797,
-        "suhi_score": -2.2043545696723257
+        "suhi_score": -2.20435456967234
       },
       {
         "ward_name": "Kitthaganur",
         "median_lst": 39.71461408495102,
-        "suhi_score": -0.7527784902292751
+        "suhi_score": -0.7527784902292893
       },
       {
         "ward_name": "Hoovinane",
         "median_lst": 38.40231509206618,
-        "suhi_score": -2.0650774831141163
+        "suhi_score": -2.0650774831141305
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 39.103336948055876,
-        "suhi_score": -1.3640556271244222
+        "suhi_score": -1.3640556271244364
       },
       {
         "ward_name": "Maragondanahalli",
         "median_lst": 39.16920677611327,
-        "suhi_score": -1.2981857990670278
+        "suhi_score": -1.298185799067042
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 39.732219666233505,
-        "suhi_score": -0.7351729089467938
+        "suhi_score": -0.735172908946808
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 38.59395112067654,
-        "suhi_score": -1.8734414545037552
+        "suhi_score": -1.8734414545037694
       },
       {
         "ward_name": "Anagalapura",
         "median_lst": 39.6797333510535,
-        "suhi_score": -0.7876592241267986
+        "suhi_score": -0.7876592241268128
       },
       {
         "ward_name": "Bande Bommasandra",
         "median_lst": 39.597631733267704,
-        "suhi_score": -0.8697608419125942
+        "suhi_score": -0.8697608419126084
       },
       {
         "ward_name": "Doddagubbi",
         "median_lst": 39.425675451345235,
-        "suhi_score": -1.0417171238350633
+        "suhi_score": -1.0417171238350775
       },
       {
         "ward_name": "Chikkagubbi",
         "median_lst": 39.99762263724962,
-        "suhi_score": -0.46976993793067834
+        "suhi_score": -0.46976993793069255
       },
       {
         "ward_name": "Nadagowda Gollahalli",
         "median_lst": 39.75155051395489,
-        "suhi_score": -0.715842061225409
+        "suhi_score": -0.7158420612254233
       },
       {
         "ward_name": "Yarappanahalli",
         "median_lst": 41.17095391765777,
-        "suhi_score": 0.7035613424774709
+        "suhi_score": 0.7035613424774567
       },
       {
         "ward_name": "Doddenahalli",
         "median_lst": 41.34991395754594,
-        "suhi_score": 0.8825213823656384
+        "suhi_score": 0.8825213823656242
       },
       {
         "ward_name": "Kadasonnappanahalli",
         "median_lst": 40.981286586189064,
-        "suhi_score": 0.513894011008766
+        "suhi_score": 0.5138940110087518
       },
       {
         "ward_name": "Mitaganahalli",
         "median_lst": 40.434391435195685,
-        "suhi_score": -0.03300113998461285
+        "suhi_score": -0.03300113998462706
       },
       {
         "ward_name": "Kannuru",
         "median_lst": 39.90335332299635,
-        "suhi_score": -0.5640392521839459
+        "suhi_score": -0.5640392521839601
       },
       {
         "ward_name": "Kannaiakana Agrahara",
         "median_lst": 42.451207265048694,
-        "suhi_score": 1.983814689868396
+        "suhi_score": 1.9838146898683817
       },
       {
         "ward_name": "Sriramapura",
         "median_lst": 41.28968014466319,
-        "suhi_score": 0.8222875694828886
+        "suhi_score": 0.8222875694828744
       },
       {
         "ward_name": "Rayasandra",
         "median_lst": 39.582910847462514,
-        "suhi_score": -0.8844817277177839
+        "suhi_score": -0.8844817277177981
       },
       {
         "ward_name": "Choodasandra",
         "median_lst": 39.41804937962854,
-        "suhi_score": -1.0493431955517565
+        "suhi_score": -1.0493431955517707
       },
       {
         "ward_name": "Alanahalli Thippasandra",
         "median_lst": 42.07399828820988,
-        "suhi_score": 1.6066057130295803
+        "suhi_score": 1.6066057130295661
       },
       {
         "ward_name": "Ramanayakanahalli",
         "median_lst": 41.89034409112239,
-        "suhi_score": 1.4229515159420885
+        "suhi_score": 1.4229515159420743
       },
       {
         "ward_name": "Chikkavaderapura",
         "median_lst": 42.242324765710826,
-        "suhi_score": 1.774932190530528
+        "suhi_score": 1.7749321905305138
       },
       {
         "ward_name": "Heggondanahalli",
         "median_lst": 42.11884613679353,
-        "suhi_score": 1.6514535616132306
+        "suhi_score": 1.6514535616132164
       },
       {
         "ward_name": "Gettehalli",
         "median_lst": 40.23356019789803,
-        "suhi_score": -0.23383237728226902
+        "suhi_score": -0.23383237728228323
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 41.122375235417586,
-        "suhi_score": 0.6549826602372875
+        "suhi_score": 0.6549826602372733
       },
       {
         "ward_name": "Chokkasandra",
         "median_lst": 41.10935416287286,
-        "suhi_score": 0.6419615876925633
+        "suhi_score": 0.6419615876925491
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 41.03220768598494,
-        "suhi_score": 0.5648151108046449
+        "suhi_score": 0.5648151108046306
       },
       {
         "ward_name": "Thigalachowdadenahalli",
         "median_lst": 41.31072954241949,
-        "suhi_score": 0.843336967239189
+        "suhi_score": 0.8433369672391748
       },
       {
         "ward_name": "Yamare",
         "median_lst": 41.899933943783616,
-        "suhi_score": 1.4325413686033173
+        "suhi_score": 1.432541368603303
       },
       {
         "ward_name": "Somapura",
         "median_lst": 39.49459571538686,
-        "suhi_score": -0.9727968597934407
+        "suhi_score": -0.9727968597934549
       },
       {
         "ward_name": "Valagere Kallahalli",
         "median_lst": 41.43238897323376,
-        "suhi_score": 0.964996398053465
+        "suhi_score": 0.9649963980534508
       },
       {
         "ward_name": "Chambenahalli",
         "median_lst": 41.69083797258121,
-        "suhi_score": 1.2234453974009085
+        "suhi_score": 1.2234453974008943
       },
       {
         "ward_name": "Nerige",
         "median_lst": 42.441157565130204,
-        "suhi_score": 1.9737649899499061
+        "suhi_score": 1.973764989949892
       },
       {
         "ward_name": "Kattariguppe",
         "median_lst": 42.79462619278598,
-        "suhi_score": 2.3272336176056783
+        "suhi_score": 2.327233617605664
       },
       {
         "ward_name": "Nekkondi Dommasandra",
         "median_lst": 42.77896494387243,
-        "suhi_score": 2.311572368692133
+        "suhi_score": 2.3115723686921186
       },
       {
         "ward_name": "Jantagondahalli",
         "median_lst": 41.47149295475914,
-        "suhi_score": 1.0041003795788441
+        "suhi_score": 1.00410037957883
       },
       {
         "ward_name": "Sarjapura",
         "median_lst": 40.95641234589451,
-        "suhi_score": 0.489019770714215
+        "suhi_score": 0.4890197707142008
       },
       {
         "ward_name": "Bhoragunte",
         "median_lst": 40.292332900254785,
-        "suhi_score": -0.17505967492551378
+        "suhi_score": -0.17505967492552799
       },
       {
         "ward_name": "Chikkadunnasandra",
         "median_lst": 42.86022305151656,
-        "suhi_score": 2.3928304763362647
+        "suhi_score": 2.3928304763362505
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 40.04441149415079,
-        "suhi_score": -0.42298108102950494
+        "suhi_score": -0.42298108102951915
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 42.35465869006274,
-        "suhi_score": 1.8872661148824434
+        "suhi_score": 1.8872661148824292
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 42.481705942384494,
-        "suhi_score": 2.0143133672041955
+        "suhi_score": 2.0143133672041813
       },
       {
         "ward_name": "Chikkathimmasandra",
         "median_lst": 43.085484737151184,
-        "suhi_score": 2.6180921619708855
+        "suhi_score": 2.6180921619708712
       },
       {
         "ward_name": "Gopasandra",
         "median_lst": 40.502177918424294,
-        "suhi_score": 0.03478534324399618
+        "suhi_score": 0.03478534324398197
       },
       {
         "ward_name": "Bikkanahalli",
         "median_lst": 42.9354825616538,
-        "suhi_score": 2.468089986473501
+        "suhi_score": 2.468089986473487
       },
       {
         "ward_name": "Samenahalli",
         "median_lst": 41.95199213612835,
-        "suhi_score": 1.4845995609480482
+        "suhi_score": 1.484599560948034
       },
       {
         "ward_name": "Muttanalluru",
         "median_lst": 39.995011334033755,
-        "suhi_score": -0.4723812411465431
+        "suhi_score": -0.47238124114655733
       },
       {
         "ward_name": "Gulimangala",
         "median_lst": 40.765071397910226,
-        "suhi_score": 0.29767882272992807
+        "suhi_score": 0.29767882272991386
       },
       {
         "ward_name": "Gottamaranahalli",
         "median_lst": 41.12818360721616,
-        "suhi_score": 0.6607910320358599
+        "suhi_score": 0.6607910320358457
       },
       {
         "ward_name": "Singena Agrahara",
         "median_lst": 40.546003590104185,
-        "suhi_score": 0.07861101492388656
+        "suhi_score": 0.07861101492387235
       },
       {
         "ward_name": "Narayanagatta",
         "median_lst": 39.98540694494688,
-        "suhi_score": -0.48198563023341734
+        "suhi_score": -0.48198563023343155
       },
       {
         "ward_name": "Chinkala Madinala",
         "median_lst": 40.635194313868745,
-        "suhi_score": 0.16780173868844628
+        "suhi_score": 0.16780173868843207
       },
       {
         "ward_name": "Kaggalipura",
         "median_lst": 41.255266407560434,
-        "suhi_score": 0.7878738323801358
+        "suhi_score": 0.7878738323801215
       },
       {
         "ward_name": "Harohalli",
         "median_lst": 39.85464732174523,
-        "suhi_score": -0.6127452534350653
+        "suhi_score": -0.6127452534350795
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 39.1421133233571,
-        "suhi_score": -1.325279251823197
+        "suhi_score": -1.3252792518232113
       },
       {
         "ward_name": "Chikkanagamangala",
         "median_lst": 40.54531990482552,
-        "suhi_score": 0.07792732964522031
+        "suhi_score": 0.0779273296452061
       },
       {
         "ward_name": "Veerasandra",
         "median_lst": 40.021166353173776,
-        "suhi_score": -0.44622622200652273
+        "suhi_score": -0.44622622200653694
       },
       {
         "ward_name": "Bangipura",
         "median_lst": 42.20578823257235,
-        "suhi_score": 1.7383956573920543
+        "suhi_score": 1.73839565739204
       },
       {
         "ward_name": "Hebbagodi",
         "median_lst": 40.45284792597193,
-        "suhi_score": -0.014544649208367844
+        "suhi_score": -0.014544649208382054
       },
       {
         "ward_name": "Kommasandra",
         "median_lst": 39.75170179790802,
-        "suhi_score": -0.7156907772722789
+        "suhi_score": -0.7156907772722931
       }
     ]
   },
   {
     "city": "bengaluru",
     "month": "2024-04",
-    "rural_baseline_celsius": 45.96814977861333,
+    "rural_baseline_celsius": 45.96814977861332,
     "wards": [
       {
         "ward_name": "Kodigehalli",
         "median_lst": 48.10511871671534,
-        "suhi_score": 2.136968938102008
+        "suhi_score": 2.136968938102015
       },
       {
         "ward_name": "Kannahalli",
         "median_lst": 48.05023786940105,
-        "suhi_score": 2.082088090787721
+        "suhi_score": 2.082088090787728
       },
       {
         "ward_name": "Manganahalli",
         "median_lst": 47.56667548741971,
-        "suhi_score": 1.5985257088063776
+        "suhi_score": 1.5985257088063847
       },
       {
         "ward_name": "Ramasandra",
         "median_lst": 46.70495391564113,
-        "suhi_score": 0.7368041370277965
+        "suhi_score": 0.7368041370278036
       },
       {
         "ward_name": "Kenchanapura",
         "median_lst": 47.74052911138301,
-        "suhi_score": 1.772379332769681
+        "suhi_score": 1.7723793327696882
       },
       {
         "ward_name": "Challagatta",
         "median_lst": 49.46766435743165,
-        "suhi_score": 3.499514578818321
+        "suhi_score": 3.499514578818328
       },
       {
         "ward_name": "Kommagatta",
         "median_lst": 47.96060601945476,
-        "suhi_score": 1.9924562408414275
+        "suhi_score": 1.9924562408414346
       },
       {
         "ward_name": "Doddabele",
         "median_lst": 46.44914674632458,
-        "suhi_score": 0.4809969677112491
+        "suhi_score": 0.4809969677112562
       },
       {
         "ward_name": "Venkatapura",
         "median_lst": 45.855770371315025,
-        "suhi_score": -0.11237940729830598
+        "suhi_score": -0.11237940729829887
       },
       {
         "ward_name": "Kambipura",
         "median_lst": 46.53534068199863,
-        "suhi_score": 0.5671909033853026
+        "suhi_score": 0.5671909033853098
       },
       {
         "ward_name": "Kengeri Gollarahalli",
         "median_lst": 46.512945185249166,
-        "suhi_score": 0.5447954066358349
+        "suhi_score": 0.544795406635842
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 45.34644499513117,
-        "suhi_score": -0.6217047834821585
+        "suhi_score": -0.6217047834821514
       },
       {
         "ward_name": "Agara",
         "median_lst": 46.62571018034289,
-        "suhi_score": 0.6575604017295618
+        "suhi_score": 0.6575604017295689
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 46.29122739079554,
-        "suhi_score": 0.3230776121822103
+        "suhi_score": 0.3230776121822174
       },
       {
         "ward_name": "Rachanamadu",
         "median_lst": 49.30240781411587,
-        "suhi_score": 3.334258035502536
+        "suhi_score": 3.3342580355025433
       },
       {
         "ward_name": "Gangasandra",
         "median_lst": 46.42847349441963,
-        "suhi_score": 0.4603237158062967
+        "suhi_score": 0.4603237158063038
       },
       {
         "ward_name": "Vasanthanahalli",
         "median_lst": 49.180600392750634,
-        "suhi_score": 3.2124506141373033
+        "suhi_score": 3.2124506141373104
       },
       {
         "ward_name": "Devagere",
         "median_lst": 46.93026915763352,
-        "suhi_score": 0.9621193790201872
+        "suhi_score": 0.9621193790201943
       },
       {
         "ward_name": "Gudimavu",
         "median_lst": 47.52318351479376,
-        "suhi_score": 1.5550337361804267
+        "suhi_score": 1.5550337361804338
       },
       {
         "ward_name": "Kumbalagodu Gollahalli",
         "median_lst": 46.27487099983722,
-        "suhi_score": 0.30672122122388856
+        "suhi_score": 0.30672122122389567
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 44.31853493848568,
-        "suhi_score": -1.6496148401276471
+        "suhi_score": -1.64961484012764
       },
       {
         "ward_name": "Bilijaji",
         "median_lst": 48.01700153015614,
-        "suhi_score": 2.048851751542813
+        "suhi_score": 2.04885175154282
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 41.70679372682247,
-        "suhi_score": -4.261356051790862
+        "suhi_score": -4.261356051790855
       },
       {
         "ward_name": "Guddadhahalli",
         "median_lst": 46.77098914889185,
-        "suhi_score": 0.8028393702785195
+        "suhi_score": 0.8028393702785266
       },
       {
         "ward_name": "Mutthukadhahalli",
         "median_lst": 49.0884187690945,
-        "suhi_score": 3.120268990481172
+        "suhi_score": 3.120268990481179
       },
       {
         "ward_name": "Shivakote",
         "median_lst": 47.38731960272843,
-        "suhi_score": 1.4191698241151016
+        "suhi_score": 1.4191698241151087
       },
       {
         "ward_name": "Madhagirihalli",
         "median_lst": 45.08321379346938,
-        "suhi_score": -0.8849359851439473
+        "suhi_score": -0.8849359851439402
       },
       {
         "ward_name": "Ivarakondapura",
         "median_lst": 44.859207689014255,
-        "suhi_score": -1.1089420895990756
+        "suhi_score": -1.1089420895990685
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 44.406825158383825,
-        "suhi_score": -1.561324620229506
+        "suhi_score": -1.5613246202294988
       },
       {
         "ward_name": "Kammarasanahalli",
         "median_lst": 44.78411027762851,
-        "suhi_score": -1.1840395009848237
+        "suhi_score": -1.1840395009848166
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 45.60634779940032,
-        "suhi_score": -0.3618019792130127
+        "suhi_score": -0.3618019792130056
       },
       {
         "ward_name": "Huralichikkanahalli",
         "median_lst": 46.60816669292276,
-        "suhi_score": 0.6400169143094274
+        "suhi_score": 0.6400169143094345
       },
       {
         "ward_name": "Kasaghattapura",
         "median_lst": 46.8143017154805,
-        "suhi_score": 0.8461519368671659
+        "suhi_score": 0.846151936867173
       },
       {
         "ward_name": "Kondashettihalli",
         "median_lst": 47.079164705974115,
-        "suhi_score": 1.1110149273607846
+        "suhi_score": 1.1110149273607917
       },
       {
         "ward_name": "Lingarajasagara",
         "median_lst": 45.89698653140121,
-        "suhi_score": -0.07116324721211953
+        "suhi_score": -0.07116324721211242
       },
       {
         "ward_name": "Byalakere",
         "median_lst": 48.883465171022884,
-        "suhi_score": 2.9153153924095534
+        "suhi_score": 2.9153153924095605
       },
       {
         "ward_name": "Mavallipura",
         "median_lst": 48.04935160353136,
-        "suhi_score": 2.0812018249180326
+        "suhi_score": 2.0812018249180397
       },
       {
         "ward_name": "Lingarajapura",
         "median_lst": 47.631979692039764,
-        "suhi_score": 1.663829913426433
+        "suhi_score": 1.66382991342644
       },
       {
         "ward_name": "Mylappanahalli",
         "median_lst": 47.946657864585724,
-        "suhi_score": 1.9785080859723934
+        "suhi_score": 1.9785080859724005
       },
       {
         "ward_name": "Krishnarajapura",
         "median_lst": 46.19567799035338,
-        "suhi_score": 0.22752821174005078
+        "suhi_score": 0.22752821174005788
       },
       {
         "ward_name": "Jarakabandekaval",
         "median_lst": 46.30484354999113,
-        "suhi_score": 0.3366937713778029
+        "suhi_score": 0.33669377137781
       },
       {
         "ward_name": "Ramagondanahalli",
         "median_lst": 47.375350727734535,
-        "suhi_score": 1.4072009491212043
+        "suhi_score": 1.4072009491212114
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 47.04170034596957,
-        "suhi_score": 1.0735505673562429
+        "suhi_score": 1.07355056735625
       },
       {
         "ward_name": "Krishnasagara",
         "median_lst": 49.710859015507985,
-        "suhi_score": 3.7427092368946546
+        "suhi_score": 3.7427092368946617
       },
       {
         "ward_name": "Shinganayakanahalli",
         "median_lst": 45.46607967206016,
-        "suhi_score": -0.5020701065531696
+        "suhi_score": -0.5020701065531625
       },
       {
         "ward_name": "Gantiganahalli",
         "median_lst": 46.84084581049581,
-        "suhi_score": 0.8726960318824766
+        "suhi_score": 0.8726960318824837
       },
       {
         "ward_name": "Nellukunte",
         "median_lst": 48.25705681489687,
-        "suhi_score": 2.2889070362835398
+        "suhi_score": 2.288907036283547
       },
       {
         "ward_name": "Hunasamaranahalli",
         "median_lst": 45.46654749909662,
-        "suhi_score": -0.5016022795167103
+        "suhi_score": -0.5016022795167032
       },
       {
         "ward_name": "Sughatta",
         "median_lst": 48.776791496782074,
-        "suhi_score": 2.8086417181687438
+        "suhi_score": 2.808641718168751
       },
       {
         "ward_name": "Kempanahalli",
         "median_lst": 47.937005746936144,
-        "suhi_score": 1.9688559683228135
+        "suhi_score": 1.9688559683228206
       },
       {
         "ward_name": "Lakshmipura",
         "median_lst": 47.00385675674726,
-        "suhi_score": 1.0357069781339305
+        "suhi_score": 1.0357069781339376
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 45.693149120283735,
-        "suhi_score": -0.27500065832959564
+        "suhi_score": -0.27500065832958853
       },
       {
         "ward_name": "Shyamarajapura",
         "median_lst": 47.78199252667853,
-        "suhi_score": 1.8138427480651984
+        "suhi_score": 1.8138427480652055
       },
       {
         "ward_name": "Veerasagara",
         "median_lst": 46.78210237775244,
-        "suhi_score": 0.8139525991391068
+        "suhi_score": 0.8139525991391139
       },
       {
         "ward_name": "Modi Agrahara",
         "median_lst": 47.81374303697689,
-        "suhi_score": 1.8455932583635573
+        "suhi_score": 1.8455932583635644
       },
       {
         "ward_name": "Gune Agrahara",
         "median_lst": 47.47764672916144,
-        "suhi_score": 1.5094969505481117
+        "suhi_score": 1.5094969505481188
       },
       {
         "ward_name": "Kalathammanahalli",
         "median_lst": 49.98031830465026,
-        "suhi_score": 4.01216852603693
+        "suhi_score": 4.0121685260369375
       },
       {
         "ward_name": "Soladevanahalli",
         "median_lst": 46.58578776370909,
-        "suhi_score": 0.6176379850957616
+        "suhi_score": 0.6176379850957687
       },
       {
         "ward_name": "Kumbarahalli",
         "median_lst": 46.36596227683795,
-        "suhi_score": 0.3978124982246172
+        "suhi_score": 0.3978124982246243
       },
       {
         "ward_name": "Kempapura",
         "median_lst": 48.42088740803155,
-        "suhi_score": 2.452737629418216
+        "suhi_score": 2.4527376294182233
       },
       {
         "ward_name": "Thorenagasandra",
         "median_lst": 44.62881836686126,
-        "suhi_score": -1.3393314117520703
+        "suhi_score": -1.3393314117520632
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 43.18418113812375,
-        "suhi_score": -2.783968640489583
+        "suhi_score": -2.783968640489576
       },
       {
         "ward_name": "Tharabanahalli",
         "median_lst": 45.341142149615486,
-        "suhi_score": -0.6270076289978448
+        "suhi_score": -0.6270076289978377
       },
       {
         "ward_name": "Sasiveghatta",
         "median_lst": 47.60776487385783,
-        "suhi_score": 1.6396150952445012
+        "suhi_score": 1.6396150952445083
       },
       {
         "ward_name": "Marasandra",
         "median_lst": 45.88255433338784,
-        "suhi_score": -0.08559544522549345
+        "suhi_score": -0.08559544522548634
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 47.69192213210018,
-        "suhi_score": 1.7237723534868508
+        "suhi_score": 1.7237723534868579
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 46.09031115778803,
-        "suhi_score": 0.12216137917469894
+        "suhi_score": 0.12216137917470604
       },
       {
         "ward_name": "Sathanuru",
         "median_lst": 45.6956881639644,
-        "suhi_score": -0.2724616146489325
+        "suhi_score": -0.2724616146489254
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 46.539313679100275,
-        "suhi_score": 0.571163900486944
+        "suhi_score": 0.5711639004869511
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 47.14823505769184,
-        "suhi_score": 1.1800852790785115
+        "suhi_score": 1.1800852790785186
       },
       {
         "ward_name": "Chagalatti",
         "median_lst": 48.40101748207269,
-        "suhi_score": 2.432867703459358
+        "suhi_score": 2.4328677034593653
       },
       {
         "ward_name": "Marenahalli",
         "median_lst": 47.62133555609062,
-        "suhi_score": 1.6531857774772902
+        "suhi_score": 1.6531857774772973
       },
       {
         "ward_name": "Dasanayakanahalli",
         "median_lst": 48.763475789207035,
-        "suhi_score": 2.795326010593705
+        "suhi_score": 2.795326010593712
       },
       {
         "ward_name": "Maralakunte",
         "median_lst": 48.26874495599241,
-        "suhi_score": 2.30059517737908
+        "suhi_score": 2.300595177379087
       },
       {
         "ward_name": "Mahadevakodagehalli",
         "median_lst": 47.92235969989344,
-        "suhi_score": 1.9542099212801105
+        "suhi_score": 1.9542099212801176
       },
       {
         "ward_name": "Manchappanahosahalli",
         "median_lst": 49.40211512098098,
-        "suhi_score": 3.4339653423676495
+        "suhi_score": 3.4339653423676566
       },
       {
         "ward_name": "Chalamkunte",
         "median_lst": 47.38498357541642,
-        "suhi_score": 1.4168337968030897
+        "suhi_score": 1.4168337968030968
       },
       {
         "ward_name": "Chikkanayakanahalli",
         "median_lst": 46.41719009544159,
-        "suhi_score": 0.44904031682825973
+        "suhi_score": 0.44904031682826684
       },
       {
         "ward_name": "Halanayakanahalli",
         "median_lst": 45.06017432760623,
-        "suhi_score": -0.9079754510071041
+        "suhi_score": -0.907975451007097
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 43.88675624033355,
-        "suhi_score": -2.0813935382797837
+        "suhi_score": -2.0813935382797766
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 44.41486026622451,
-        "suhi_score": -1.5532895123888224
+        "suhi_score": -1.5532895123888153
       },
       {
         "ward_name": "Kachamaranahalli",
         "median_lst": 48.90535462831514,
-        "suhi_score": 2.937204849701807
+        "suhi_score": 2.937204849701814
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 44.6486442031252,
-        "suhi_score": -1.3195055754881295
+        "suhi_score": -1.3195055754881224
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 45.34238889233693,
-        "suhi_score": -0.625760886276403
+        "suhi_score": -0.6257608862763959
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 43.28578885814085,
-        "suhi_score": -2.682360920472483
+        "suhi_score": -2.682360920472476
       },
       {
         "ward_name": "Kodathi",
         "median_lst": 46.517797817272985,
-        "suhi_score": 0.5496480386596545
+        "suhi_score": 0.5496480386596616
       },
       {
         "ward_name": "Hadosiddapura",
         "median_lst": 45.17832298927102,
-        "suhi_score": -0.7898267893423139
+        "suhi_score": -0.7898267893423068
       },
       {
         "ward_name": "Sulakunte",
         "median_lst": 46.93792407692031,
-        "suhi_score": 0.9697742983069801
+        "suhi_score": 0.9697742983069872
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 40.90730368238033,
-        "suhi_score": -5.060846096233
+        "suhi_score": -5.060846096232993
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 47.38782128925358,
-        "suhi_score": 1.4196715106402493
+        "suhi_score": 1.4196715106402564
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 47.81490513259152,
-        "suhi_score": 1.846755353978189
+        "suhi_score": 1.846755353978196
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 45.02166854221338,
-        "suhi_score": -0.9464812363999471
+        "suhi_score": -0.94648123639994
       },
       {
         "ward_name": "Kannamangala",
         "median_lst": 44.5865289069108,
-        "suhi_score": -1.3816208717025305
+        "suhi_score": -1.3816208717025233
       },
       {
         "ward_name": "Kajisonnenahalli",
         "median_lst": 46.68061895580918,
-        "suhi_score": 0.7124691771958496
+        "suhi_score": 0.7124691771958567
       },
       {
         "ward_name": "Goravigere",
         "median_lst": 46.19646109816635,
-        "suhi_score": 0.22831131955302197
+        "suhi_score": 0.22831131955302908
       },
       {
         "ward_name": "Raghuvanahalli",
         "median_lst": 42.2539406514176,
-        "suhi_score": -3.71420912719573
+        "suhi_score": -3.7142091271957227
       },
       {
         "ward_name": "Kodagihalli",
         "median_lst": 48.12896622932243,
-        "suhi_score": 2.160816450709099
+        "suhi_score": 2.160816450709106
       },
       {
         "ward_name": "Hancharahalli",
         "median_lst": 46.59080066792399,
-        "suhi_score": 0.6226508893106626
+        "suhi_score": 0.6226508893106697
       },
       {
         "ward_name": "Kattugollahalli",
         "median_lst": 46.40097315745953,
-        "suhi_score": 0.4328233788462015
+        "suhi_score": 0.4328233788462086
       },
       {
         "ward_name": "Shringaripura",
         "median_lst": 44.70538997582583,
-        "suhi_score": -1.2627598027874996
+        "suhi_score": -1.2627598027874924
       },
       {
         "ward_name": "Jyothipura",
         "median_lst": 45.98739369917633,
-        "suhi_score": 0.019243920562999506
+        "suhi_score": 0.01924392056300661
       },
       {
         "ward_name": "Chikkasandra",
         "median_lst": 47.54900095863321,
-        "suhi_score": 1.5808511800198772
+        "suhi_score": 1.5808511800198843
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 47.15605958008692,
-        "suhi_score": 1.1879098014735874
+        "suhi_score": 1.1879098014735945
       },
       {
         "ward_name": "Gunduru",
         "median_lst": 46.97783577638733,
-        "suhi_score": 1.0096859977739996
+        "suhi_score": 1.0096859977740067
       },
       {
         "ward_name": "Vanachenahalli",
         "median_lst": 47.341377429128,
-        "suhi_score": 1.3732276505146714
+        "suhi_score": 1.3732276505146785
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 45.84296115093981,
-        "suhi_score": -0.12518862767352346
+        "suhi_score": -0.12518862767351635
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 47.83107126140405,
-        "suhi_score": 1.8629214827907177
+        "suhi_score": 1.8629214827907248
       },
       {
         "ward_name": "Adhuru",
         "median_lst": 46.029885163216804,
-        "suhi_score": 0.061735384603473165
+        "suhi_score": 0.06173538460348027
       },
       {
         "ward_name": "Bidarahalli",
         "median_lst": 45.834395147969424,
-        "suhi_score": -0.13375463064390658
+        "suhi_score": -0.13375463064389947
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 45.180326541185906,
-        "suhi_score": -0.7878232374274248
+        "suhi_score": -0.7878232374274177
       },
       {
         "ward_name": "Cheemasandra",
         "median_lst": 45.822665940643596,
-        "suhi_score": -0.14548383796973496
+        "suhi_score": -0.14548383796972786
       },
       {
         "ward_name": "Manduru",
         "median_lst": 46.850469532133,
-        "suhi_score": 0.882319753519667
+        "suhi_score": 0.8823197535196741
       },
       {
         "ward_name": "Manduru",
         "median_lst": 48.910025646743904,
-        "suhi_score": 2.9418758681305732
+        "suhi_score": 2.9418758681305803
       },
       {
         "ward_name": "Bommenehalli",
         "median_lst": 46.00924137929964,
-        "suhi_score": 0.04109160068630757
+        "suhi_score": 0.04109160068631468
       },
       {
         "ward_name": "Lagumenahalli",
         "median_lst": 43.846480465280045,
-        "suhi_score": -2.1216693133332853
+        "suhi_score": -2.1216693133332782
       },
       {
         "ward_name": "Bendiganahalli",
         "median_lst": 46.78812255343878,
-        "suhi_score": 0.8199727748254517
+        "suhi_score": 0.8199727748254588
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 45.82790726866852,
-        "suhi_score": -0.14024250994481235
+        "suhi_score": -0.14024250994480525
       },
       {
         "ward_name": "Nimbekayipura",
         "median_lst": 47.992419155317975,
-        "suhi_score": 2.0242693767046447
+        "suhi_score": 2.024269376704652
       },
       {
         "ward_name": "Katamnaluru",
         "median_lst": 47.0303599516252,
-        "suhi_score": 1.06221017301187
+        "suhi_score": 1.0622101730118771
       },
       {
         "ward_name": "Konadasanapura",
         "median_lst": 48.055279671161145,
-        "suhi_score": 2.0871298925478143
+        "suhi_score": 2.0871298925478214
       },
       {
         "ward_name": "Bhandarpura",
         "median_lst": 46.55804935625913,
-        "suhi_score": 0.5898995776458023
+        "suhi_score": 0.5898995776458094
       },
       {
         "ward_name": "Bidare Agrahara",
         "median_lst": 46.843696782346434,
-        "suhi_score": 0.8755470037331037
+        "suhi_score": 0.8755470037331108
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 45.50412794785684,
-        "suhi_score": -0.4640218307564936
+        "suhi_score": -0.4640218307564865
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 45.61835832022578,
-        "suhi_score": -0.3497914583875499
+        "suhi_score": -0.3497914583875428
       },
       {
         "ward_name": "Veerenahalli",
         "median_lst": 38.70017494187434,
-        "suhi_score": -7.267974836738993
+        "suhi_score": -7.267974836738986
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 44.33116280696299,
-        "suhi_score": -1.6369869716503374
+        "suhi_score": -1.6369869716503302
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 44.29769644037256,
-        "suhi_score": -1.670453338240769
+        "suhi_score": -1.6704533382407618
       },
       {
         "ward_name": "Chikkabanahalli",
         "median_lst": 45.80327698806193,
-        "suhi_score": -0.16487279055139936
+        "suhi_score": -0.16487279055139226
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 41.88431972503415,
-        "suhi_score": -4.083830053579177
+        "suhi_score": -4.08383005357917
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 44.843311368619624,
-        "suhi_score": -1.124838409993707
+        "suhi_score": -1.1248384099936999
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 44.82652347210732,
-        "suhi_score": -1.1416263065060122
+        "suhi_score": -1.141626306506005
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 46.46791119897837,
-        "suhi_score": 0.49976142036504
+        "suhi_score": 0.4997614203650471
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 43.01008093959815,
-        "suhi_score": -2.9580688390151835
+        "suhi_score": -2.9580688390151764
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 45.245664109498556,
-        "suhi_score": -0.722485669114775
+        "suhi_score": -0.7224856691147679
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 42.653149148549545,
-        "suhi_score": -3.3150006300637855
+        "suhi_score": -3.3150006300637784
       },
       {
         "ward_name": "Kurudusonnenahalli",
         "median_lst": 43.04324697404959,
-        "suhi_score": -2.924902804563743
+        "suhi_score": -2.924902804563736
       },
       {
         "ward_name": "Alehalli",
         "median_lst": 45.05050656143277,
-        "suhi_score": -0.9176432171805615
+        "suhi_score": -0.9176432171805544
       },
       {
         "ward_name": "Hirandahalli",
         "median_lst": 43.71745111504299,
-        "suhi_score": -2.25069866357034
+        "suhi_score": -2.2506986635703328
       },
       {
         "ward_name": "Kitthaganur",
         "median_lst": 45.70976536234088,
-        "suhi_score": -0.2583844162724489
+        "suhi_score": -0.2583844162724418
       },
       {
         "ward_name": "Hoovinane",
         "median_lst": 45.32223024805663,
-        "suhi_score": -0.6459195305567036
+        "suhi_score": -0.6459195305566965
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 45.267512496312015,
-        "suhi_score": -0.7006372823013152
+        "suhi_score": -0.7006372823013081
       },
       {
         "ward_name": "Maragondanahalli",
         "median_lst": 45.088416242174176,
-        "suhi_score": -0.8797335364391543
+        "suhi_score": -0.8797335364391472
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 45.72230846813205,
-        "suhi_score": -0.245841310481282
+        "suhi_score": -0.2458413104812749
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 44.15867973268056,
-        "suhi_score": -1.8094700459327697
+        "suhi_score": -1.8094700459327626
       },
       {
         "ward_name": "Anagalapura",
         "median_lst": 45.62200350500125,
-        "suhi_score": -0.34614627361207795
+        "suhi_score": -0.34614627361207084
       },
       {
         "ward_name": "Bande Bommasandra",
         "median_lst": 45.843769939294745,
-        "suhi_score": -0.12437983931858554
+        "suhi_score": -0.12437983931857843
       },
       {
         "ward_name": "Doddagubbi",
         "median_lst": 45.69301561288948,
-        "suhi_score": -0.2751341657238484
+        "suhi_score": -0.2751341657238413
       },
       {
         "ward_name": "Chikkagubbi",
         "median_lst": 45.93017263143813,
-        "suhi_score": -0.037977147175197956
+        "suhi_score": -0.03797714717519085
       },
       {
         "ward_name": "Nadagowda Gollahalli",
         "median_lst": 45.879759470616456,
-        "suhi_score": -0.08839030799687464
+        "suhi_score": -0.08839030799686753
       },
       {
         "ward_name": "Yarappanahalli",
         "median_lst": 47.94401541496162,
-        "suhi_score": 1.9758656363482885
+        "suhi_score": 1.9758656363482956
       },
       {
         "ward_name": "Doddenahalli",
         "median_lst": 47.76831219069219,
-        "suhi_score": 1.800162412078862
+        "suhi_score": 1.800162412078869
       },
       {
         "ward_name": "Kadasonnappanahalli",
         "median_lst": 46.837612819282576,
-        "suhi_score": 0.8694630406692454
+        "suhi_score": 0.8694630406692525
       },
       {
         "ward_name": "Mitaganahalli",
         "median_lst": 47.25953474351702,
-        "suhi_score": 1.291384964903692
+        "suhi_score": 1.291384964903699
       },
       {
         "ward_name": "Kannuru",
         "median_lst": 46.04975239935794,
-        "suhi_score": 0.08160262074461144
+        "suhi_score": 0.08160262074461855
       },
       {
         "ward_name": "Kannaiakana Agrahara",
         "median_lst": 48.52061482854543,
-        "suhi_score": 2.5524650499321027
+        "suhi_score": 2.5524650499321098
       },
       {
         "ward_name": "Sriramapura",
         "median_lst": 48.10061863331193,
-        "suhi_score": 2.132468854698601
+        "suhi_score": 2.132468854698608
       },
       {
         "ward_name": "Rayasandra",
         "median_lst": 44.82874601005223,
-        "suhi_score": -1.1394037685611025
+        "suhi_score": -1.1394037685610954
       },
       {
         "ward_name": "Choodasandra",
         "median_lst": 45.7370041219663,
-        "suhi_score": -0.2311456566470298
+        "suhi_score": -0.2311456566470227
       },
       {
         "ward_name": "Alanahalli Thippasandra",
         "median_lst": 48.79247511908909,
-        "suhi_score": 2.8243253404757596
+        "suhi_score": 2.8243253404757667
       },
       {
         "ward_name": "Ramanayakanahalli",
         "median_lst": 48.6058582694535,
-        "suhi_score": 2.6377084908401685
+        "suhi_score": 2.6377084908401756
       },
       {
         "ward_name": "Chikkavaderapura",
         "median_lst": 48.894535844221885,
-        "suhi_score": 2.926386065608554
+        "suhi_score": 2.926386065608561
       },
       {
         "ward_name": "Heggondanahalli",
         "median_lst": 49.352392772854785,
-        "suhi_score": 3.384242994241454
+        "suhi_score": 3.384242994241461
       },
       {
         "ward_name": "Gettehalli",
         "median_lst": 46.30298906781651,
-        "suhi_score": 0.33483928920318107
+        "suhi_score": 0.3348392892031882
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 47.73496240769685,
-        "suhi_score": 1.7668126290835175
+        "suhi_score": 1.7668126290835247
       },
       {
         "ward_name": "Chokkasandra",
         "median_lst": 47.48447818372727,
-        "suhi_score": 1.5163284051139385
+        "suhi_score": 1.5163284051139456
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 47.30477031466654,
-        "suhi_score": 1.3366205360532106
+        "suhi_score": 1.3366205360532177
       },
       {
         "ward_name": "Thigalachowdadenahalli",
         "median_lst": 47.82551902911261,
-        "suhi_score": 1.857369250499282
+        "suhi_score": 1.8573692504992891
       },
       {
         "ward_name": "Yamare",
         "median_lst": 48.51831136419489,
-        "suhi_score": 2.550161585581563
+        "suhi_score": 2.55016158558157
       },
       {
         "ward_name": "Somapura",
         "median_lst": 45.44208814097802,
-        "suhi_score": -0.5260616376353084
+        "suhi_score": -0.5260616376353013
       },
       {
         "ward_name": "Valagere Kallahalli",
         "median_lst": 48.341229954447314,
-        "suhi_score": 2.3730801758339837
+        "suhi_score": 2.373080175833991
       },
       {
         "ward_name": "Chambenahalli",
         "median_lst": 48.507371471963175,
-        "suhi_score": 2.5392216933498446
+        "suhi_score": 2.5392216933498517
       },
       {
         "ward_name": "Nerige",
         "median_lst": 49.11476463396257,
-        "suhi_score": 3.1466148553492417
+        "suhi_score": 3.146614855349249
       },
       {
         "ward_name": "Kattariguppe",
         "median_lst": 49.80569943901216,
-        "suhi_score": 3.837549660398828
+        "suhi_score": 3.8375496603988353
       },
       {
         "ward_name": "Nekkondi Dommasandra",
         "median_lst": 49.67009880545334,
-        "suhi_score": 3.701949026840012
+        "suhi_score": 3.701949026840019
       },
       {
         "ward_name": "Jantagondahalli",
         "median_lst": 47.726881280951595,
-        "suhi_score": 1.7587315023382644
+        "suhi_score": 1.7587315023382715
       },
       {
         "ward_name": "Sarjapura",
         "median_lst": 47.20340721664076,
-        "suhi_score": 1.235257438027432
+        "suhi_score": 1.235257438027439
       },
       {
         "ward_name": "Bhoragunte",
         "median_lst": 46.24637657278286,
-        "suhi_score": 0.27822679416952667
+        "suhi_score": 0.2782267941695338
       },
       {
         "ward_name": "Chikkadunnasandra",
         "median_lst": 49.074869185428035,
-        "suhi_score": 3.1067194068147046
+        "suhi_score": 3.1067194068147117
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 46.37275668507393,
-        "suhi_score": 0.40460690646060016
+        "suhi_score": 0.40460690646060726
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 49.32463013801344,
-        "suhi_score": 3.356480359400109
+        "suhi_score": 3.3564803594001162
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 49.37599821204615,
-        "suhi_score": 3.407848433432818
+        "suhi_score": 3.407848433432825
       },
       {
         "ward_name": "Chikkathimmasandra",
         "median_lst": 50.09204561120256,
-        "suhi_score": 4.123895832589227
+        "suhi_score": 4.123895832589234
       },
       {
         "ward_name": "Gopasandra",
         "median_lst": 46.52179477590567,
-        "suhi_score": 0.5536449972923378
+        "suhi_score": 0.553644997292345
       },
       {
         "ward_name": "Bikkanahalli",
         "median_lst": 49.25353538167217,
-        "suhi_score": 3.2853856030588418
+        "suhi_score": 3.285385603058849
       },
       {
         "ward_name": "Samenahalli",
         "median_lst": 48.22294508813397,
-        "suhi_score": 2.254795309520638
+        "suhi_score": 2.254795309520645
       },
       {
         "ward_name": "Muttanalluru",
         "median_lst": 45.730759908036525,
-        "suhi_score": -0.2373898705768056
+        "suhi_score": -0.2373898705767985
       },
       {
         "ward_name": "Gulimangala",
         "median_lst": 47.4324127480937,
-        "suhi_score": 1.464262969480366
+        "suhi_score": 1.464262969480373
       },
       {
         "ward_name": "Gottamaranahalli",
         "median_lst": 47.594825248372146,
-        "suhi_score": 1.6266754697588155
+        "suhi_score": 1.6266754697588226
       },
       {
         "ward_name": "Singena Agrahara",
         "median_lst": 46.6742897811464,
-        "suhi_score": 0.7061400025330684
+        "suhi_score": 0.7061400025330755
       },
       {
         "ward_name": "Narayanagatta",
         "median_lst": 46.00480633488007,
-        "suhi_score": 0.0366565562667418
+        "suhi_score": 0.03665655626674891
       },
       {
         "ward_name": "Chinkala Madinala",
         "median_lst": 46.70235192468356,
-        "suhi_score": 0.7342021460702313
+        "suhi_score": 0.7342021460702384
       },
       {
         "ward_name": "Kaggalipura",
         "median_lst": 47.6627836069712,
-        "suhi_score": 1.6946338283578726
+        "suhi_score": 1.6946338283578797
       },
       {
         "ward_name": "Harohalli",
         "median_lst": 45.871840937003434,
-        "suhi_score": -0.09630884160989694
+        "suhi_score": -0.09630884160988984
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 44.99828637423509,
-        "suhi_score": -0.9698634043782377
+        "suhi_score": -0.9698634043782306
       },
       {
         "ward_name": "Chikkanagamangala",
         "median_lst": 46.87196175868713,
-        "suhi_score": 0.9038119800737974
+        "suhi_score": 0.9038119800738045
       },
       {
         "ward_name": "Veerasandra",
         "median_lst": 46.62565649906714,
-        "suhi_score": 0.6575067204538101
+        "suhi_score": 0.6575067204538172
       },
       {
         "ward_name": "Bangipura",
         "median_lst": 48.74057268078624,
-        "suhi_score": 2.772422902172906
+        "suhi_score": 2.772422902172913
       },
       {
         "ward_name": "Hebbagodi",
         "median_lst": 46.839364028612586,
-        "suhi_score": 0.8712142499992552
+        "suhi_score": 0.8712142499992623
       },
       {
         "ward_name": "Kommasandra",
         "median_lst": 46.222074315281134,
-        "suhi_score": 0.2539245366678031
+        "suhi_score": 0.25392453666781023
       }
     ]
   },
@@ -8018,1002 +8018,1002 @@
   {
     "city": "bengaluru",
     "month": "2024-09",
-    "rural_baseline_celsius": 32.85585529356521,
+    "rural_baseline_celsius": 32.85585529356522,
     "wards": [
       {
         "ward_name": "Kodigehalli",
         "median_lst": 35.76479318199577,
-        "suhi_score": 2.9089378884305575
+        "suhi_score": 2.9089378884305503
       },
       {
         "ward_name": "Kannahalli",
         "median_lst": 34.47216247439333,
-        "suhi_score": 1.616307180828116
+        "suhi_score": 1.6163071808281089
       },
       {
         "ward_name": "Manganahalli",
         "median_lst": 35.35340921375607,
-        "suhi_score": 2.4975539201908603
+        "suhi_score": 2.497553920190853
       },
       {
         "ward_name": "Ramasandra",
         "median_lst": 33.128813017363754,
-        "suhi_score": 0.272957723798541
+        "suhi_score": 0.2729577237985339
       },
       {
         "ward_name": "Kenchanapura",
         "median_lst": 33.993119357253896,
-        "suhi_score": 1.1372640636886828
+        "suhi_score": 1.1372640636886757
       },
       {
         "ward_name": "Challagatta",
         "median_lst": 34.8459141581026,
-        "suhi_score": 1.9900588645373887
+        "suhi_score": 1.9900588645373816
       },
       {
         "ward_name": "Kommagatta",
         "median_lst": 33.57986498731389,
-        "suhi_score": 0.7240096937486769
+        "suhi_score": 0.7240096937486697
       },
       {
         "ward_name": "Doddabele",
         "median_lst": 32.655364573874046,
-        "suhi_score": -0.20049071969116739
+        "suhi_score": -0.2004907196911745
       },
       {
         "ward_name": "Venkatapura",
         "median_lst": 32.65558338140112,
-        "suhi_score": -0.2002719121640908
+        "suhi_score": -0.2002719121640979
       },
       {
         "ward_name": "Kambipura",
         "median_lst": 33.41985128766088,
-        "suhi_score": 0.56399599409567
+        "suhi_score": 0.5639959940956629
       },
       {
         "ward_name": "Kengeri Gollarahalli",
         "median_lst": 32.201205643015925,
-        "suhi_score": -0.6546496505492883
+        "suhi_score": -0.6546496505492954
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 30.22274217386888,
-        "suhi_score": -2.6331131196963327
+        "suhi_score": -2.6331131196963398
       },
       {
         "ward_name": "Agara",
         "median_lst": 30.16015954284875,
-        "suhi_score": -2.695695750716464
+        "suhi_score": -2.695695750716471
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 30.658823303439288,
-        "suhi_score": -2.197031990125925
+        "suhi_score": -2.1970319901259323
       },
       {
         "ward_name": "Rachanamadu",
         "median_lst": 33.99717513363826,
-        "suhi_score": 1.141319840073045
+        "suhi_score": 1.141319840073038
       },
       {
         "ward_name": "Gangasandra",
         "median_lst": 31.470457886914126,
-        "suhi_score": -1.3853974066510872
+        "suhi_score": -1.3853974066510943
       },
       {
         "ward_name": "Vasanthanahalli",
         "median_lst": 32.412034353953715,
-        "suhi_score": -0.4438209396114985
+        "suhi_score": -0.4438209396115056
       },
       {
         "ward_name": "Devagere",
         "median_lst": 32.7302997216364,
-        "suhi_score": -0.12555557192881395
+        "suhi_score": -0.12555557192882105
       },
       {
         "ward_name": "Gudimavu",
         "median_lst": 32.43912063953907,
-        "suhi_score": -0.4167346540261434
+        "suhi_score": -0.4167346540261505
       },
       {
         "ward_name": "Kumbalagodu Gollahalli",
         "median_lst": 31.677370192761504,
-        "suhi_score": -1.1784851008037087
+        "suhi_score": -1.1784851008037158
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 32.79613489419007,
-        "suhi_score": -0.05972039937514495
+        "suhi_score": -0.059720399375152056
       },
       {
         "ward_name": "Bilijaji",
         "median_lst": 34.71121556361546,
-        "suhi_score": 1.855360270050248
+        "suhi_score": 1.855360270050241
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 32.603061800671824,
-        "suhi_score": -0.2527934928933888
+        "suhi_score": -0.2527934928933959
       },
       {
         "ward_name": "Guddadhahalli",
         "median_lst": 34.58966201159193,
-        "suhi_score": 1.7338067180267203
+        "suhi_score": 1.7338067180267132
       },
       {
         "ward_name": "Mutthukadhahalli",
         "median_lst": 34.22553026349992,
-        "suhi_score": 1.3696749699347066
+        "suhi_score": 1.3696749699346995
       },
       {
         "ward_name": "Shivakote",
         "median_lst": 33.23175706207065,
-        "suhi_score": 0.375901768505436
+        "suhi_score": 0.3759017685054289
       },
       {
         "ward_name": "Madhagirihalli",
         "median_lst": 34.11696824512763,
-        "suhi_score": 1.261112951562417
+        "suhi_score": 1.26111295156241
       },
       {
         "ward_name": "Ivarakondapura",
         "median_lst": 32.45633360216051,
-        "suhi_score": -0.3995216914047006
+        "suhi_score": -0.3995216914047077
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 33.08758821776693,
-        "suhi_score": 0.2317329242017152
+        "suhi_score": 0.2317329242017081
       },
       {
         "ward_name": "Kammarasanahalli",
         "median_lst": 33.5218442372104,
-        "suhi_score": 0.6659889436451891
+        "suhi_score": 0.665988943645182
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 32.867934021652545,
-        "suhi_score": 0.01207872808733157
+        "suhi_score": 0.012078728087324464
       },
       {
         "ward_name": "Huralichikkanahalli",
         "median_lst": 33.11254495326701,
-        "suhi_score": 0.2566896597017987
+        "suhi_score": 0.2566896597017916
       },
       {
         "ward_name": "Kasaghattapura",
         "median_lst": 34.09670820143413,
-        "suhi_score": 1.2408529078689199
+        "suhi_score": 1.2408529078689128
       },
       {
         "ward_name": "Kondashettihalli",
         "median_lst": 33.742813260221766,
-        "suhi_score": 0.8869579666565528
+        "suhi_score": 0.8869579666565457
       },
       {
         "ward_name": "Lingarajasagara",
         "median_lst": 34.859881517886656,
-        "suhi_score": 2.004026224321443
+        "suhi_score": 2.0040262243214357
       },
       {
         "ward_name": "Byalakere",
         "median_lst": 33.285354299618795,
-        "suhi_score": 0.4294990060535824
+        "suhi_score": 0.42949900605357527
       },
       {
         "ward_name": "Mavallipura",
         "median_lst": 31.71438842165229,
-        "suhi_score": -1.1414668719129217
+        "suhi_score": -1.1414668719129288
       },
       {
         "ward_name": "Lingarajapura",
         "median_lst": 31.175142578540697,
-        "suhi_score": -1.6807127150245158
+        "suhi_score": -1.680712715024523
       },
       {
         "ward_name": "Mylappanahalli",
         "median_lst": 31.578989508644618,
-        "suhi_score": -1.276865784920595
+        "suhi_score": -1.2768657849206022
       },
       {
         "ward_name": "Krishnarajapura",
         "median_lst": 33.23240628517166,
-        "suhi_score": 0.3765509916064502
+        "suhi_score": 0.3765509916064431
       },
       {
         "ward_name": "Jarakabandekaval",
         "median_lst": 29.691139134988802,
-        "suhi_score": -3.164716158576411
+        "suhi_score": -3.164716158576418
       },
       {
         "ward_name": "Ramagondanahalli",
         "median_lst": 31.16739013795825,
-        "suhi_score": -1.6884651556069628
+        "suhi_score": -1.6884651556069699
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 29.453784996626656,
-        "suhi_score": -3.4020702969385574
+        "suhi_score": -3.4020702969385646
       },
       {
         "ward_name": "Krishnasagara",
         "median_lst": 31.23050249669215,
-        "suhi_score": -1.625352796873063
+        "suhi_score": -1.62535279687307
       },
       {
         "ward_name": "Shinganayakanahalli",
         "median_lst": 26.396750888690285,
-        "suhi_score": -6.459104404874928
+        "suhi_score": -6.459104404874935
       },
       {
         "ward_name": "Gantiganahalli",
         "median_lst": 34.03508835648257,
-        "suhi_score": 1.1792330629173549
+        "suhi_score": 1.1792330629173478
       },
       {
         "ward_name": "Nellukunte",
         "median_lst": 30.045171792301737,
-        "suhi_score": -2.810683501263476
+        "suhi_score": -2.810683501263483
       },
       {
         "ward_name": "Hunasamaranahalli",
         "median_lst": 32.89350465708691,
-        "suhi_score": 0.03764936352169457
+        "suhi_score": 0.03764936352168746
       },
       {
         "ward_name": "Sughatta",
         "median_lst": 36.36693549477463,
-        "suhi_score": 3.511080201209417
+        "suhi_score": 3.51108020120941
       },
       {
         "ward_name": "Kempanahalli",
         "median_lst": 32.475372258459984,
-        "suhi_score": -0.38048303510522885
+        "suhi_score": -0.38048303510523596
       },
       {
         "ward_name": "Lakshmipura",
         "median_lst": 35.419705841239,
-        "suhi_score": 2.5638505476737876
+        "suhi_score": 2.5638505476737805
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 32.69761897455741,
-        "suhi_score": -0.15823631900780555
+        "suhi_score": -0.15823631900781265
       },
       {
         "ward_name": "Shyamarajapura",
         "median_lst": 31.332173798754855,
-        "suhi_score": -1.5236814948103579
+        "suhi_score": -1.523681494810365
       },
       {
         "ward_name": "Veerasagara",
         "median_lst": 30.941557304005414,
-        "suhi_score": -1.914297989559799
+        "suhi_score": -1.914297989559806
       },
       {
         "ward_name": "Modi Agrahara",
         "median_lst": 32.85851643291954,
-        "suhi_score": 0.0026611393543234385
+        "suhi_score": 0.002661139354316333
       },
       {
         "ward_name": "Gune Agrahara",
         "median_lst": 33.923848092637506,
-        "suhi_score": 1.067992799072293
+        "suhi_score": 1.067992799072286
       },
       {
         "ward_name": "Kalathammanahalli",
         "median_lst": 37.15487759757257,
-        "suhi_score": 4.299022304007359
+        "suhi_score": 4.299022304007352
       },
       {
         "ward_name": "Soladevanahalli",
         "median_lst": 35.266273956253784,
-        "suhi_score": 2.4104186626885706
+        "suhi_score": 2.4104186626885635
       },
       {
         "ward_name": "Kumbarahalli",
         "median_lst": 34.59870979832874,
-        "suhi_score": 1.7428545047635282
+        "suhi_score": 1.742854504763521
       },
       {
         "ward_name": "Kempapura",
         "median_lst": 35.94506503329159,
-        "suhi_score": 3.0892097397263782
+        "suhi_score": 3.089209739726371
       },
       {
         "ward_name": "Thorenagasandra",
         "median_lst": 31.809673412202354,
-        "suhi_score": -1.046181881362859
+        "suhi_score": -1.046181881362866
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 31.626547691094135,
-        "suhi_score": -1.2293076024710778
+        "suhi_score": -1.229307602471085
       },
       {
         "ward_name": "Tharabanahalli",
         "median_lst": 34.33450681202061,
-        "suhi_score": 1.4786515184553934
+        "suhi_score": 1.4786515184553863
       },
       {
         "ward_name": "Sasiveghatta",
         "median_lst": 35.31432175686873,
-        "suhi_score": 2.458466463303516
+        "suhi_score": 2.458466463303509
       },
       {
         "ward_name": "Marasandra",
         "median_lst": 35.047200800280265,
-        "suhi_score": 2.1913455067150522
+        "suhi_score": 2.191345506715045
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 33.07715173656345,
-        "suhi_score": 0.2212964429982378
+        "suhi_score": 0.2212964429982307
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 33.88065753431103,
-        "suhi_score": 1.0248022407458137
+        "suhi_score": 1.0248022407458066
       },
       {
         "ward_name": "Sathanuru",
         "median_lst": 34.570067884574684,
-        "suhi_score": 1.7142125910094705
+        "suhi_score": 1.7142125910094634
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 34.35420562042267,
-        "suhi_score": 1.4983503268574552
+        "suhi_score": 1.498350326857448
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 33.329568766208645,
-        "suhi_score": 0.473713472643432
+        "suhi_score": 0.4737134726434249
       },
       {
         "ward_name": "Chagalatti",
         "median_lst": 34.695438766530955,
-        "suhi_score": 1.8395834729657423
+        "suhi_score": 1.8395834729657352
       },
       {
         "ward_name": "Marenahalli",
         "median_lst": 33.57348073281236,
-        "suhi_score": 0.7176254392471435
+        "suhi_score": 0.7176254392471364
       },
       {
         "ward_name": "Dasanayakanahalli",
         "median_lst": 33.39689992650241,
-        "suhi_score": 0.5410446329371936
+        "suhi_score": 0.5410446329371865
       },
       {
         "ward_name": "Maralakunte",
         "median_lst": 36.568433312790994,
-        "suhi_score": 3.7125780192257807
+        "suhi_score": 3.7125780192257736
       },
       {
         "ward_name": "Mahadevakodagehalli",
         "median_lst": 31.244664091375963,
-        "suhi_score": -1.61119120218925
+        "suhi_score": -1.6111912021892572
       },
       {
         "ward_name": "Manchappanahosahalli",
         "median_lst": 35.05512569714039,
-        "suhi_score": 2.199270403575177
+        "suhi_score": 2.19927040357517
       },
       {
         "ward_name": "Chalamkunte",
         "median_lst": 32.81783495216769,
-        "suhi_score": -0.03802034139751953
+        "suhi_score": -0.038020341397526636
       },
       {
         "ward_name": "Chikkanayakanahalli",
         "median_lst": 37.047005049317,
-        "suhi_score": 4.191149755751788
+        "suhi_score": 4.1911497557517805
       },
       {
         "ward_name": "Halanayakanahalli",
         "median_lst": 36.497628809756954,
-        "suhi_score": 3.6417735161917406
+        "suhi_score": 3.6417735161917335
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 35.19703039378585,
-        "suhi_score": 2.3411751002206387
+        "suhi_score": 2.3411751002206316
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 36.863384159795956,
-        "suhi_score": 4.007528866230743
+        "suhi_score": 4.007528866230736
       },
       {
         "ward_name": "Kachamaranahalli",
         "median_lst": 29.56403355430603,
-        "suhi_score": -3.291821739259184
+        "suhi_score": -3.2918217392591913
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 35.97171893814616,
-        "suhi_score": 3.1158636445809478
+        "suhi_score": 3.1158636445809407
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 33.65455862836386,
-        "suhi_score": 0.7987033347986454
+        "suhi_score": 0.7987033347986383
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 34.16880301577465,
-        "suhi_score": 1.3129477222094366
+        "suhi_score": 1.3129477222094295
       },
       {
         "ward_name": "Kodathi",
         "median_lst": 35.95699291548046,
-        "suhi_score": 3.1011376219152496
+        "suhi_score": 3.1011376219152424
       },
       {
         "ward_name": "Hadosiddapura",
         "median_lst": 36.032377770015756,
-        "suhi_score": 3.1765224764505433
+        "suhi_score": 3.176522476450536
       },
       {
         "ward_name": "Sulakunte",
         "median_lst": 35.56822504139553,
-        "suhi_score": 2.7123697478303157
+        "suhi_score": 2.7123697478303086
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 30.999443275253498,
-        "suhi_score": -1.8564120183117154
+        "suhi_score": -1.8564120183117225
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 30.924017817512954,
-        "suhi_score": -1.9318374760522588
+        "suhi_score": -1.9318374760522659
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 31.938628980661186,
-        "suhi_score": -0.9172263129040275
+        "suhi_score": -0.9172263129040346
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 32.23153098256809,
-        "suhi_score": -0.6243243109971246
+        "suhi_score": -0.6243243109971317
       },
       {
         "ward_name": "Kannamangala",
         "median_lst": 34.838784239083964,
-        "suhi_score": 1.9829289455187507
+        "suhi_score": 1.9829289455187435
       },
       {
         "ward_name": "Kajisonnenahalli",
         "median_lst": 36.9068812792993,
-        "suhi_score": 4.051025985734086
+        "suhi_score": 4.0510259857340785
       },
       {
         "ward_name": "Goravigere",
         "median_lst": 36.13256515638151,
-        "suhi_score": 3.276709862816297
+        "suhi_score": 3.27670986281629
       },
       {
         "ward_name": "Raghuvanahalli",
         "median_lst": 34.69282034285517,
-        "suhi_score": 1.836965049289958
+        "suhi_score": 1.836965049289951
       },
       {
         "ward_name": "Kodagihalli",
         "median_lst": 37.825651398294006,
-        "suhi_score": 4.969796104728793
+        "suhi_score": 4.969796104728786
       },
       {
         "ward_name": "Hancharahalli",
         "median_lst": 35.86039440441007,
-        "suhi_score": 3.00453911084486
+        "suhi_score": 3.0045391108448527
       },
       {
         "ward_name": "Kattugollahalli",
         "median_lst": 36.18234293194314,
-        "suhi_score": 3.3264876383779267
+        "suhi_score": 3.3264876383779196
       },
       {
         "ward_name": "Shringaripura",
         "median_lst": 32.14428201396314,
-        "suhi_score": -0.7115732796020708
+        "suhi_score": -0.711573279602078
       },
       {
         "ward_name": "Jyothipura",
         "median_lst": 33.58988578501756,
-        "suhi_score": 0.7340304914523443
+        "suhi_score": 0.7340304914523372
       },
       {
         "ward_name": "Chikkasandra",
         "median_lst": 35.92582663920793,
-        "suhi_score": 3.0699713456427205
+        "suhi_score": 3.0699713456427133
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 34.23272958664938,
-        "suhi_score": 1.376874293084164
+        "suhi_score": 1.3768742930841569
       },
       {
         "ward_name": "Gunduru",
         "median_lst": 37.05091230374077,
-        "suhi_score": 4.19505701017556
+        "suhi_score": 4.195057010175553
       },
       {
         "ward_name": "Vanachenahalli",
         "median_lst": 38.74718263334365,
-        "suhi_score": 5.891327339778435
+        "suhi_score": 5.891327339778428
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 34.681971506836966,
-        "suhi_score": 1.826116213271753
+        "suhi_score": 1.826116213271746
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 36.88882412641393,
-        "suhi_score": 4.0329688328487165
+        "suhi_score": 4.032968832848709
       },
       {
         "ward_name": "Adhuru",
         "median_lst": 35.223602222877574,
-        "suhi_score": 2.3677469293123607
+        "suhi_score": 2.3677469293123536
       },
       {
         "ward_name": "Bidarahalli",
         "median_lst": 34.67649173446349,
-        "suhi_score": 1.8206364408982765
+        "suhi_score": 1.8206364408982694
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 31.01733721036385,
-        "suhi_score": -1.8385180832013646
+        "suhi_score": -1.8385180832013717
       },
       {
         "ward_name": "Cheemasandra",
         "median_lst": 34.82699376924226,
-        "suhi_score": 1.9711384756770443
+        "suhi_score": 1.9711384756770371
       },
       {
         "ward_name": "Manduru",
         "median_lst": 36.30427853098718,
-        "suhi_score": 3.44842323742197
+        "suhi_score": 3.448423237421963
       },
       {
         "ward_name": "Manduru",
         "median_lst": 35.59536402439688,
-        "suhi_score": 2.739508730831666
+        "suhi_score": 2.739508730831659
       },
       {
         "ward_name": "Bommenehalli",
         "median_lst": 35.93831472870204,
-        "suhi_score": 3.082459435136826
+        "suhi_score": 3.082459435136819
       },
       {
         "ward_name": "Lagumenahalli",
         "median_lst": 35.916077670694136,
-        "suhi_score": 3.060222377128923
+        "suhi_score": 3.060222377128916
       },
       {
         "ward_name": "Bendiganahalli",
         "median_lst": 36.91277469938584,
-        "suhi_score": 4.056919405820629
+        "suhi_score": 4.056919405820622
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 36.45122871723371,
-        "suhi_score": 3.595373423668498
+        "suhi_score": 3.595373423668491
       },
       {
         "ward_name": "Nimbekayipura",
         "median_lst": 36.10273801076884,
-        "suhi_score": 3.2468827172036256
+        "suhi_score": 3.2468827172036185
       },
       {
         "ward_name": "Katamnaluru",
         "median_lst": 36.758382086731956,
-        "suhi_score": 3.902526793166743
+        "suhi_score": 3.902526793166736
       },
       {
         "ward_name": "Konadasanapura",
         "median_lst": 36.555515932880645,
-        "suhi_score": 3.6996606393154323
+        "suhi_score": 3.699660639315425
       },
       {
         "ward_name": "Bhandarpura",
         "median_lst": 34.35477706685171,
-        "suhi_score": 1.4989217732864972
+        "suhi_score": 1.4989217732864901
       },
       {
         "ward_name": "Bidare Agrahara",
         "median_lst": 34.07835612859703,
-        "suhi_score": 1.2225008350318163
+        "suhi_score": 1.2225008350318092
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 33.95083379863305,
-        "suhi_score": 1.0949785050678358
+        "suhi_score": 1.0949785050678287
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 34.18671403896808,
-        "suhi_score": 1.330858745402864
+        "suhi_score": 1.3308587454028569
       },
       {
         "ward_name": "Veerenahalli",
         "median_lst": 31.39543039773546,
-        "suhi_score": -1.4604248958297532
+        "suhi_score": -1.4604248958297603
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 33.97697591985188,
-        "suhi_score": 1.1211206262866682
+        "suhi_score": 1.121120626286661
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 33.68456782002784,
-        "suhi_score": 0.828712526462624
+        "suhi_score": 0.828712526462617
       },
       {
         "ward_name": "Chikkabanahalli",
         "median_lst": 34.21337832751586,
-        "suhi_score": 1.357523033950649
+        "suhi_score": 1.3575230339506419
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 31.279804750792277,
-        "suhi_score": -1.5760505427729363
+        "suhi_score": -1.5760505427729434
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 33.695394629938654,
-        "suhi_score": 0.8395393363734414
+        "suhi_score": 0.8395393363734343
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 35.78006645515903,
-        "suhi_score": 2.924211161593817
+        "suhi_score": 2.92421116159381
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 33.15006436149148,
-        "suhi_score": 0.29420906792626766
+        "suhi_score": 0.29420906792626056
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 32.274071121796126,
-        "suhi_score": -0.5817841717690868
+        "suhi_score": -0.5817841717690939
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 36.487009705250756,
-        "suhi_score": 3.631154411685543
+        "suhi_score": 3.631154411685536
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 32.421861859076586,
-        "suhi_score": -0.43399343448862737
+        "suhi_score": -0.4339934344886345
       },
       {
         "ward_name": "Kurudusonnenahalli",
         "median_lst": 35.96092503591204,
-        "suhi_score": 3.105069742346828
+        "suhi_score": 3.1050697423468208
       },
       {
         "ward_name": "Alehalli",
         "median_lst": 35.400454182955926,
-        "suhi_score": 2.5445988893907128
+        "suhi_score": 2.5445988893907057
       },
       {
         "ward_name": "Hirandahalli",
         "median_lst": 34.61634828534016,
-        "suhi_score": 1.760492991774946
+        "suhi_score": 1.7604929917749388
       },
       {
         "ward_name": "Kitthaganur",
         "median_lst": 34.994620927383885,
-        "suhi_score": 2.1387656338186716
+        "suhi_score": 2.1387656338186645
       },
       {
         "ward_name": "Hoovinane",
         "median_lst": 31.10511241616505,
-        "suhi_score": -1.7507428774001639
+        "suhi_score": -1.750742877400171
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 33.21217667864035,
-        "suhi_score": 0.3563213850751339
+        "suhi_score": 0.3563213850751268
       },
       {
         "ward_name": "Maragondanahalli",
         "median_lst": 34.609673761913605,
-        "suhi_score": 1.753818468348392
+        "suhi_score": 1.7538184683483848
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 35.34205393014355,
-        "suhi_score": 2.4861986365783366
+        "suhi_score": 2.4861986365783295
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 33.609835621873195,
-        "suhi_score": 0.753980328307982
+        "suhi_score": 0.7539803283079749
       },
       {
         "ward_name": "Anagalapura",
         "median_lst": 33.67595177213414,
-        "suhi_score": 0.820096478568928
+        "suhi_score": 0.8200964785689209
       },
       {
         "ward_name": "Bande Bommasandra",
         "median_lst": 30.3984301455409,
-        "suhi_score": -2.4574251480243134
+        "suhi_score": -2.4574251480243205
       },
       {
         "ward_name": "Doddagubbi",
         "median_lst": 32.83024803604886,
-        "suhi_score": -0.02560725751635573
+        "suhi_score": -0.025607257516362836
       },
       {
         "ward_name": "Chikkagubbi",
         "median_lst": 34.1340395083881,
-        "suhi_score": 1.2781842148228861
+        "suhi_score": 1.278184214822879
       },
       {
         "ward_name": "Nadagowda Gollahalli",
         "median_lst": 30.916510155482303,
-        "suhi_score": -1.9393451380829099
+        "suhi_score": -1.939345138082917
       },
       {
         "ward_name": "Yarappanahalli",
         "median_lst": 35.31252767057043,
-        "suhi_score": 2.4566723770052192
+        "suhi_score": 2.456672377005212
       },
       {
         "ward_name": "Doddenahalli",
         "median_lst": 32.57866368252694,
-        "suhi_score": -0.27719161103827616
+        "suhi_score": -0.27719161103828327
       },
       {
         "ward_name": "Kadasonnappanahalli",
         "median_lst": 35.187732624752115,
-        "suhi_score": 2.3318773311869023
+        "suhi_score": 2.331877331186895
       },
       {
         "ward_name": "Mitaganahalli",
         "median_lst": 35.19565744864108,
-        "suhi_score": 2.3398021550758656
+        "suhi_score": 2.3398021550758585
       },
       {
         "ward_name": "Kannuru",
         "median_lst": 33.35217294810329,
-        "suhi_score": 0.49631765453807475
+        "suhi_score": 0.49631765453806764
       },
       {
         "ward_name": "Kannaiakana Agrahara",
         "median_lst": 32.992256449610515,
-        "suhi_score": 0.13640115604530223
+        "suhi_score": 0.13640115604529512
       },
       {
         "ward_name": "Sriramapura",
         "median_lst": 36.87590837843339,
-        "suhi_score": 4.020053084868174
+        "suhi_score": 4.020053084868167
       },
       {
         "ward_name": "Rayasandra",
         "median_lst": 36.10589399881754,
-        "suhi_score": 3.2500387052523294
+        "suhi_score": 3.2500387052523223
       },
       {
         "ward_name": "Choodasandra",
         "median_lst": 37.76994838415166,
-        "suhi_score": 4.914093090586448
+        "suhi_score": 4.914093090586441
       },
       {
         "ward_name": "Alanahalli Thippasandra",
         "median_lst": 34.549339485445195,
-        "suhi_score": 1.693484191879982
+        "suhi_score": 1.6934841918799748
       },
       {
         "ward_name": "Ramanayakanahalli",
         "median_lst": 31.05953215776746,
-        "suhi_score": -1.7963231357977527
+        "suhi_score": -1.7963231357977598
       },
       {
         "ward_name": "Chikkavaderapura",
         "median_lst": 31.82859900903958,
-        "suhi_score": -1.0272562845256346
+        "suhi_score": -1.0272562845256417
       },
       {
         "ward_name": "Heggondanahalli",
         "median_lst": 30.871542963381003,
-        "suhi_score": -1.9843123301842098
+        "suhi_score": -1.984312330184217
       },
       {
         "ward_name": "Gettehalli",
         "median_lst": 35.944138239118566,
-        "suhi_score": 3.0882829455533525
+        "suhi_score": 3.0882829455533454
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 35.22992261260738,
-        "suhi_score": 2.374067319042169
+        "suhi_score": 2.3740673190421617
       },
       {
         "ward_name": "Chokkasandra",
         "median_lst": 35.1734205177513,
-        "suhi_score": 2.3175652241860902
+        "suhi_score": 2.317565224186083
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 36.55718211757868,
-        "suhi_score": 3.7013268240134636
+        "suhi_score": 3.7013268240134565
       },
       {
         "ward_name": "Thigalachowdadenahalli",
         "median_lst": 33.884124909772574,
-        "suhi_score": 1.0282696162073606
+        "suhi_score": 1.0282696162073535
       },
       {
         "ward_name": "Yamare",
         "median_lst": 34.616397964053824,
-        "suhi_score": 1.7605426704886113
+        "suhi_score": 1.7605426704886042
       },
       {
         "ward_name": "Somapura",
         "median_lst": 32.39426332601482,
-        "suhi_score": -0.46159196755039034
+        "suhi_score": -0.46159196755039744
       },
       {
         "ward_name": "Valagere Kallahalli",
         "median_lst": 32.709372758941285,
-        "suhi_score": -0.14648253462392802
+        "suhi_score": -0.14648253462393512
       },
       {
         "ward_name": "Chambenahalli",
         "median_lst": 32.41800519754614,
-        "suhi_score": -0.4378500960190763
+        "suhi_score": -0.4378500960190834
       },
       {
         "ward_name": "Nerige",
         "median_lst": 34.78740082457287,
-        "suhi_score": 1.9315455310076572
+        "suhi_score": 1.9315455310076501
       },
       {
         "ward_name": "Kattariguppe",
         "median_lst": 34.38096042121796,
-        "suhi_score": 1.5251051276527434
+        "suhi_score": 1.5251051276527363
       },
       {
         "ward_name": "Nekkondi Dommasandra",
         "median_lst": 35.959730287356194,
-        "suhi_score": 3.1038749937909813
+        "suhi_score": 3.103874993790974
       },
       {
         "ward_name": "Jantagondahalli",
         "median_lst": 34.35404564677141,
-        "suhi_score": 1.4981903532061978
+        "suhi_score": 1.4981903532061907
       },
       {
         "ward_name": "Sarjapura",
         "median_lst": 35.27448034054453,
-        "suhi_score": 2.418625046979315
+        "suhi_score": 2.418625046979308
       },
       {
         "ward_name": "Bhoragunte",
         "median_lst": 38.70469896302386,
-        "suhi_score": 5.848843669458645
+        "suhi_score": 5.848843669458638
       },
       {
         "ward_name": "Chikkadunnasandra",
         "median_lst": 38.14245114055389,
-        "suhi_score": 5.286595846988675
+        "suhi_score": 5.286595846988668
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 36.455664764777154,
-        "suhi_score": 3.599809471211941
+        "suhi_score": 3.599809471211934
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 39.7092338622625,
-        "suhi_score": 6.853378568697288
+        "suhi_score": 6.853378568697281
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 38.17723767642501,
-        "suhi_score": 5.321382382859795
+        "suhi_score": 5.321382382859788
       },
       {
         "ward_name": "Chikkathimmasandra",
         "median_lst": 38.05441587638582,
-        "suhi_score": 5.198560582820605
+        "suhi_score": 5.198560582820598
       },
       {
         "ward_name": "Gopasandra",
         "median_lst": 35.783646708903575,
-        "suhi_score": 2.927791415338362
+        "suhi_score": 2.927791415338355
       },
       {
         "ward_name": "Bikkanahalli",
         "median_lst": 40.04216271749857,
-        "suhi_score": 7.186307423933357
+        "suhi_score": 7.18630742393335
       },
       {
         "ward_name": "Samenahalli",
         "median_lst": 36.80206306180073,
-        "suhi_score": 3.946207768235517
+        "suhi_score": 3.94620776823551
       },
       {
         "ward_name": "Muttanalluru",
         "median_lst": 36.00578811032215,
-        "suhi_score": 3.1499328167569374
+        "suhi_score": 3.1499328167569303
       },
       {
         "ward_name": "Gulimangala",
         "median_lst": 35.94586214744572,
-        "suhi_score": 3.09000685388051
+        "suhi_score": 3.090006853880503
       },
       {
         "ward_name": "Gottamaranahalli",
         "median_lst": 36.73953057801271,
-        "suhi_score": 3.8836752844474987
+        "suhi_score": 3.8836752844474915
       },
       {
         "ward_name": "Singena Agrahara",
         "median_lst": 37.04779678551974,
-        "suhi_score": 4.19194149195453
+        "suhi_score": 4.191941491954523
       },
       {
         "ward_name": "Narayanagatta",
         "median_lst": 36.56744009132166,
-        "suhi_score": 3.7115847977564442
+        "suhi_score": 3.711584797756437
       },
       {
         "ward_name": "Chinkala Madinala",
         "median_lst": 37.220942061567456,
-        "suhi_score": 4.365086768002243
+        "suhi_score": 4.365086768002236
       },
       {
         "ward_name": "Kaggalipura",
         "median_lst": 36.32171479469894,
-        "suhi_score": 3.4658595011337283
+        "suhi_score": 3.465859501133721
       },
       {
         "ward_name": "Harohalli",
         "median_lst": 35.262396061494215,
-        "suhi_score": 2.406540767929002
+        "suhi_score": 2.4065407679289947
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 34.327904107273106,
-        "suhi_score": 1.472048813707893
+        "suhi_score": 1.472048813707886
       },
       {
         "ward_name": "Chikkanagamangala",
         "median_lst": 36.74883784805632,
-        "suhi_score": 3.8929825544911054
+        "suhi_score": 3.8929825544910983
       },
       {
         "ward_name": "Veerasandra",
         "median_lst": 37.017203730763775,
-        "suhi_score": 4.161348437198562
+        "suhi_score": 4.161348437198555
       },
       {
         "ward_name": "Bangipura",
         "median_lst": 34.35582694751774,
-        "suhi_score": 1.499971653952528
+        "suhi_score": 1.499971653952521
       },
       {
         "ward_name": "Hebbagodi",
         "median_lst": 38.41701773371754,
-        "suhi_score": 5.56116244015233
+        "suhi_score": 5.561162440152323
       },
       {
         "ward_name": "Kommasandra",
         "median_lst": 36.23816439089908,
-        "suhi_score": 3.3823090973338665
+        "suhi_score": 3.3823090973338594
       }
     ]
   },
@@ -10022,62 +10022,62 @@
   {
     "city": "bengaluru",
     "month": "2024-11",
-    "rural_baseline_celsius": 29.511571211056435,
+    "rural_baseline_celsius": 29.511571211056438,
     "wards": [
       {
         "ward_name": "Kodigehalli",
         "median_lst": 32.08086051224952,
-        "suhi_score": 2.5692893011930877
+        "suhi_score": 2.569289301193084
       },
       {
         "ward_name": "Kannahalli",
         "median_lst": 32.332419238689,
-        "suhi_score": 2.8208480276325645
+        "suhi_score": 2.820848027632561
       },
       {
         "ward_name": "Manganahalli",
         "median_lst": 32.15587013062227,
-        "suhi_score": 2.644298919565834
+        "suhi_score": 2.6442989195658306
       },
       {
         "ward_name": "Ramasandra",
         "median_lst": 29.934716769556022,
-        "suhi_score": 0.4231455584995878
+        "suhi_score": 0.42314555849958424
       },
       {
         "ward_name": "Kenchanapura",
         "median_lst": 30.893317258787153,
-        "suhi_score": 1.3817460477307186
+        "suhi_score": 1.381746047730715
       },
       {
         "ward_name": "Challagatta",
         "median_lst": 32.31794187186509,
-        "suhi_score": 2.8063706608086534
+        "suhi_score": 2.80637066080865
       },
       {
         "ward_name": "Kommagatta",
         "median_lst": 31.74488082923048,
-        "suhi_score": 2.2333096181740437
+        "suhi_score": 2.23330961817404
       },
       {
         "ward_name": "Doddabele",
         "median_lst": 30.279075512543457,
-        "suhi_score": 0.7675043014870226
+        "suhi_score": 0.7675043014870191
       },
       {
         "ward_name": "Venkatapura",
         "median_lst": 32.28071401701374,
-        "suhi_score": 2.7691428059573084
+        "suhi_score": 2.769142805957305
       },
       {
         "ward_name": "Kambipura",
         "median_lst": 30.541211574465095,
-        "suhi_score": 1.0296403634086602
+        "suhi_score": 1.0296403634086566
       },
       {
         "ward_name": "Kengeri Gollarahalli",
         "median_lst": 30.862909533322533,
-        "suhi_score": 1.3513383222660984
+        "suhi_score": 1.3513383222660948
       },
       {
         "ward_name": "Badamanavarthekaval",
@@ -10087,362 +10087,362 @@
       {
         "ward_name": "Agara",
         "median_lst": 30.967574583506522,
-        "suhi_score": 1.4560033724500876
+        "suhi_score": 1.456003372450084
       },
       {
         "ward_name": "Badamanavarthekaval",
         "median_lst": 29.50930689536996,
-        "suhi_score": -0.0022643156864745606
+        "suhi_score": -0.0022643156864781133
       },
       {
         "ward_name": "Rachanamadu",
         "median_lst": 30.826096148031233,
-        "suhi_score": 1.3145249369747987
+        "suhi_score": 1.314524936974795
       },
       {
         "ward_name": "Gangasandra",
         "median_lst": 30.122451833572963,
-        "suhi_score": 0.6108806225165289
+        "suhi_score": 0.6108806225165253
       },
       {
         "ward_name": "Vasanthanahalli",
         "median_lst": 31.482858973907607,
-        "suhi_score": 1.9712877628511727
+        "suhi_score": 1.9712877628511691
       },
       {
         "ward_name": "Devagere",
         "median_lst": 31.468632309414613,
-        "suhi_score": 1.957061098358178
+        "suhi_score": 1.9570610983581744
       },
       {
         "ward_name": "Gudimavu",
         "median_lst": 30.898808097880302,
-        "suhi_score": 1.3872368868238674
+        "suhi_score": 1.3872368868238638
       },
       {
         "ward_name": "Kumbalagodu Gollahalli",
         "median_lst": 31.031650627617463,
-        "suhi_score": 1.5200794165610283
+        "suhi_score": 1.5200794165610247
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 29.72718083614942,
-        "suhi_score": 0.2156096250929842
+        "suhi_score": 0.21560962509298065
       },
       {
         "ward_name": "Bilijaji",
         "median_lst": 29.916600887931942,
-        "suhi_score": 0.4050296768755075
+        "suhi_score": 0.40502967687550395
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 29.437988814190305,
-        "suhi_score": -0.07358239686612933
+        "suhi_score": -0.07358239686613288
       },
       {
         "ward_name": "Guddadhahalli",
         "median_lst": 29.972350254624438,
-        "suhi_score": 0.46077904356800303
+        "suhi_score": 0.4607790435679995
       },
       {
         "ward_name": "Mutthukadhahalli",
         "median_lst": 30.180876879848935,
-        "suhi_score": 0.6693056687925001
+        "suhi_score": 0.6693056687924965
       },
       {
         "ward_name": "Shivakote",
         "median_lst": 29.939109790108535,
-        "suhi_score": 0.4275385790521007
+        "suhi_score": 0.42753857905209713
       },
       {
         "ward_name": "Madhagirihalli",
         "median_lst": 30.872621916733408,
-        "suhi_score": 1.3610507056769734
+        "suhi_score": 1.3610507056769698
       },
       {
         "ward_name": "Ivarakondapura",
         "median_lst": 29.725647331131928,
-        "suhi_score": 0.21407612007549304
+        "suhi_score": 0.21407612007548948
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 30.594491984667126,
-        "suhi_score": 1.0829207736106916
+        "suhi_score": 1.082920773610688
       },
       {
         "ward_name": "Kammarasanahalli",
         "median_lst": 30.077402068430473,
-        "suhi_score": 0.5658308573740385
+        "suhi_score": 0.5658308573740349
       },
       {
         "ward_name": "Kodagithirumalapaura",
         "median_lst": 31.001708261698894,
-        "suhi_score": 1.4901370506424598
+        "suhi_score": 1.4901370506424563
       },
       {
         "ward_name": "Huralichikkanahalli",
         "median_lst": 30.38252917977544,
-        "suhi_score": 0.8709579687190043
+        "suhi_score": 0.8709579687190008
       },
       {
         "ward_name": "Kasaghattapura",
         "median_lst": 30.825388715933375,
-        "suhi_score": 1.3138175048769405
+        "suhi_score": 1.313817504876937
       },
       {
         "ward_name": "Kondashettihalli",
         "median_lst": 31.069030141617024,
-        "suhi_score": 1.557458930560589
+        "suhi_score": 1.5574589305605855
       },
       {
         "ward_name": "Lingarajasagara",
         "median_lst": 31.805893052062554,
-        "suhi_score": 2.29432184100612
+        "suhi_score": 2.2943218410061164
       },
       {
         "ward_name": "Byalakere",
         "median_lst": 30.63012583598541,
-        "suhi_score": 1.1185546249289757
+        "suhi_score": 1.1185546249289722
       },
       {
         "ward_name": "Mavallipura",
         "median_lst": 30.7677918331349,
-        "suhi_score": 1.256220622078466
+        "suhi_score": 1.2562206220784624
       },
       {
         "ward_name": "Lingarajapura",
         "median_lst": 30.46949075277411,
-        "suhi_score": 0.9579195417176756
+        "suhi_score": 0.957919541717672
       },
       {
         "ward_name": "Mylappanahalli",
         "median_lst": 30.374228472483566,
-        "suhi_score": 0.8626572614271311
+        "suhi_score": 0.8626572614271275
       },
       {
         "ward_name": "Krishnarajapura",
         "median_lst": 29.98645317257862,
-        "suhi_score": 0.4748819615221862
+        "suhi_score": 0.47488196152218265
       },
       {
         "ward_name": "Jarakabandekaval",
         "median_lst": 29.158895695115834,
-        "suhi_score": -0.3526755159406001
+        "suhi_score": -0.35267551594060365
       },
       {
         "ward_name": "Ramagondanahalli",
         "median_lst": 30.69609103854357,
-        "suhi_score": 1.1845198274871365
+        "suhi_score": 1.184519827487133
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 30.1801393992422,
-        "suhi_score": 0.6685681881857661
+        "suhi_score": 0.6685681881857626
       },
       {
         "ward_name": "Krishnasagara",
         "median_lst": 30.55930139889035,
-        "suhi_score": 1.047730187833917
+        "suhi_score": 1.0477301878339134
       },
       {
         "ward_name": "Shinganayakanahalli",
         "median_lst": 30.59114050663588,
-        "suhi_score": 1.0795692955794465
+        "suhi_score": 1.079569295579443
       },
       {
         "ward_name": "Gantiganahalli",
         "median_lst": 30.709488777890975,
-        "suhi_score": 1.1979175668345405
+        "suhi_score": 1.197917566834537
       },
       {
         "ward_name": "Nellukunte",
         "median_lst": 29.80819776667736,
-        "suhi_score": 0.2966265556209251
+        "suhi_score": 0.29662655562092155
       },
       {
         "ward_name": "Hunasamaranahalli",
         "median_lst": 31.434782109443145,
-        "suhi_score": 1.92321089838671
+        "suhi_score": 1.9232108983867064
       },
       {
         "ward_name": "Sughatta",
         "median_lst": 33.90828822748995,
-        "suhi_score": 4.396717016433513
+        "suhi_score": 4.396717016433509
       },
       {
         "ward_name": "Kempanahalli",
         "median_lst": 31.347851283302877,
-        "suhi_score": 1.836280072246442
+        "suhi_score": 1.8362800722464385
       },
       {
         "ward_name": "Lakshmipura",
         "median_lst": 32.404209088035124,
-        "suhi_score": 2.8926378769786893
+        "suhi_score": 2.892637876978686
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 32.53954782494644,
-        "suhi_score": 3.0279766138900044
+        "suhi_score": 3.027976613890001
       },
       {
         "ward_name": "Shyamarajapura",
         "median_lst": 31.940591717580777,
-        "suhi_score": 2.429020506524342
+        "suhi_score": 2.4290205065243384
       },
       {
         "ward_name": "Veerasagara",
         "median_lst": 30.049793671545782,
-        "suhi_score": 0.5382224604893473
+        "suhi_score": 0.5382224604893437
       },
       {
         "ward_name": "Modi Agrahara",
         "median_lst": 31.966940450697983,
-        "suhi_score": 2.4553692396415485
+        "suhi_score": 2.455369239641545
       },
       {
         "ward_name": "Gune Agrahara",
         "median_lst": 32.716698067320344,
-        "suhi_score": 3.2051268562639095
+        "suhi_score": 3.205126856263906
       },
       {
         "ward_name": "Kalathammanahalli",
         "median_lst": 32.83768581797658,
-        "suhi_score": 3.326114606920143
+        "suhi_score": 3.3261146069201395
       },
       {
         "ward_name": "Soladevanahalli",
         "median_lst": 31.754310216183608,
-        "suhi_score": 2.2427390051271736
+        "suhi_score": 2.24273900512717
       },
       {
         "ward_name": "Kumbarahalli",
         "median_lst": 28.146636761849443,
-        "suhi_score": -1.3649344492069915
+        "suhi_score": -1.364934449206995
       },
       {
         "ward_name": "Kempapura",
         "median_lst": 30.080674001949035,
-        "suhi_score": 0.5691027908926003
+        "suhi_score": 0.5691027908925967
       },
       {
         "ward_name": "Thorenagasandra",
         "median_lst": 28.275084229541996,
-        "suhi_score": -1.2364869815144388
+        "suhi_score": -1.2364869815144424
       },
       {
         "ward_name": "Hesaraghatta",
         "median_lst": 27.794727132363427,
-        "suhi_score": -1.7168440786930077
+        "suhi_score": -1.7168440786930113
       },
       {
         "ward_name": "Tharabanahalli",
         "median_lst": 30.059752098506486,
-        "suhi_score": 0.5481808874500516
+        "suhi_score": 0.548180887450048
       },
       {
         "ward_name": "Sasiveghatta",
         "median_lst": 30.341966640650977,
-        "suhi_score": 0.8303954295945424
+        "suhi_score": 0.8303954295945388
       },
       {
         "ward_name": "Marasandra",
         "median_lst": 30.480045593886988,
-        "suhi_score": 0.9684743828305535
+        "suhi_score": 0.96847438283055
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 31.18421325270647,
-        "suhi_score": 1.672642041650036
+        "suhi_score": 1.6726420416500325
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 30.55500802549866,
-        "suhi_score": 1.0434368144422237
+        "suhi_score": 1.0434368144422201
       },
       {
         "ward_name": "Sathanuru",
         "median_lst": 29.03848847898726,
-        "suhi_score": -0.47308273206917306
+        "suhi_score": -0.4730827320691766
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 31.72969275350357,
-        "suhi_score": 2.218121542447136
+        "suhi_score": 2.2181215424471326
       },
       {
         "ward_name": "Bagaluru",
         "median_lst": 30.90097541099679,
-        "suhi_score": 1.3894041999403548
+        "suhi_score": 1.3894041999403512
       },
       {
         "ward_name": "Chagalatti",
         "median_lst": 31.623006891454686,
-        "suhi_score": 2.1114356803982517
+        "suhi_score": 2.111435680398248
       },
       {
         "ward_name": "Marenahalli",
         "median_lst": 30.15958279625364,
-        "suhi_score": 0.6480115851972066
+        "suhi_score": 0.648011585197203
       },
       {
         "ward_name": "Dasanayakanahalli",
         "median_lst": 31.72375654797145,
-        "suhi_score": 2.2121853369150166
+        "suhi_score": 2.212185336915013
       },
       {
         "ward_name": "Maralakunte",
         "median_lst": 31.749340038048704,
-        "suhi_score": 2.2377688269922693
+        "suhi_score": 2.2377688269922658
       },
       {
         "ward_name": "Mahadevakodagehalli",
         "median_lst": 31.55185481617651,
-        "suhi_score": 2.0402836051200772
+        "suhi_score": 2.0402836051200737
       },
       {
         "ward_name": "Manchappanahosahalli",
         "median_lst": 31.45108188842421,
-        "suhi_score": 1.9395106773677746
+        "suhi_score": 1.939510677367771
       },
       {
         "ward_name": "Chalamkunte",
         "median_lst": 30.827721085380826,
-        "suhi_score": 1.3161498743243918
+        "suhi_score": 1.3161498743243882
       },
       {
         "ward_name": "Chikkanayakanahalli",
         "median_lst": 28.857821945552857,
-        "suhi_score": -0.6537492655035777
+        "suhi_score": -0.6537492655035813
       },
       {
         "ward_name": "Halanayakanahalli",
         "median_lst": 27.842053334005925,
-        "suhi_score": -1.6695178770505095
+        "suhi_score": -1.669517877050513
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 25.855707734523126,
-        "suhi_score": -3.655863476533309
+        "suhi_score": -3.6558634765333125
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 28.262509235306155,
-        "suhi_score": -1.2490619757502799
+        "suhi_score": -1.2490619757502834
       },
       {
         "ward_name": "Kachamaranahalli",
         "median_lst": 28.537585529556438,
-        "suhi_score": -0.9739856814999968
+        "suhi_score": -0.9739856815000003
       },
       {
         "ward_name": "Chikkakanneli",
         "median_lst": 27.29529913006045,
-        "suhi_score": -2.216272080995985
+        "suhi_score": -2.2162720809959886
       },
       {
         "ward_name": "Mulluru",
         "median_lst": 27.288028605979427,
-        "suhi_score": -2.2235426050770073
+        "suhi_score": -2.223542605077011
       },
       {
         "ward_name": "Mulluru",
@@ -10452,122 +10452,122 @@
       {
         "ward_name": "Kodathi",
         "median_lst": 29.163940687692552,
-        "suhi_score": -0.34763052336388256
+        "suhi_score": -0.3476305233638861
       },
       {
         "ward_name": "Hadosiddapura",
         "median_lst": 30.14690603612859,
-        "suhi_score": 0.6353348250721567
+        "suhi_score": 0.6353348250721531
       },
       {
         "ward_name": "Sulakunte",
         "median_lst": 28.48884885423923,
-        "suhi_score": -1.022722356817205
+        "suhi_score": -1.0227223568172086
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 30.29217348497255,
-        "suhi_score": 0.7806022739161165
+        "suhi_score": 0.7806022739161129
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 30.40595931632332,
-        "suhi_score": 0.8943881052668843
+        "suhi_score": 0.8943881052668807
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 28.698299613069683,
-        "suhi_score": -0.813271597986752
+        "suhi_score": -0.8132715979867555
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 30.08222875611575,
-        "suhi_score": 0.5706575450593157
+        "suhi_score": 0.5706575450593121
       },
       {
         "ward_name": "Kannamangala",
         "median_lst": 31.622028658958794,
-        "suhi_score": 2.110457447902359
+        "suhi_score": 2.1104574479023555
       },
       {
         "ward_name": "Kajisonnenahalli",
         "median_lst": 31.078730141985044,
-        "suhi_score": 1.5671589309286098
+        "suhi_score": 1.5671589309286063
       },
       {
         "ward_name": "Goravigere",
         "median_lst": 30.466191214444258,
-        "suhi_score": 0.9546200033878236
+        "suhi_score": 0.95462000338782
       },
       {
         "ward_name": "Raghuvanahalli",
         "median_lst": 30.114401628801275,
-        "suhi_score": 0.6028304177448405
+        "suhi_score": 0.6028304177448369
       },
       {
         "ward_name": "Kodagihalli",
         "median_lst": 32.73499189550455,
-        "suhi_score": 3.223420684448115
+        "suhi_score": 3.2234206844481115
       },
       {
         "ward_name": "Hancharahalli",
         "median_lst": 32.367416649221596,
-        "suhi_score": 2.8558454381651615
+        "suhi_score": 2.855845438165158
       },
       {
         "ward_name": "Kattugollahalli",
         "median_lst": 31.73048482374653,
-        "suhi_score": 2.218913612690095
+        "suhi_score": 2.2189136126900912
       },
       {
         "ward_name": "Shringaripura",
         "median_lst": 31.123239389090852,
-        "suhi_score": 1.6116681780344173
+        "suhi_score": 1.6116681780344138
       },
       {
         "ward_name": "Jyothipura",
         "median_lst": 30.51857281196932,
-        "suhi_score": 1.0070016009128864
+        "suhi_score": 1.0070016009128828
       },
       {
         "ward_name": "Chikkasandra",
         "median_lst": 31.669793346144278,
-        "suhi_score": 2.1582221350878434
+        "suhi_score": 2.15822213508784
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 28.48514856878321,
-        "suhi_score": -1.026422642273225
+        "suhi_score": -1.0264226422732285
       },
       {
         "ward_name": "Gunduru",
         "median_lst": 30.91829213502732,
-        "suhi_score": 1.4067209239708838
+        "suhi_score": 1.4067209239708802
       },
       {
         "ward_name": "Vanachenahalli",
         "median_lst": 32.244042443786256,
-        "suhi_score": 2.7324712327298215
+        "suhi_score": 2.732471232729818
       },
       {
         "ward_name": "Byyappanahalli",
         "median_lst": 30.47122200838697,
-        "suhi_score": 0.9596507973305357
+        "suhi_score": 0.9596507973305322
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 29.860576762713134,
-        "suhi_score": 0.349005551656699
+        "suhi_score": 0.34900555165669545
       },
       {
         "ward_name": "Adhuru",
         "median_lst": 27.681982545106084,
-        "suhi_score": -1.8295886659503502
+        "suhi_score": -1.8295886659503537
       },
       {
         "ward_name": "Bidarahalli",
         "median_lst": 30.894458294255752,
-        "suhi_score": 1.3828870831993179
+        "suhi_score": 1.3828870831993143
       },
       {
         "ward_name": "Byyappanahalli",
@@ -10577,12 +10577,12 @@
       {
         "ward_name": "Cheemasandra",
         "median_lst": 29.289036361835656,
-        "suhi_score": -0.2225348492207786
+        "suhi_score": -0.22253484922078215
       },
       {
         "ward_name": "Manduru",
         "median_lst": 31.990404286081326,
-        "suhi_score": 2.478833075024891
+        "suhi_score": 2.4788330750248875
       },
       {
         "ward_name": "Manduru",
@@ -10592,17 +10592,17 @@
       {
         "ward_name": "Bommenehalli",
         "median_lst": 32.491803031449116,
-        "suhi_score": 2.9802318203926816
+        "suhi_score": 2.980231820392678
       },
       {
         "ward_name": "Lagumenahalli",
         "median_lst": 32.92687724950882,
-        "suhi_score": 3.4153060384523855
+        "suhi_score": 3.415306038452382
       },
       {
         "ward_name": "Bendiganahalli",
         "median_lst": 32.166423795423185,
-        "suhi_score": 2.6548525843667505
+        "suhi_score": 2.654852584366747
       },
       {
         "ward_name": "Huskuru",
@@ -10617,112 +10617,112 @@
       {
         "ward_name": "Katamnaluru",
         "median_lst": 31.8808512457597,
-        "suhi_score": 2.369280034703266
+        "suhi_score": 2.3692800347032623
       },
       {
         "ward_name": "Konadasanapura",
         "median_lst": 31.08237555359812,
-        "suhi_score": 1.5708043425416847
+        "suhi_score": 1.570804342541681
       },
       {
         "ward_name": "Bhandarpura",
         "median_lst": 31.995941579177998,
-        "suhi_score": 2.4843703681215636
+        "suhi_score": 2.48437036812156
       },
       {
         "ward_name": "Bidare Agrahara",
         "median_lst": 29.150411708557936,
-        "suhi_score": -0.3611595024984986
+        "suhi_score": -0.36115950249850215
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 29.513122005858968,
-        "suhi_score": 0.001550794802533062
+        "suhi_score": 0.0015507948025295093
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 32.153272403701706,
-        "suhi_score": 2.6417011926452716
+        "suhi_score": 2.641701192645268
       },
       {
         "ward_name": "Veerenahalli",
         "median_lst": 28.654559461519753,
-        "suhi_score": -0.8570117495366816
+        "suhi_score": -0.8570117495366851
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 29.473944855444465,
-        "suhi_score": -0.037626355611969586
+        "suhi_score": -0.03762635561197314
       },
       {
         "ward_name": "Shigehalli",
         "median_lst": 31.42808926758412,
-        "suhi_score": 1.9165180565276856
+        "suhi_score": 1.916518056527682
       },
       {
         "ward_name": "Chikkabanahalli",
         "median_lst": 32.59642008439887,
-        "suhi_score": 3.0848488733424375
+        "suhi_score": 3.084848873342434
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 28.318271611408022,
-        "suhi_score": -1.1932995996484124
+        "suhi_score": -1.193299599648416
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 30.620802481687125,
-        "suhi_score": 1.1092312706306906
+        "suhi_score": 1.109231270630687
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 30.67405480173984,
-        "suhi_score": 1.1624835906834043
+        "suhi_score": 1.1624835906834008
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 29.252775284562095,
-        "suhi_score": -0.25879592649434
+        "suhi_score": -0.2587959264943436
       },
       {
         "ward_name": "Kumbena Agrahara",
         "median_lst": 29.46355392711914,
-        "suhi_score": -0.048017283937294764
+        "suhi_score": -0.048017283937298316
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 33.20105455929206,
-        "suhi_score": 3.689483348235626
+        "suhi_score": 3.6894833482356226
       },
       {
         "ward_name": "Doddabanahalli",
         "median_lst": 28.122370899907143,
-        "suhi_score": -1.3892003111492919
+        "suhi_score": -1.3892003111492954
       },
       {
         "ward_name": "Kurudusonnenahalli",
         "median_lst": 30.303767619348285,
-        "suhi_score": 0.7921964082918507
+        "suhi_score": 0.7921964082918471
       },
       {
         "ward_name": "Alehalli",
         "median_lst": 29.489880458209885,
-        "suhi_score": -0.02169075284654909
+        "suhi_score": -0.02169075284655264
       },
       {
         "ward_name": "Hirandahalli",
         "median_lst": 29.072388971853197,
-        "suhi_score": -0.4391822392032374
+        "suhi_score": -0.43918223920324095
       },
       {
         "ward_name": "Kitthaganur",
         "median_lst": 28.93849657563398,
-        "suhi_score": -0.5730746354224543
+        "suhi_score": -0.5730746354224578
       },
       {
         "ward_name": "Hoovinane",
         "median_lst": 26.897866289955655,
-        "suhi_score": -2.61370492110078
+        "suhi_score": -2.6137049211007835
       },
       {
         "ward_name": "Ramapura",
@@ -10732,292 +10732,292 @@
       {
         "ward_name": "Maragondanahalli",
         "median_lst": 31.143892527678855,
-        "suhi_score": 1.63232131662242
+        "suhi_score": 1.6323213166224164
       },
       {
         "ward_name": "Ramapura",
         "median_lst": 29.25360534380877,
-        "suhi_score": -0.2579658672476661
+        "suhi_score": -0.2579658672476697
       },
       {
         "ward_name": "Vaderahalli",
         "median_lst": 27.353848599823255,
-        "suhi_score": -2.1577226112331793
+        "suhi_score": -2.157722611233183
       },
       {
         "ward_name": "Anagalapura",
         "median_lst": 26.736197367100566,
-        "suhi_score": -2.775373843955869
+        "suhi_score": -2.7753738439558724
       },
       {
         "ward_name": "Bande Bommasandra",
         "median_lst": 27.675266463091667,
-        "suhi_score": -1.8363047479647676
+        "suhi_score": -1.8363047479647712
       },
       {
         "ward_name": "Doddagubbi",
         "median_lst": 30.12023381065603,
-        "suhi_score": 0.6086625995995938
+        "suhi_score": 0.6086625995995902
       },
       {
         "ward_name": "Chikkagubbi",
         "median_lst": 29.893901995787804,
-        "suhi_score": 0.3823307847313693
+        "suhi_score": 0.3823307847313657
       },
       {
         "ward_name": "Nadagowda Gollahalli",
         "median_lst": 30.089523699185953,
-        "suhi_score": 0.5779524881295188
+        "suhi_score": 0.5779524881295153
       },
       {
         "ward_name": "Yarappanahalli",
         "median_lst": 31.862657326639674,
-        "suhi_score": 2.3510861155832394
+        "suhi_score": 2.351086115583236
       },
       {
         "ward_name": "Doddenahalli",
         "median_lst": 30.77189111465414,
-        "suhi_score": 1.2603199035977042
+        "suhi_score": 1.2603199035977006
       },
       {
         "ward_name": "Kadasonnappanahalli",
         "median_lst": 30.85459620540455,
-        "suhi_score": 1.3430249943481165
+        "suhi_score": 1.343024994348113
       },
       {
         "ward_name": "Mitaganahalli",
         "median_lst": 31.645096280586117,
-        "suhi_score": 2.133525069529682
+        "suhi_score": 2.1335250695296786
       },
       {
         "ward_name": "Kannuru",
         "median_lst": 30.70075851440294,
-        "suhi_score": 1.189187303346504
+        "suhi_score": 1.1891873033465004
       },
       {
         "ward_name": "Kannaiakana Agrahara",
         "median_lst": 29.515902466662872,
-        "suhi_score": 0.004331255606437878
+        "suhi_score": 0.0043312556064343255
       },
       {
         "ward_name": "Sriramapura",
         "median_lst": 29.59238750334007,
-        "suhi_score": 0.08081629228363596
+        "suhi_score": 0.08081629228363241
       },
       {
         "ward_name": "Rayasandra",
         "median_lst": 27.54060908372104,
-        "suhi_score": -1.9709621273353939
+        "suhi_score": -1.9709621273353974
       },
       {
         "ward_name": "Choodasandra",
         "median_lst": 27.80166148970515,
-        "suhi_score": -1.7099097213512842
+        "suhi_score": -1.7099097213512877
       },
       {
         "ward_name": "Alanahalli Thippasandra",
         "median_lst": 28.9296948846512,
-        "suhi_score": -0.5818763264052329
+        "suhi_score": -0.5818763264052365
       },
       {
         "ward_name": "Ramanayakanahalli",
         "median_lst": 27.19371628312997,
-        "suhi_score": -2.317854927926465
+        "suhi_score": -2.3178549279264686
       },
       {
         "ward_name": "Chikkavaderapura",
         "median_lst": 29.54841838518336,
-        "suhi_score": 0.03684717412692606
+        "suhi_score": 0.03684717412692251
       },
       {
         "ward_name": "Heggondanahalli",
         "median_lst": 27.433415265333185,
-        "suhi_score": -2.0781559457232497
+        "suhi_score": -2.0781559457232532
       },
       {
         "ward_name": "Gettehalli",
         "median_lst": 29.138827168666065,
-        "suhi_score": -0.3727440423903694
+        "suhi_score": -0.37274404239037295
       },
       {
         "ward_name": "Avalahalli",
         "median_lst": 30.197868677191757,
-        "suhi_score": 0.686297466135322
+        "suhi_score": 0.6862974661353185
       },
       {
         "ward_name": "Chokkasandra",
         "median_lst": 29.18223156304943,
-        "suhi_score": -0.32933964800700366
+        "suhi_score": -0.3293396480070072
       },
       {
         "ward_name": "Dommasandra",
         "median_lst": 29.13324525587672,
-        "suhi_score": -0.3783259551797151
+        "suhi_score": -0.3783259551797187
       },
       {
         "ward_name": "Thigalachowdadenahalli",
         "median_lst": 29.31915571184831,
-        "suhi_score": -0.19241549920812417
+        "suhi_score": -0.19241549920812773
       },
       {
         "ward_name": "Yamare",
         "median_lst": 29.72216336855847,
-        "suhi_score": 0.21059215750203464
+        "suhi_score": 0.21059215750203109
       },
       {
         "ward_name": "Somapura",
         "median_lst": 28.056030030826907,
-        "suhi_score": -1.4555411802295275
+        "suhi_score": -1.455541180229531
       },
       {
         "ward_name": "Valagere Kallahalli",
         "median_lst": 27.736075964397806,
-        "suhi_score": -1.775495246658629
+        "suhi_score": -1.7754952466586325
       },
       {
         "ward_name": "Chambenahalli",
         "median_lst": 28.247430013468776,
-        "suhi_score": -1.2641411975876586
+        "suhi_score": -1.2641411975876622
       },
       {
         "ward_name": "Nerige",
         "median_lst": 27.99876510959788,
-        "suhi_score": -1.5128061014585548
+        "suhi_score": -1.5128061014585583
       },
       {
         "ward_name": "Kattariguppe",
         "median_lst": 27.975783835020867,
-        "suhi_score": -1.535787376035568
+        "suhi_score": -1.5357873760355716
       },
       {
         "ward_name": "Nekkondi Dommasandra",
         "median_lst": 28.328050198887013,
-        "suhi_score": -1.1835210121694217
+        "suhi_score": -1.1835210121694253
       },
       {
         "ward_name": "Jantagondahalli",
         "median_lst": 29.638676348721532,
-        "suhi_score": 0.12710513766509735
+        "suhi_score": 0.1271051376650938
       },
       {
         "ward_name": "Sarjapura",
         "median_lst": 28.420777369531976,
-        "suhi_score": -1.0907938415244587
+        "suhi_score": -1.0907938415244622
       },
       {
         "ward_name": "Bhoragunte",
         "median_lst": 27.799992057617207,
-        "suhi_score": -1.711579153439228
+        "suhi_score": -1.7115791534392315
       },
       {
         "ward_name": "Chikkadunnasandra",
         "median_lst": 28.663636269554896,
-        "suhi_score": -0.8479349415015385
+        "suhi_score": -0.847934941501542
       },
       {
         "ward_name": "Kada Agrahara",
         "median_lst": 28.868516934708744,
-        "suhi_score": -0.6430542763476907
+        "suhi_score": -0.6430542763476943
       },
       {
         "ward_name": "Hosahalli",
         "median_lst": 28.032435448359784,
-        "suhi_score": -1.4791357626966501
+        "suhi_score": -1.4791357626966537
       },
       {
         "ward_name": "Kammasandra",
         "median_lst": 28.04103449330842,
-        "suhi_score": -1.4705367177480149
+        "suhi_score": -1.4705367177480184
       },
       {
         "ward_name": "Chikkathimmasandra",
         "median_lst": 27.430532245118375,
-        "suhi_score": -2.0810389659380597
+        "suhi_score": -2.0810389659380633
       },
       {
         "ward_name": "Gopasandra",
         "median_lst": 28.239594828400012,
-        "suhi_score": -1.2719763826564225
+        "suhi_score": -1.271976382656426
       },
       {
         "ward_name": "Bikkanahalli",
         "median_lst": 27.542070898717387,
-        "suhi_score": -1.969500312339047
+        "suhi_score": -1.9695003123390507
       },
       {
         "ward_name": "Samenahalli",
         "median_lst": 26.000700920340133,
-        "suhi_score": -3.5108702907163014
+        "suhi_score": -3.510870290716305
       },
       {
         "ward_name": "Muttanalluru",
         "median_lst": 28.601163310278032,
-        "suhi_score": -0.9104079007784023
+        "suhi_score": -0.9104079007784058
       },
       {
         "ward_name": "Gulimangala",
         "median_lst": 27.57692370227393,
-        "suhi_score": -1.9346475087825041
+        "suhi_score": -1.9346475087825077
       },
       {
         "ward_name": "Gottamaranahalli",
         "median_lst": 27.390992959432207,
-        "suhi_score": -2.1205782516242273
+        "suhi_score": -2.120578251624231
       },
       {
         "ward_name": "Singena Agrahara",
         "median_lst": 28.007140873447323,
-        "suhi_score": -1.5044303376091115
+        "suhi_score": -1.504430337609115
       },
       {
         "ward_name": "Narayanagatta",
         "median_lst": 27.073872051712858,
-        "suhi_score": -2.437699159343577
+        "suhi_score": -2.4376991593435804
       },
       {
         "ward_name": "Chinkala Madinala",
         "median_lst": 28.765003256704983,
-        "suhi_score": -0.7465679543514518
+        "suhi_score": -0.7465679543514554
       },
       {
         "ward_name": "Kaggalipura",
         "median_lst": 26.307863224213808,
-        "suhi_score": -3.203707986842627
+        "suhi_score": -3.2037079868426304
       },
       {
         "ward_name": "Harohalli",
         "median_lst": 29.01486712626571,
-        "suhi_score": -0.4967040847907249
+        "suhi_score": -0.4967040847907285
       },
       {
         "ward_name": "Huskuru",
         "median_lst": 28.500693616719932,
-        "suhi_score": -1.0108775943365025
+        "suhi_score": -1.010877594336506
       },
       {
         "ward_name": "Chikkanagamangala",
         "median_lst": 28.460794941075875,
-        "suhi_score": -1.0507762699805596
+        "suhi_score": -1.0507762699805632
       },
       {
         "ward_name": "Veerasandra",
         "median_lst": 31.788824261273035,
-        "suhi_score": 2.2772530502166006
+        "suhi_score": 2.277253050216597
       },
       {
         "ward_name": "Bangipura",
         "median_lst": 30.384341243997667,
-        "suhi_score": 0.8727700329412329
+        "suhi_score": 0.8727700329412293
       },
       {
         "ward_name": "Hebbagodi",
         "median_lst": 31.235805007539167,
-        "suhi_score": 1.7242337964827321
+        "suhi_score": 1.7242337964827286
       },
       {
         "ward_name": "Kommasandra",
         "median_lst": 27.90639819861798,
-        "suhi_score": -1.6051730124384562
+        "suhi_score": -1.6051730124384598
       }
     ]
   },
