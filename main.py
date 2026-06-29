@@ -135,35 +135,6 @@ def _shift_month(year: int, month: int, delta: int):
     return total // 12, total % 12 + 1
 
 
-def enrich_month(city: str, year: int, month: int, baseline: float, wards: list,
-                 prev_record: dict | None, yoy_record: dict | None) -> dict:
-    """Build a month record, computing each ward's MoM and YoY SUHI change.
-
-    ``prev_record`` is the previous calendar month and ``yoy_record`` the same
-    month a year earlier (either may be None when that neighbour has no data).
-    Pure and Earth Engine-free, so it can be exercised offline.
-    """
-    prev_by_ward = {w['ward_name']: w['suhi_score'] for w in prev_record['wards']} if prev_record else {}
-    yoy_by_ward = {w['ward_name']: w['suhi_score'] for w in yoy_record['wards']} if yoy_record else {}
-
-    enriched_wards = []
-    for w in wards:
-        prev_score = prev_by_ward.get(w['ward_name'])
-        yoy_score = yoy_by_ward.get(w['ward_name'])
-        enriched_wards.append({
-            **w,
-            'mom_change': w['suhi_score'] - prev_score if (w['suhi_score'] is not None and prev_score is not None) else None,
-            'yoy_change': w['suhi_score'] - yoy_score if (w['suhi_score'] is not None and yoy_score is not None) else None,
-        })
-
-    return {
-        'city': city,
-        'month': f'{year}-{month:02d}',
-        'rural_baseline_celsius': baseline,
-        'wards': enriched_wards,
-    }
-
-
 def main():
     parser = argparse.ArgumentParser(description='Compute monthly SUHI intensity per ward.')
     parser.add_argument('--city', required=True)
@@ -174,12 +145,6 @@ def main():
     wards_fc = load_wards(args.city)
     bounds = wards_fc.geometry().dissolve()
     rural_mask, rural_ring = build_rural_mask(bounds, args.year)
-
-    # The only cross-file dependency for MoM/YoY is the previous year: it holds
-    # last December (January's previous month) and every year-ago month.
-    # Regenerating year Y does not retroactively refresh year Y+1's yoy_change.
-    prev_year_records = data_store.load_city_year(args.city, args.year - 1)
-    prev_year_by_month = {r['month']: r for r in prev_year_records}
 
     # Build the full EE computation graph for all 12 months without any getInfo calls.
     combined_fc = None
@@ -210,11 +175,12 @@ def main():
     for month in range(1, 13):
         baseline = baselines_by_month.get(month)
         wards = wards_by_month[month]
-        # Previous month is January's last-December (from the prior year) or the
-        # record just built earlier in this same run.
-        prev_record = prev_year_by_month.get(f'{args.year - 1}-12') if month == 1 else records[-1]
-        yoy_record = prev_year_by_month.get(f'{args.year - 1}-{month:02d}')
-        records.append(enrich_month(args.city, args.year, month, baseline, wards, prev_record, yoy_record))
+        records.append({
+            'city': args.city,
+            'month': f'{args.year}-{month:02d}',
+            'rural_baseline_celsius': baseline,
+            'wards': wards,
+        })
         with_lst = sum(1 for w in wards if w['median_lst'] is not None)
         baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
         print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, '

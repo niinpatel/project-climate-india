@@ -24,6 +24,11 @@ def main():
     groups: dict[tuple[str, int], list] = defaultdict(list)
     for record in records:
         year = int(record['month'][:4])
+        # Drop the legacy per-ward mom_change/yoy_change fields — the pipeline no
+        # longer produces them.
+        for ward in record['wards']:
+            ward.pop('mom_change', None)
+            ward.pop('yoy_change', None)
         groups[(record['city'], year)].append(record)
 
     for (city, year), group in sorted(groups.items()):
