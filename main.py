@@ -1,14 +1,14 @@
 import argparse
 import json
-import os
 from pathlib import Path
 
 import ee
 from google.oauth2 import service_account
 
+import data_store
+
 KEY_PATH = Path(__file__).parent / 'service-account-key.json'
 PROJECT_ID = 'experiments-487610'
-DATA_PATH = Path(__file__).parent / 'data.json'
 
 RURAL_BUFFER_METERS = 10000
 REDUCE_SCALE = 30
@@ -135,53 +135,6 @@ def _shift_month(year: int, month: int, delta: int):
     return total // 12, total % 12 + 1
 
 
-def merge_into_dataset(existing: list, city: str, year: int, month: int, baseline: float, wards: list) -> list:
-    month_key = f'{year}-{month:02d}'
-    existing = [e for e in existing if not (e['city'] == city and e['month'] == month_key)]
-
-    prev_year, prev_month = _shift_month(year, month, -1)
-    prev_month_key = f'{prev_year}-{prev_month:02d}'
-    yoy_key = f'{year - 1}-{month:02d}'
-
-    prev_entry = next((e for e in existing if e['city'] == city and e['month'] == prev_month_key), None)
-    yoy_entry = next((e for e in existing if e['city'] == city and e['month'] == yoy_key), None)
-    prev_by_ward = {w['ward_name']: w['suhi_score'] for w in prev_entry['wards']} if prev_entry else {}
-    yoy_by_ward = {w['ward_name']: w['suhi_score'] for w in yoy_entry['wards']} if yoy_entry else {}
-
-    enriched_wards = []
-    for w in wards:
-        prev_score = prev_by_ward.get(w['ward_name'])
-        yoy_score = yoy_by_ward.get(w['ward_name'])
-        enriched_wards.append({
-            **w,
-            'mom_change': w['suhi_score'] - prev_score if (w['suhi_score'] is not None and prev_score is not None) else None,
-            'yoy_change': w['suhi_score'] - yoy_score if (w['suhi_score'] is not None and yoy_score is not None) else None,
-        })
-
-    existing.append({
-        'city': city,
-        'month': month_key,
-        'rural_baseline_celsius': baseline,
-        'wards': enriched_wards,
-    })
-    return existing
-
-
-def load_dataset() -> list:
-    try:
-        with open(DATA_PATH) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return []
-
-
-def save_dataset(dataset: list):
-    tmp_path = DATA_PATH.with_name(DATA_PATH.name + '.tmp')
-    with open(tmp_path, 'w') as f:
-        json.dump(dataset, f, indent=2)
-    os.replace(tmp_path, DATA_PATH)
-
-
 def main():
     parser = argparse.ArgumentParser(description='Compute monthly SUHI intensity per ward.')
     parser.add_argument('--city', required=True)
@@ -192,8 +145,6 @@ def main():
     wards_fc = load_wards(args.city)
     bounds = wards_fc.geometry().dissolve()
     rural_mask, rural_ring = build_rural_mask(bounds, args.year)
-
-    dataset = load_dataset()
 
     # Build the full EE computation graph for all 12 months without any getInfo calls.
     combined_fc = None
@@ -219,11 +170,17 @@ def main():
             'suhi_score': suhi,
         })
 
+    records = []
     anomalies = []
     for month in range(1, 13):
         baseline = baselines_by_month.get(month)
         wards = wards_by_month[month]
-        dataset = merge_into_dataset(dataset, args.city, args.year, month, baseline, wards)
+        records.append({
+            'city': args.city,
+            'month': f'{args.year}-{month:02d}',
+            'rural_baseline_celsius': baseline,
+            'wards': wards,
+        })
         with_lst = sum(1 for w in wards if w['median_lst'] is not None)
         baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
         print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, '
@@ -238,10 +195,11 @@ def main():
         raise SystemExit(
             f'ERROR: {args.city} has months with a valid rural baseline but zero wards '
             f'with LST ({", ".join(anomalies)}). This indicates a processing bug, not '
-            f'cloud cover. Refusing to overwrite data.json with empty results.'
+            f'cloud cover. Refusing to overwrite {args.city}/{args.year} with empty results.'
         )
 
-    save_dataset(dataset)
+    data_store.save_city_year(args.city, args.year, records)
+    data_store.rebuild_manifest()
 
 
 if __name__ == '__main__':

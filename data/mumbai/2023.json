@@ -1,0 +1,1526 @@
+[
+  {
+    "city": "mumbai",
+    "month": "2023-01",
+    "rural_baseline_celsius": 29.187593052043056,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 28.936042327476788,
+        "suhi_score": -0.25155072456626826
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 28.93611991904223,
+        "suhi_score": -0.2514731330008253
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 30.65560468392969,
+        "suhi_score": 1.4680116318866325
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 30.470228926924168,
+        "suhi_score": 1.2826358748811124
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 31.716895142179073,
+        "suhi_score": 2.5293020901360173
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 29.655929521654357,
+        "suhi_score": 0.4683364696113017
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 28.96947370660314,
+        "suhi_score": -0.2181193454399164
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 29.467788719437074,
+        "suhi_score": 0.28019566739401824
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 28.781387338362833,
+        "suhi_score": -0.4062057136802224
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 27.157656512216185,
+        "suhi_score": -2.0299365398268705
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 26.781028208617705,
+        "suhi_score": -2.4065648434253504
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 28.906431588821583,
+        "suhi_score": -0.28116146322147273
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 28.93570450367187,
+        "suhi_score": -0.25188854837118413
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 30.27968412043615,
+        "suhi_score": 1.0920910683930956
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 28.096145364716772,
+        "suhi_score": -1.0914476873262835
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 29.71951454699133,
+        "suhi_score": 0.5319214949482749
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 28.9406234991895,
+        "suhi_score": -0.2469695528535567
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 30.778812254620355,
+        "suhi_score": 1.5912192025772995
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 28.6559510595926,
+        "suhi_score": -0.5316419924504565
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 30.905383404591383,
+        "suhi_score": 1.7177903525483273
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 29.842655505949114,
+        "suhi_score": 0.6550624539060586
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 32.033265988624606,
+        "suhi_score": 2.8456729365815505
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 31.97186520793267,
+        "suhi_score": 2.7842721558896137
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 29.595124994980697,
+        "suhi_score": 0.4075319429376414
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-02",
+    "rural_baseline_celsius": 38.938534533369285,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 38.43942606985413,
+        "suhi_score": -0.4991084635151566
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 38.81270006238263,
+        "suhi_score": -0.12583447098665346
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 40.56022666108863,
+        "suhi_score": 1.6216921277193421
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 40.68513481173864,
+        "suhi_score": 1.7466002783693568
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 41.68930370147939,
+        "suhi_score": 2.7507691681101036
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 39.18022543187323,
+        "suhi_score": 0.24169089850394698
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 38.06273025830274,
+        "suhi_score": -0.8758042750665425
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 38.3099631172238,
+        "suhi_score": -0.6285714161454834
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 37.31160571775861,
+        "suhi_score": -1.6269288156106754
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 36.55892348942133,
+        "suhi_score": -2.3796110439479534
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 36.68804787162636,
+        "suhi_score": -2.2504866617429258
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 37.81390401909537,
+        "suhi_score": -1.1246305142739175
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 37.811286669187226,
+        "suhi_score": -1.1272478641820598
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 39.81279395206067,
+        "suhi_score": 0.8742594186913877
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 37.687668686696526,
+        "suhi_score": -1.2508658466727596
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 38.81240597941022,
+        "suhi_score": -0.12612855395906308
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 38.18745432553175,
+        "suhi_score": -0.751080207837532
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 39.932511453990365,
+        "suhi_score": 0.9939769206210798
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 37.315975146524096,
+        "suhi_score": -1.6225593868451895
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 40.06390053084287,
+        "suhi_score": 1.1253659974735868
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 39.437710057057814,
+        "suhi_score": 0.49917552368852824
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 41.1908702953672,
+        "suhi_score": 2.2523357619979123
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 40.90273503183827,
+        "suhi_score": 1.9642004984689834
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 37.43436370489545,
+        "suhi_score": -1.504170828473832
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-03",
+    "rural_baseline_celsius": 38.62463331545985,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 37.061670217114234,
+        "suhi_score": -1.5629630983456195
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 37.56363395209019,
+        "suhi_score": -1.0609993633696604
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 40.03255482260192,
+        "suhi_score": 1.4079215071420634
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 40.18764162671835,
+        "suhi_score": 1.5630083112584998
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 41.31017980273238,
+        "suhi_score": 2.685546487272525
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 39.09350451279393,
+        "suhi_score": 0.46887119733407445
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 37.93268488551922,
+        "suhi_score": -0.6919484299406307
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 37.812233598791835,
+        "suhi_score": -0.8123997166680184
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 36.81294489441352,
+        "suhi_score": -1.811688421046334
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 35.18628156013709,
+        "suhi_score": -3.4383517553227634
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 36.310909724747276,
+        "suhi_score": -2.313723590712577
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 37.6856765526193,
+        "suhi_score": -0.9389567628405544
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 36.43483657746102,
+        "suhi_score": -2.189796737998833
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 39.18884956095738,
+        "suhi_score": 0.5642162454975264
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 35.654503273842465,
+        "suhi_score": -2.970130041617388
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 39.03168336228479,
+        "suhi_score": 0.40705004682493495
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 37.6897649490742,
+        "suhi_score": -0.9348683663856505
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 40.434874587337426,
+        "suhi_score": 1.8102412718775724
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 38.214621992288116,
+        "suhi_score": -0.4100113231717373
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 40.18660377640452,
+        "suhi_score": 1.5619704609446643
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 39.06030637249859,
+        "suhi_score": 0.43567305703873416
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 42.06458112312453,
+        "suhi_score": 3.43994780766468
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 41.032632477272585,
+        "suhi_score": 2.4079991618127323
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 38.56751543487006,
+        "suhi_score": -0.057117880589792946
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-04",
+    "rural_baseline_celsius": 43.061062490490244,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 41.81147125238979,
+        "suhi_score": -1.2495912381004572
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 41.18743490911082,
+        "suhi_score": -1.8736275813794236
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 43.18594887362008,
+        "suhi_score": 0.12488638312983369
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 42.9382076974431,
+        "suhi_score": -0.12285479304714642
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 44.0632235349135,
+        "suhi_score": 1.0021610444232536
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 41.80767233883151,
+        "suhi_score": -1.253390151658735
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 40.55872886529303,
+        "suhi_score": -2.502333625197217
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 41.06206499051137,
+        "suhi_score": -1.998997499978877
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 41.064816790313955,
+        "suhi_score": -1.9962457001762886
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 38.93710748526582,
+        "suhi_score": -4.123955005224424
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 38.93716960581005,
+        "suhi_score": -4.123892884680195
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 41.5646861533281,
+        "suhi_score": -1.4963763371621468
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 39.939139100508434,
+        "suhi_score": -3.1219233899818093
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 42.559707862696776,
+        "suhi_score": -0.501354627793468
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 40.18817313315026,
+        "suhi_score": -2.872889357339986
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 41.80816285942696,
+        "suhi_score": -1.2528996310632863
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 40.438352195290435,
+        "suhi_score": -2.622710295199809
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 43.061122754965794,
+        "suhi_score": 6.02644755502979e-05
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 40.4055748518868,
+        "suhi_score": -2.6554876386034465
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 43.687936860983214,
+        "suhi_score": 0.6268743704929705
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 42.06289200354126,
+        "suhi_score": -0.998170486948986
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 45.56160466049498,
+        "suhi_score": 2.500542170004735
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 44.84688704429011,
+        "suhi_score": 1.7858245537998698
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 40.69059259185748,
+        "suhi_score": -2.370469898632763
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-05",
+    "rural_baseline_celsius": 44.812069508794735,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 42.310966066598034,
+        "suhi_score": -2.501103442196701
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 42.060541988834466,
+        "suhi_score": -2.75152751996027
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 44.31398958427631,
+        "suhi_score": -0.49807992451842864
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 43.061723906955415,
+        "suhi_score": -1.7503456018393209
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 44.68781372794721,
+        "suhi_score": -0.12425578084752686
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 43.683956459701356,
+        "suhi_score": -1.128113049093379
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 42.06376891669272,
+        "suhi_score": -2.7483005921020123
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 42.314199810261684,
+        "suhi_score": -2.4978696985330515
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 42.186405883852906,
+        "suhi_score": -2.6256636249418293
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 39.688671798068924,
+        "suhi_score": -5.123397710725811
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 39.56442393857487,
+        "suhi_score": -5.247645570219866
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 41.69010169293937,
+        "suhi_score": -3.1219678158553634
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 40.68588095566657,
+        "suhi_score": -4.126188553128166
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 42.56451934502742,
+        "suhi_score": -2.2475501637673148
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 40.811915882319404,
+        "suhi_score": -4.000153626475331
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 44.05966277351396,
+        "suhi_score": -0.752406735280772
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 40.939967231000054,
+        "suhi_score": -3.8721022777946814
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 45.18657345299598,
+        "suhi_score": 0.3745039442012441
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 43.09439320921056,
+        "suhi_score": -1.717676299584177
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 45.30753193594945,
+        "suhi_score": 0.4954624271547132
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 43.68498600567938,
+        "suhi_score": -1.127083503115358
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 48.177670814639974,
+        "suhi_score": 3.3656013058452388
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 46.965422214827406,
+        "suhi_score": 2.1533527060326705
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 43.68601932348989,
+        "suhi_score": -1.1260501853048481
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-06",
+    "rural_baseline_celsius": 44.874837238970926,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 41.06319561386139,
+        "suhi_score": -3.8116416251095373
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 39.81424862899255,
+        "suhi_score": -5.060588609978375
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 42.56046562885617,
+        "suhi_score": -2.3143716101147547
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 39.12427584271907,
+        "suhi_score": -5.750561396251854
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 41.1897449778573,
+        "suhi_score": -3.685092261113624
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 42.05470283142997,
+        "suhi_score": -2.820134407540955
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 42.06025510812966,
+        "suhi_score": -2.8145821308412664
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 40.68775943426851,
+        "suhi_score": -4.187077804702419
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 40.310888317528104,
+        "suhi_score": -4.563948921442822
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 39.81358566018662,
+        "suhi_score": -5.061251578784308
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 39.43563513955156,
+        "suhi_score": -5.439202099419369
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 36.12561040913686,
+        "suhi_score": -8.749226829834065
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 41.87520278347644,
+        "suhi_score": -2.999634455494487
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 46.43644137611388,
+        "suhi_score": 1.5616041371429574
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 39.37863575993416,
+        "suhi_score": -5.496201479036763
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 43.94065576383227,
+        "suhi_score": -0.9341814751386579
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 44.811687759631134,
+        "suhi_score": -0.06314947933979198
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 44.683996779677884,
+        "suhi_score": -0.19084045929304239
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 43.562414592500005,
+        "suhi_score": -1.312422646470921
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 46.12405373949105,
+        "suhi_score": 1.2492165005201272
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 46.06722422857066,
+        "suhi_score": 1.1923869895997328
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 50.317444929090925,
+        "suhi_score": 5.442607690119999
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 47.66166077782352,
+        "suhi_score": 2.7868235388525946
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 44.81160440117554,
+        "suhi_score": -0.06323283779538258
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-07",
+    "rural_baseline_celsius": 32.68888993606639,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": null,
+        "suhi_score": null
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": null,
+        "suhi_score": null
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 34.65641533882533,
+        "suhi_score": 1.9675254027589446
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 31.44168841999999,
+        "suhi_score": -1.2472015160663972
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 30.94949354000005,
+        "suhi_score": -1.73939639606634
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 33.90229219132534,
+        "suhi_score": 1.2134022552589485
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 34.48171562000002,
+        "suhi_score": 1.7928256839336285
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 30.805936700000018,
+        "suhi_score": -1.8829532360663706
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 31.328893760000017,
+        "suhi_score": -1.359996176066371
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 30.72732224000002,
+        "suhi_score": -1.9615676960663677
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": null,
+        "suhi_score": null
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": null,
+        "suhi_score": null
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": null,
+        "suhi_score": null
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 32.4285493160811,
+        "suhi_score": -0.26034061998528557
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 28.71239945000002,
+        "suhi_score": -3.9764904860663677
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 33.59095727679653,
+        "suhi_score": 0.9020673407301416
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 33.3435467063158,
+        "suhi_score": 0.6546567702494102
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 36.025516164615404,
+        "suhi_score": 3.336626228549015
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 33.53218694890046,
+        "suhi_score": 0.8432970128340713
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 32.82667012400002,
+        "suhi_score": 0.1377801879336289
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 33.215326624235765,
+        "suhi_score": 0.526436688169376
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 38.153262472195145,
+        "suhi_score": 5.4643725361287565
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 38.40997768528291,
+        "suhi_score": 5.721087749216522
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 36.78515554171055,
+        "suhi_score": 4.096265605644163
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-08",
+    "rural_baseline_celsius": 30.939132665169172,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 28.137283792449427,
+        "suhi_score": -2.801848872719745
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 27.877459072403187,
+        "suhi_score": -3.0616735927659846
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 35.65758784277303,
+        "suhi_score": 4.718455177603861
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 34.13274675298782,
+        "suhi_score": 3.1936140878186485
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 32.93374199664519,
+        "suhi_score": 1.994609331476017
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 35.66313606780999,
+        "suhi_score": 4.724003402640815
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 34.56551857060251,
+        "suhi_score": 3.6263859054333345
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 33.43682370384376,
+        "suhi_score": 2.497691038674585
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 30.121684535504706,
+        "suhi_score": -0.8174481296644664
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 30.12612686109107,
+        "suhi_score": -0.8130058040781023
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 24.190017188000024,
+        "suhi_score": -6.749115477169148
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 30.93738468932562,
+        "suhi_score": -0.001747975843553462
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 29.810946497630052,
+        "suhi_score": -1.1281861675391198
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 31.688410795547338,
+        "suhi_score": 0.7492781303781655
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 27.6867700577417,
+        "suhi_score": -3.2523626074274716
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 35.15660324058928,
+        "suhi_score": 4.217470575420105
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 29.924697919002277,
+        "suhi_score": -1.014434746166895
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 35.05571207602661,
+        "suhi_score": 4.116579410857437
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 34.31896531018366,
+        "suhi_score": 3.379832645014485
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 34.61935048912947,
+        "suhi_score": 3.6802178239602945
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 34.875060596518566,
+        "suhi_score": 3.9359279313493936
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 37.346898852658654,
+        "suhi_score": 6.407766187489482
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 39.06008775222852,
+        "suhi_score": 8.120955087059347
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 32.06781844525287,
+        "suhi_score": 1.1286857800836962
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-09",
+    "rural_baseline_celsius": 33.37686200013742,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 35.062071552830545,
+        "suhi_score": 1.6852095526931237
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 36.185520879588964,
+        "suhi_score": 2.808658879451542
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 36.19777242739831,
+        "suhi_score": 2.820910427260891
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 38.5647952211934,
+        "suhi_score": 5.187933221055978
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 38.56534508056366,
+        "suhi_score": 5.188483080426238
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 33.779776862857155,
+        "suhi_score": 0.402914862719733
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 34.96851683037928,
+        "suhi_score": 1.5916548302418576
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 36.94142347675557,
+        "suhi_score": 3.5645614766181453
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 34.438301270267075,
+        "suhi_score": 1.0614392701296538
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 32.628940630655514,
+        "suhi_score": -0.747921369481908
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 32.06188248006909,
+        "suhi_score": -1.3149795200683343
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 35.18756404127639,
+        "suhi_score": 1.810702041138967
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 34.31354594149648,
+        "suhi_score": 0.9366839413590569
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 35.686990733366734,
+        "suhi_score": 2.3101287332293126
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 34.55996570873037,
+        "suhi_score": 1.1831037085929452
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 35.93883856756062,
+        "suhi_score": 2.5619765674232013
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 34.937130435169394,
+        "suhi_score": 1.560268435031972
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 36.8169155459817,
+        "suhi_score": 3.440053545844279
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 35.153368218660724,
+        "suhi_score": 1.776506218523302
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 36.06121649718294,
+        "suhi_score": 2.6843544970455184
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 34.938375682524914,
+        "suhi_score": 1.561513682387492
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 38.0846111646213,
+        "suhi_score": 4.707749164483879
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 35.596854462693365,
+        "suhi_score": 2.2199924625559433
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 35.939147747392575,
+        "suhi_score": 2.562285747255153
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-10",
+    "rural_baseline_celsius": 35.5611352333092,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 38.437242338166634,
+        "suhi_score": 2.8761071048574323
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 37.189687920528215,
+        "suhi_score": 1.6285526872190133
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 39.031302009923174,
+        "suhi_score": 3.470166776613972
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 39.935373881609046,
+        "suhi_score": 4.374238648299844
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 41.0689917046573,
+        "suhi_score": 5.507856471348099
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 37.655677824947254,
+        "suhi_score": 2.094542591638053
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 37.15701224692309,
+        "suhi_score": 1.5958770136138867
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 37.81180246572883,
+        "suhi_score": 2.25066723241963
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 36.312115147153094,
+        "suhi_score": 0.7509799138438922
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 34.81246668306903,
+        "suhi_score": -0.7486685502401684
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 32.688113428244804,
+        "suhi_score": -2.873021805064397
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 36.93814320984673,
+        "suhi_score": 1.3770079765375272
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 35.68814303081377,
+        "suhi_score": 0.12700779750456803
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 38.56187109780193,
+        "suhi_score": 3.000735864492725
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 37.3159260080713,
+        "suhi_score": 1.7547907747620997
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 37.03057793342916,
+        "suhi_score": 1.4694427001199557
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 36.0635339495988,
+        "suhi_score": 0.5023987162895978
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 39.03147021479592,
+        "suhi_score": 3.4703349814867153
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 36.217075771868224,
+        "suhi_score": 0.6559405385590225
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 38.717259427235625,
+        "suhi_score": 3.1561241939264235
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 38.31189552502956,
+        "suhi_score": 2.7507602917203613
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 40.90688494045457,
+        "suhi_score": 5.345749707145366
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 41.09710840160278,
+        "suhi_score": 5.53597316829358
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 37.0605280689029,
+        "suhi_score": 1.4993928355936958
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-11",
+    "rural_baseline_celsius": 35.06424328076094,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 35.56023226991906,
+        "suhi_score": 0.4959889891581213
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 35.56353355088699,
+        "suhi_score": 0.4992902701260462
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 37.592488866659934,
+        "suhi_score": 2.5282455858989934
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 37.718463164315104,
+        "suhi_score": 2.6542198835541626
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 38.78214016285373,
+        "suhi_score": 3.717896882092788
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 36.96731449414949,
+        "suhi_score": 1.9030712133885501
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 36.092861830837926,
+        "suhi_score": 1.0286185500769847
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 36.65373759342495,
+        "suhi_score": 1.5894943126640086
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 35.43708331749575,
+        "suhi_score": 0.37284003673480726
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 33.68808552837569,
+        "suhi_score": -1.3761577523852537
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 31.311556752629603,
+        "suhi_score": -3.7526865281313384
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 35.19319889213371,
+        "suhi_score": 0.128955611372767
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 35.18808777774876,
+        "suhi_score": 0.12384449698782163
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 37.218683015478454,
+        "suhi_score": 2.1544397347175135
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 35.033524429160124,
+        "suhi_score": -0.030718851600816777
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 36.343568849056695,
+        "suhi_score": 1.2793255682957536
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 34.93696567940589,
+        "suhi_score": -0.12727760135505406
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 36.65457691117741,
+        "suhi_score": 1.5903336304164668
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 35.09393096529691,
+        "suhi_score": 0.029687684535971925
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 37.21656537646232,
+        "suhi_score": 2.152322095701379
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 37.02942481320593,
+        "suhi_score": 1.965181532444987
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 38.03130541415686,
+        "suhi_score": 2.9670621333959204
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 38.03377238804537,
+        "suhi_score": 2.96952910728443
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 35.09410229933595,
+        "suhi_score": 0.029859018575010055
+      }
+    ]
+  },
+  {
+    "city": "mumbai",
+    "month": "2023-12",
+    "rural_baseline_celsius": 31.43703290868407,
+    "wards": [
+      {
+        "ward_name": "R/S Ward",
+        "median_lst": 30.938059297006063,
+        "suhi_score": -0.49897361167800725
+      },
+      {
+        "ward_name": "P/S Ward",
+        "median_lst": 31.93722458451409,
+        "suhi_score": 0.5001916758300204
+      },
+      {
+        "ward_name": "H/E Ward",
+        "median_lst": 33.283970545112076,
+        "suhi_score": 1.846937636428006
+      },
+      {
+        "ward_name": "K/E Ward",
+        "median_lst": 33.34504361089647,
+        "suhi_score": 1.9080107022123975
+      },
+      {
+        "ward_name": "L Ward",
+        "median_lst": 34.59227580660572,
+        "suhi_score": 3.1552428979216494
+      },
+      {
+        "ward_name": "G/N Ward",
+        "median_lst": 32.596079894810025,
+        "suhi_score": 1.1590469861259542
+      },
+      {
+        "ward_name": "H/W Ward",
+        "median_lst": 31.90578501938624,
+        "suhi_score": 0.4687521107021695
+      },
+      {
+        "ward_name": "K/W Ward",
+        "median_lst": 32.21876499426231,
+        "suhi_score": 0.7817320855782377
+      },
+      {
+        "ward_name": "P/N Ward",
+        "median_lst": 31.06098815549308,
+        "suhi_score": -0.37604475319098896
+      },
+      {
+        "ward_name": "R/C Ward",
+        "median_lst": 29.155786352271473,
+        "suhi_score": -2.281246556412597
+      },
+      {
+        "ward_name": "T Ward",
+        "median_lst": 28.8430750663678,
+        "suhi_score": -2.5939578423162715
+      },
+      {
+        "ward_name": "S Ward",
+        "median_lst": 31.719065107038677,
+        "suhi_score": 0.2820321983546066
+      },
+      {
+        "ward_name": "N Ward",
+        "median_lst": 31.71693622288537,
+        "suhi_score": 0.27990331420129877
+      },
+      {
+        "ward_name": "M/W Ward",
+        "median_lst": 32.9380803169278,
+        "suhi_score": 1.501047408243732
+      },
+      {
+        "ward_name": "R/N Ward",
+        "median_lst": 29.844393830516992,
+        "suhi_score": -1.5926390781670783
+      },
+      {
+        "ward_name": "G/S Ward",
+        "median_lst": 32.59124336123537,
+        "suhi_score": 1.1542104525513004
+      },
+      {
+        "ward_name": "M/E Ward",
+        "median_lst": 31.687343147201165,
+        "suhi_score": 0.2503102385170948
+      },
+      {
+        "ward_name": "E Ward",
+        "median_lst": 34.40802536376759,
+        "suhi_score": 2.970992455083522
+      },
+      {
+        "ward_name": "D Ward",
+        "median_lst": 32.15759816069039,
+        "suhi_score": 0.7205652520063204
+      },
+      {
+        "ward_name": "F/S Ward",
+        "median_lst": 34.2801229975493,
+        "suhi_score": 2.843090088865228
+      },
+      {
+        "ward_name": "F/N Ward",
+        "median_lst": 32.96979332012561,
+        "suhi_score": 1.53276041144154
+      },
+      {
+        "ward_name": "B Ward",
+        "median_lst": 35.90595293084167,
+        "suhi_score": 4.468920022157601
+      },
+      {
+        "ward_name": "C Ward",
+        "median_lst": 35.96522263224887,
+        "suhi_score": 4.528189723564797
+      },
+      {
+        "ward_name": "A Ward",
+        "median_lst": 33.46768736050593,
+        "suhi_score": 2.0306544518218566
+      }
+    ]
+  }
+]

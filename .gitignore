@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+# Transient files from atomic JSON writes
+*.tmp
+
 
 service-account-key.json
