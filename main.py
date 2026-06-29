@@ -13,8 +13,19 @@ PROJECT_ID = 'experiments-487610'
 RURAL_BUFFER_METERS = 10000
 REDUCE_SCALE = 30
 
-# IGBP LC_Type1 classes kept as "rural" reference (vegetation/cropland/forest).
-RURAL_LC_CLASSES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14]
+# Minimum fraction of cloud-free pixels required to trust an aggregated LST value.
+# Below this, the median is computed over too few pixels to be meaningful (cloud
+# contamination), so the value is treated as null.
+COVERAGE_THRESHOLD = 0.10
+
+# Physically plausible daytime land-surface-temperature range (Celsius). Pixels
+# outside it are cloud/fill values that slip past the QA_PIXEL mask; masking them
+# both removes garbage and lets COVERAGE_THRESHOLD null out the affected months.
+LST_MIN_C = 0
+LST_MAX_C = 65
+
+# ESA WorldCover classes kept as "rural" reference: tree cover, shrubland, grassland.
+RURAL_LC_CLASSES = [10, 20, 30]
 
 
 def authenticate():
@@ -29,18 +40,18 @@ def load_wards(city: str) -> ee.FeatureCollection:
     return ee.FeatureCollection(geojson)
 
 
+def _worldcover_image(year: int) -> ee.Image:
+    # ESA WorldCover has two epochs: v100 = 2020, v200 = 2021. Each is an
+    # ImageCollection holding a single global 10 m mosaic (band 'Map'). Years
+    # beyond 2021 reuse v200 (the latest available static layer).
+    dataset = 'ESA/WorldCover/v100' if year <= 2020 else 'ESA/WorldCover/v200'
+    return ee.ImageCollection(dataset).first().select('Map')
+
+
 def build_rural_mask(city_polygon: ee.Geometry, year: int):
     rural_ring = city_polygon.buffer(RURAL_BUFFER_METERS).difference(city_polygon)
 
-    collection = ee.ImageCollection('MODIS/061/MCD12Q1')
-    year_collection = collection.filterDate(f'{year}-01-01', f'{year + 1}-01-01')
-    lulc = ee.Image(
-        ee.Algorithms.If(
-            year_collection.size().gt(0),
-            year_collection.first(),
-            collection.sort('system:time_start', False).first(),
-        )
-    ).select('LC_Type1')
+    lulc = _worldcover_image(year)
     lulc_mask = lulc.remap(RURAL_LC_CLASSES, [1] * len(RURAL_LC_CLASSES), 0).eq(1)
 
     elevation = ee.Image('USGS/SRTMGL1_003').select('elevation')
@@ -68,6 +79,7 @@ def apply_cloud_mask(image: ee.Image) -> ee.Image:
 
 def lst_celsius(image: ee.Image) -> ee.Image:
     lst = image.select('ST_B10').multiply(0.00341802).add(149.0).subtract(273.15)
+    lst = lst.updateMask(lst.gte(LST_MIN_C).And(lst.lte(LST_MAX_C)))
     return lst.rename('LST')
 
 
@@ -87,19 +99,22 @@ def monthly_composite(bounds: ee.Geometry, year: int, month: int) -> ee.Image:
 
 def _baseline_ee(composite: ee.Image, rural_mask: ee.Image, rural_ring: ee.Geometry) -> ee.Number:
     has_bands = composite.bandNames().size().gt(0)
-    result = ee.Dictionary(
-        ee.Algorithms.If(
-            has_bands,
-            composite.updateMask(rural_mask).reduceRegion(
-                reducer=ee.Reducer.median(),
-                geometry=rural_ring,
-                scale=REDUCE_SCALE,
-                maxPixels=1e9,
-            ),
-            ee.Dictionary({'LST': None}),
+
+    def _measure():
+        lst = composite.select('LST').updateMask(rural_mask).rename('LST')
+        # 0/1 over rural pixels: 1 where cloud-free, 0 where cloudy. Its mean is the
+        # fraction of rural pixels that are cloud-free.
+        cloud_free = composite.select('LST').mask().updateMask(rural_mask).rename('cloud_free')
+        stats = lst.addBands(cloud_free).reduceRegion(
+            reducer=ee.Reducer.mean(),
+            geometry=rural_ring,
+            scale=REDUCE_SCALE,
+            maxPixels=1e9,
         )
-    )
-    return ee.Number(result.get('LST'))
+        coverage = ee.Number(ee.Algorithms.If(stats.get('cloud_free'), stats.get('cloud_free'), 0))
+        return ee.Algorithms.If(coverage.gte(COVERAGE_THRESHOLD), stats.get('LST'), None)
+
+    return ee.Number(ee.Algorithms.If(has_bands, _measure(), None))
 
 
 def _ward_fc_ee(
@@ -108,25 +123,31 @@ def _ward_fc_ee(
     baseline: ee.Number,
     month: int,
 ) -> ee.FeatureCollection:
-    def tag(f):
-        return f.set('month_num', month, 'rural_baseline', baseline)
-
     def tag_null(f):
         return f.set('month_num', month, 'rural_baseline', baseline, 'LST', None)
 
+    def _measure():
+        lst = composite.select('LST').rename('LST')
+        # 0/1 over the ward: 1 where cloud-free, 0 where cloudy. Its mean per ward is
+        # the fraction of the ward's pixels that are cloud-free.
+        cloud_free = composite.select('LST').mask().rename('cloud_free')
+        # With multiple bands, reduceRegions names each output column by band name.
+        fc = lst.addBands(cloud_free).reduceRegions(
+            collection=wards_fc,
+            reducer=ee.Reducer.mean(),
+            scale=REDUCE_SCALE,
+        )
+
+        def finalize(f):
+            coverage = ee.Number(ee.Algorithms.If(f.get('cloud_free'), f.get('cloud_free'), 0))
+            lst_val = ee.Algorithms.If(coverage.gte(COVERAGE_THRESHOLD), f.get('LST'), None)
+            return f.set('month_num', month, 'rural_baseline', baseline, 'LST', lst_val)
+
+        return fc.map(finalize)
+
     has_bands = composite.bandNames().size().gt(0)
     return ee.FeatureCollection(
-        ee.Algorithms.If(
-            has_bands,
-            composite.reduceRegions(
-                collection=wards_fc,
-                # setOutputs names the column 'LST'; reduceRegions otherwise names
-                # a single-band output after the reducer ('median'), unlike reduceRegion.
-                reducer=ee.Reducer.median().setOutputs(['LST']),
-                scale=REDUCE_SCALE,
-            ).map(tag),
-            wards_fc.map(tag_null),
-        )
+        ee.Algorithms.If(has_bands, _measure(), wards_fc.map(tag_null))
     )
 
 
