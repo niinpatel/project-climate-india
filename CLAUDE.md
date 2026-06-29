@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A data pipeline that computes monthly **Surface Urban Heat Island (SUHI)** intensity per administrative ward for major Indian cities. For each city/year it derives, per ward per month, the median daytime land-surface temperature (LST) from Landsat 8 and the SUHI score = ward LST − a rural baseline. Results are committed to the repo as JSON under `data/`.
+A data pipeline that computes monthly **Surface Urban Heat Island (SUHI)** intensity per administrative ward for major Indian cities. For each city/year it derives, per ward per month, the mean daytime land-surface temperature (LST) across the ward — a spatial mean over the ward's pixels of a per-pixel monthly-**median** Landsat 8 composite — and the SUHI score = ward LST − a rural baseline. Results are committed to the repo as JSON under `data/`.
 
 ## Commands
 
@@ -39,16 +39,21 @@ A full year of 30 m Landsat over a large city blows past Earth Engine's synchron
 - **Rural baseline** = mean LST over a ring `RURAL_BUFFER_METERS` (10 km) beyond the city, masked to ESA WorldCover "rural" classes (`RURAL_LC_CLASSES` = tree/shrub/grass) and to pixels at/below mean+2σ elevation (excludes hills).
 - **Cloud masking** uses Landsat `QA_PIXEL` bits for cloud, cloud shadow, **and water** (water is masked so coastal/lake pixels don't bias land-surface LST).
 - **Coverage gate**: per ward/month, if the cloud-free pixel fraction is below `COVERAGE_THRESHOLD` (0.10), the LST is nulled rather than trusted. LST values outside `LST_MIN_C..LST_MAX_C` are masked as cloud/fill.
+- **City-wide coverage gate**: the per-ward gate is judged region-by-region, so a mostly-clouded month can still leave a few wards above 0.10 whose surviving pixels are cloud-edge contamination. So per month the cloud-free fraction over the *whole-city* footprint is also measured; if it's below `CITY_COVERAGE_THRESHOLD` (0.30), the entire month is nulled (all ward LST/SUHI **and** the rural baseline), which also keeps the anomaly guard below from misreading the all-null result as a bug.
 - **Anomaly guard**: if a month has a valid rural baseline (so the composite had usable pixels) but *zero* wards with LST, the run aborts and refuses to overwrite existing data — that pattern signals a processing bug, not cloud cover.
+
+### Known limitation: cold cloud-edge contamination in partially-clouded months
+
+Both coverage gates count *how many* pixels survive masking, not whether their LST *values* are physically reasonable. In partially-clouded months (typically the monsoon shoulder, e.g. **bengaluru 2024-05**, and to a lesser degree bengaluru/delhi 2024-08), cloud-edge pixels can pass the `QA_PIXEL` mask and fall inside `LST_MIN_C..LST_MAX_C` while reading far too cold. When such a month has enough surviving pixels to clear both `COVERAGE_THRESHOLD` (per ward) and `CITY_COVERAGE_THRESHOLD` (city-wide), it is **not** gated, so implausibly low `mean_lst`/`suhi_score` values (e.g. a 10 °C ward mean in a month whose neighbors are ~40 °C) can land in the committed data. This is a value-quality problem the coverage gates are not designed to catch. A future guard could flag months where a ward's LST deviates implausibly from its neighbors or from the seasonal trend; until then, treat low-coverage non-null months (check the per-month `city_coverage` log line) with suspicion.
 
 ### Data shape
 
 `data/{city}/{year}.json` is a JSON array of 12 monthly records:
 ```json
 { "city": "mumbai", "month": "2023-01", "rural_baseline_celsius": 30.86,
-  "wards": [ { "ward_name": "...", "median_lst": 31.24, "suhi_score": 0.38 } ] }
+  "wards": [ { "ward_name": "...", "mean_lst": 31.24, "suhi_score": 0.38 } ] }
 ```
-`median_lst` / `suhi_score` / `rural_baseline_celsius` are `null` when cloud cover left too few usable pixels.
+`mean_lst` (ward spatial-mean LST, °C) / `suhi_score` / `rural_baseline_celsius` are `null` when cloud cover left too few usable pixels — including when the city-wide coverage gate nulls the whole month.
 
 ## Configuration / credentials
 
