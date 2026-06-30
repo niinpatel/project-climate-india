@@ -33,15 +33,15 @@ TERMINAL_TASK_STATES = {'COMPLETED', 'FAILED', 'CANCELLED'}
 
 # Columns to export from the merged FeatureCollection. Restricting to these drops
 # the per-feature geometry (the default '.geo' column), keeping the CSV small.
-EXPORT_SELECTORS = ['ward_name', 'month_num', 'rural_baseline', 'city_coverage', 'LST']
+EXPORT_SELECTORS = ['area_name', 'month_num', 'rural_baseline', 'city_coverage', 'LST']
 
 # Minimum fraction of cloud-free pixels required to trust an aggregated LST value.
 # Below this, the median is computed over too few pixels to be meaningful (cloud
 # contamination), so the value is treated as null.
 COVERAGE_THRESHOLD = 0.10
 
-# The per-ward/per-baseline COVERAGE_THRESHOLD is judged region-by-region, so a month
-# where most of the city is clouded can still leave a handful of wards individually
+# The per-area/per-baseline COVERAGE_THRESHOLD is judged region-by-region, so a month
+# where most of the city is clouded can still leave a handful of areas individually
 # above 10% — and those surviving pixels are typically cloud-edge contamination that
 # biases LST cold. This gate looks at the whole-city footprint: if less than this
 # fraction of the city was cloud-free, the entire month is nulled rather than trusted.
@@ -70,8 +70,8 @@ def authenticate():
     return scoped_credentials
 
 
-def load_wards(city: str) -> ee.FeatureCollection:
-    with open(Path(__file__).parent / 'boundaries' / f'{city}_wards.geojson') as f:
+def load_areas(city: str) -> ee.FeatureCollection:
+    with open(Path(__file__).parent / 'boundaries' / f'{city}_areas.geojson') as f:
         geojson = json.load(f)
     return ee.FeatureCollection(geojson)
 
@@ -111,7 +111,7 @@ def apply_cloud_mask(image: ee.Image) -> ee.Image:
     cloud = qa.bitwiseAnd(1 << 3).eq(0)
     cloud_shadow = qa.bitwiseAnd(1 << 4).eq(0)
     # SUHI is a land-surface metric; mask water (bit 7) so sea/lake pixels in
-    # coastal ward polygons don't bias the LST aggregates.
+    # coastal area polygons don't bias the LST aggregates.
     water = qa.bitwiseAnd(1 << 7).eq(0)
     return image.updateMask(cloud.And(cloud_shadow).And(water))
 
@@ -159,9 +159,9 @@ def _baseline_ee(composite: ee.Image, rural_mask: ee.Image, rural_ring: ee.Geome
 def _city_coverage_ee(composite: ee.Image, bounds: ee.Geometry) -> ee.Number:
     """Fraction of the whole-city footprint that is cloud-free this month (0..1).
 
-    Mirrors the per-ward/baseline coverage measure (mean of the 0/1 cloud-free band)
+    Mirrors the per-area/baseline coverage measure (mean of the 0/1 cloud-free band)
     but over the entire city geometry, so it captures city-wide cloudiness even when
-    individual wards happen to clear COVERAGE_THRESHOLD. Returns 0 when the composite
+    individual areas happen to clear COVERAGE_THRESHOLD. Returns 0 when the composite
     has no bands (no usable scenes), which the city gate treats as a fully-clouded month.
     """
     def _measure():
@@ -178,9 +178,9 @@ def _city_coverage_ee(composite: ee.Image, bounds: ee.Geometry) -> ee.Number:
     return ee.Number(ee.Algorithms.If(has_bands, _measure(), 0))
 
 
-def _ward_fc_ee(
+def _area_fc_ee(
     composite: ee.Image,
-    wards_fc: ee.FeatureCollection,
+    areas_fc: ee.FeatureCollection,
     baseline: ee.Number,
     city_coverage: ee.Number,
     month: int,
@@ -191,12 +191,12 @@ def _ward_fc_ee(
 
     def _measure():
         lst = composite.select('LST').rename('LST')
-        # 0/1 over the ward: 1 where cloud-free, 0 where cloudy. Its mean per ward is
-        # the fraction of the ward's pixels that are cloud-free.
+        # 0/1 over the area: 1 where cloud-free, 0 where cloudy. Its mean per area is
+        # the fraction of the area's pixels that are cloud-free.
         cloud_free = composite.select('LST').mask().rename('cloud_free')
         # With multiple bands, reduceRegions names each output column by band name.
         fc = lst.addBands(cloud_free).reduceRegions(
-            collection=wards_fc,
+            collection=areas_fc,
             reducer=ee.Reducer.mean(),
             scale=REDUCE_SCALE,
         )
@@ -211,7 +211,7 @@ def _ward_fc_ee(
 
     has_bands = composite.bandNames().size().gt(0)
     return ee.FeatureCollection(
-        ee.Algorithms.If(has_bands, _measure(), wards_fc.map(tag_null))
+        ee.Algorithms.If(has_bands, _measure(), areas_fc.map(tag_null))
     )
 
 
@@ -329,33 +329,33 @@ def _to_float(value):
 
 
 def parse_export_csv(text: str):
-    """Group exported rows into per-month ward lists and per-month rural baselines.
+    """Group exported rows into per-month area lists and per-month rural baselines.
 
     Mirrors the structure the old getInfo() loop produced, so the downstream
     record-building and anomaly checks are unchanged.
     """
-    wards_by_month: dict[int, list] = {m: [] for m in range(1, 13)}
+    areas_by_month: dict[int, list] = {m: [] for m in range(1, 13)}
     baselines_by_month: dict[int, float | None] = {}
     coverage_by_month: dict[int, float | None] = {}
     for row in csv.DictReader(io.StringIO(text)):
         month = int(float(row['month_num']))
-        # Per-ward value is the spatial mean (Reducer.mean) over the ward's pixels of
+        # Per-area value is the spatial mean (Reducer.mean) over the area's pixels of
         # the per-pixel monthly-median composite — i.e. a mean, hence the field name.
         mean_lst = _to_float(row.get('LST'))
         baseline = _to_float(row.get('rural_baseline'))
         baselines_by_month[month] = baseline
         coverage_by_month[month] = _to_float(row.get('city_coverage'))
         suhi = (mean_lst - baseline) if (mean_lst is not None and baseline is not None) else None
-        wards_by_month[month].append({
-            'ward_name': row.get('ward_name', '') or '',
+        areas_by_month[month].append({
+            'area_name': row.get('area_name', '') or '',
             'mean_lst': mean_lst,
             'suhi_score': suhi,
         })
-    return wards_by_month, baselines_by_month, coverage_by_month
+    return areas_by_month, baselines_by_month, coverage_by_month
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Compute monthly SUHI intensity per ward.')
+    parser = argparse.ArgumentParser(description='Compute monthly SUHI intensity per area.')
     parser.add_argument('--city', required=True)
     parser.add_argument('--year', required=True, type=int)
     parser.add_argument('--bucket', default=DEFAULT_BUCKET,
@@ -372,8 +372,8 @@ def main():
     storage_client = storage.Client(project=PROJECT_ID, credentials=credentials)
     verify_bucket(storage_client, args.bucket)
 
-    wards_fc = load_wards(args.city)
-    bounds = wards_fc.geometry().dissolve()
+    areas_fc = load_areas(args.city)
+    bounds = areas_fc.geometry().dissolve()
     rural_mask, rural_ring = build_rural_mask(bounds, args.year)
 
     # Build the full EE computation graph for all 12 months without any getInfo calls.
@@ -382,7 +382,7 @@ def main():
         composite = monthly_composite(bounds, args.year, month)
         baseline = _baseline_ee(composite, rural_mask, rural_ring)
         city_coverage = _city_coverage_ee(composite, bounds)
-        month_fc = _ward_fc_ee(composite, wards_fc, baseline, city_coverage, month)
+        month_fc = _area_fc_ee(composite, areas_fc, baseline, city_coverage, month)
         combined_fc = month_fc if combined_fc is None else combined_fc.merge(month_fc)
 
     # Hand the year of 30 m Landsat work to a background batch task on Google's
@@ -399,46 +399,46 @@ def main():
         )
 
     csv_text = download_export_csv(storage_client, args.bucket, prefix)
-    wards_by_month, baselines_by_month, coverage_by_month = parse_export_csv(csv_text)
+    areas_by_month, baselines_by_month, coverage_by_month = parse_export_csv(csv_text)
 
     records = []
     anomalies = []
     for month in range(1, 13):
         baseline = baselines_by_month.get(month)
-        wards = wards_by_month[month]
+        areas = areas_by_month[month]
         coverage = coverage_by_month.get(month)
         # City-wide coverage gate: when too little of the city was cloud-free, the few
-        # per-ward values that cleared COVERAGE_THRESHOLD are cloud-edge contamination,
+        # per-area values that cleared COVERAGE_THRESHOLD are cloud-edge contamination,
         # not land surface — so null the whole month (baseline included, which keeps the
-        # anomaly check below from mistaking the all-null wards for a processing bug).
+        # anomaly check below from mistaking the all-null areas for a processing bug).
         gated = coverage is not None and coverage < CITY_COVERAGE_THRESHOLD
         if gated:
             baseline = None
-            for w in wards:
-                w['mean_lst'] = None
-                w['suhi_score'] = None
+            for a in areas:
+                a['mean_lst'] = None
+                a['suhi_score'] = None
         records.append({
             'city': args.city,
             'month': f'{args.year}-{month:02d}',
             'rural_baseline_celsius': baseline,
-            'wards': wards,
+            'areas': areas,
         })
-        with_lst = sum(1 for w in wards if w['mean_lst'] is not None)
+        with_lst = sum(1 for a in areas if a['mean_lst'] is not None)
         baseline_str = f'{baseline:.2f}C' if baseline is not None else 'N/A'
         coverage_str = f'{coverage * 100:.0f}%' if coverage is not None else 'N/A'
         gate_note = '  [GATED: city coverage below threshold]' if gated else ''
         print(f'{args.city} {args.year}-{month:02d}: baseline={baseline_str}, '
               f'city_coverage={coverage_str}, '
-              f'{with_lst}/{len(wards)} wards with LST{gate_note}')
-        # A non-null baseline means the composite had usable pixels, so every ward
+              f'{with_lst}/{len(areas)} areas with LST{gate_note}')
+        # A non-null baseline means the composite had usable pixels, so every area
         # being null signals a processing bug (e.g. wrong reduceRegions output name),
         # not cloud cover — which would also leave the baseline null.
-        if baseline is not None and wards and with_lst == 0:
+        if baseline is not None and areas and with_lst == 0:
             anomalies.append(f'{args.year}-{month:02d}')
 
     if anomalies:
         raise SystemExit(
-            f'ERROR: {args.city} has months with a valid rural baseline but zero wards '
+            f'ERROR: {args.city} has months with a valid rural baseline but zero areas '
             f'with LST ({", ".join(anomalies)}). This indicates a processing bug, not '
             f'cloud cover. Refusing to overwrite {args.city}/{args.year} with empty results.'
         )

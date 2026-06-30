@@ -3,7 +3,7 @@
 Results are partitioned on disk as ``data/{city}/{year}.json`` — each file is a
 JSON array of that city/year's monthly records (the same record shape the
 pipeline produces). A top-level ``data/index.json`` manifest lists the available
-cities, their ward counts, and which years have data, so a consumer (API or
+cities, their area counts, and which years have data, so a consumer (API or
 frontend) can discover what exists without scanning the directory tree.
 """
 
@@ -61,7 +61,7 @@ def rebuild_manifest() -> dict:
             continue
         if not records:
             continue
-        entry = cities.setdefault(city, {'wards': len(records[0].get('wards', [])), 'years': []})
+        entry = cities.setdefault(city, {'areas': len(records[0].get('areas', [])), 'years': []})
         entry['years'].append(year)
 
     for entry in cities.values():
