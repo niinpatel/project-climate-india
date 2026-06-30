@@ -1,0 +1,34 @@
+{
+  "cities": {
+    "bengaluru": {
+      "areas": 886,
+      "years": [
+        2024
+      ]
+    },
+    "chennai": {
+      "areas": 298,
+      "years": [
+        2022
+      ]
+    },
+    "delhi": {
+      "areas": 563,
+      "years": [
+        2021
+      ]
+    },
+    "hyderabad": {
+      "areas": 908,
+      "years": [
+        2023
+      ]
+    },
+    "mumbai": {
+      "areas": 596,
+      "years": [
+        2020
+      ]
+    }
+  }
+}
